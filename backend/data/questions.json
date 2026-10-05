@@ -1,0 +1,3310 @@
+{
+  "coran": [
+    {
+      "id": 1,
+      "question": "Combien de sourates contient le Coran ?",
+      "options": [
+        "120",
+        "114",
+        "110",
+        "112"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 2,
+      "question": "Quelle est la première sourate du Coran selon l'ordre du Mushaf ?",
+      "options": [
+        "Al-Ikhlas",
+        "An-Nas",
+        "Al-Baqarah",
+        "Al-Fatiha"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 3,
+      "question": "Quelle est la plus longue sourate du Coran ?",
+      "options": [
+        "Yasin",
+        "Al-Baqarah",
+        "Al-Kahf",
+        "Al-Fatiha"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 4,
+      "question": "Quelle est la plus courte sourate du Coran ?",
+      "options": [
+        "An-Nas",
+        "Al-Kawthar",
+        "Al-Falaq",
+        "Al-Ikhlas"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 5,
+      "question": "Quelle sourate ne commence pas par la Basmala ?",
+      "options": [
+        "At-Tawbah",
+        "Al-Anfal",
+        "Al-Fatiha",
+        "Yasin"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 6,
+      "question": "Quelle sourate contient deux Basmala ?",
+      "options": [
+        "An-Nisa",
+        "Al-Ma'idah",
+        "Al-Baqarah",
+        "An-Naml"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 7,
+      "question": "Quel est le plus long verset du Coran ?",
+      "options": [
+        "Le premier verset d'Al-Fatiha",
+        "Le verset de la lumière (Ayat an-Nur)",
+        "Le verset de la dette (Ayat ad-Dayn)",
+        "Ayat al-Kursi"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 8,
+      "question": "Dans quelle sourate se trouve Ayat al-Kursi (le verset du Trône) ?",
+      "options": [
+        "Al-Baqarah",
+        "Yasin",
+        "An-Nisa",
+        "Aal 'Imran"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 9,
+      "question": "Combien de Juz' (parties) compte le Coran ?",
+      "options": [
+        "30",
+        "114",
+        "60",
+        "15"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 10,
+      "question": "Combien de Hizb compte le Coran ?",
+      "options": [
+        "30",
+        "120",
+        "114",
+        "60"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 11,
+      "question": "Quelle sourate est surnommée 'Umm al-Kitab' (la Mère du Livre) ?",
+      "options": [
+        "Al-Fatiha",
+        "Al-Ikhlas",
+        "Al-Baqarah",
+        "Yasin"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 12,
+      "question": "Quelle sourate équivaut au tiers du Coran selon les enseignements du Prophète ﷺ ?",
+      "options": [
+        "Al-Ikhlas",
+        "Al-Falaq",
+        "An-Nas",
+        "Al-Fatiha"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 13,
+      "question": "Quelles sont les deux sourates protectrices dites 'Al-Mu'awwidhatayn' ?",
+      "options": [
+        "Al-Baqarah et Aal 'Imran",
+        "Al-Falaq et An-Nas",
+        "Yasin et Al-Mulk",
+        "Al-Fatiha et Al-Ikhlas"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 14,
+      "question": "Dans quelle sourate est racontée l'histoire détaillée du prophète Youssef (Joseph) ?",
+      "options": [
+        "Sourate Ibrahim",
+        "Sourate Younus",
+        "Sourate Houd",
+        "Sourate Youssef"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 15,
+      "question": "Quel prophète est le plus fréquemment mentionné par son nom dans le Coran ?",
+      "options": [
+        "Issa",
+        "Muhammad",
+        "Moussa (Moïse)",
+        "Ibrahim"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 16,
+      "question": "Quelle est la seule femme mentionnée nommément dans le Coran ?",
+      "options": [
+        "Maryam (Marie)",
+        "Khadija",
+        "Aasiya",
+        "Aïcha"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 17,
+      "question": "Dans quelle sourate se trouve l'histoire des Gens de la Caverne (Ahl al-Kahf) ?",
+      "options": [
+        "Al-Kahf",
+        "Taha",
+        "Al-Anbiya",
+        "Al-Isra"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 18,
+      "question": "Quel prophète a construit la Ka'ba avec son fils Isma'il ?",
+      "options": [
+        "Adam",
+        "Nuh",
+        "Ibrahim (Abraham)",
+        "Moussa"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 19,
+      "question": "Quelle sourate porte le nom d'un fruit cité dans le Coran ?",
+      "options": [
+        "An-Nur",
+        "Al-Baqarah",
+        "An-Nahl",
+        "At-Tin (Le Figuier)"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 20,
+      "question": "Quel événement est commémoré par la nuit de Laylat al-Qadr ?",
+      "options": [
+        "La conquête de La Mecque",
+        "La révélation du Coran",
+        "La naissance du Prophète",
+        "L'Hégire"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 21,
+      "question": "Combien d'années la révélation du Coran a-t-elle duré environ ?",
+      "options": [
+        "23 ans",
+        "30 ans",
+        "10 ans",
+        "40 ans"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 22,
+      "question": "Dans quelle ville les sourates 'médinoises' ont-elles été révélées ?",
+      "options": [
+        "La Mecque",
+        "Taïf",
+        "Médine",
+        "Jérusalem"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 23,
+      "question": "Dans quelle ville les sourates 'mecquoises' ont-elles été révélées ?",
+      "options": [
+        "Médine",
+        "Sanaa",
+        "La Mecque",
+        "Damas"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 24,
+      "question": "Quel compagnon est le seul cité nommément dans le Coran ?",
+      "options": [
+        "Omar ibn al-Khattab",
+        "Zaïd ibn Harithah",
+        "Ali ibn Abi Talib",
+        "Abu Bakr"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 25,
+      "question": "Quelle sourate est surnommée le 'Cœur du Coran' ?",
+      "options": [
+        "Al-Mulk",
+        "Al-Fatiha",
+        "Yasin",
+        "Ar-Rahman"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 26,
+      "question": "Quelle sourate évoque le voyage nocturne du Prophète ﷺ (Al-Isra) ?",
+      "options": [
+        "Al-Fath",
+        "Al-Isra",
+        "Al-Qadr",
+        "An-Najm"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 27,
+      "question": "Quel prophète a parlé au berceau selon le Coran ?",
+      "options": [
+        "'Issa (Jésus)",
+        "Yahya",
+        "Ibrahim",
+        "Moussa"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 28,
+      "question": "Quel peuple a été sauvé par la mer fendue par miracle ?",
+      "options": [
+        "Le peuple de Nuh",
+        "Le peuple de Houd",
+        "Le peuple de Salih",
+        "Le peuple de Moussa (Bani Isra'il)"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 29,
+      "question": "Quel prophète a été avalé par un grand poisson ?",
+      "options": [
+        "Ayyub",
+        "Youssef",
+        "Zakariya",
+        "Younus (Jonas)"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 30,
+      "question": "Quel prophète est célèbre pour sa grande patience face à l'épreuve ?",
+      "options": [
+        "Nuh",
+        "Ayyub (Job)",
+        "Moussa",
+        "Ibrahim"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 31,
+      "question": "Quel est le numéro d'ordre de la sourate Aal 'Imran dans le Coran ?",
+      "options": [
+        "4",
+        "13",
+        "2",
+        "3"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 32,
+      "question": "Quel est le numéro d'ordre de la sourate An-Nisa dans le Coran ?",
+      "options": [
+        "3",
+        "5",
+        "14",
+        "4"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 33,
+      "question": "Quel est le numéro d'ordre de la sourate Al-Ma'idah dans le Coran ?",
+      "options": [
+        "15",
+        "5",
+        "6",
+        "4"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 34,
+      "question": "Quel est le numéro d'ordre de la sourate Al-An'am dans le Coran ?",
+      "options": [
+        "5",
+        "6",
+        "16",
+        "7"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 35,
+      "question": "Quel est le numéro d'ordre de la sourate Al-A'raf dans le Coran ?",
+      "options": [
+        "17",
+        "6",
+        "7",
+        "8"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 36,
+      "question": "Quel est le numéro d'ordre de la sourate Al-Anfal dans le Coran ?",
+      "options": [
+        "7",
+        "18",
+        "8",
+        "9"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 37,
+      "question": "Quel est le numéro d'ordre de la sourate Younus dans le Coran ?",
+      "options": [
+        "9",
+        "20",
+        "11",
+        "10"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 38,
+      "question": "Quel est le numéro d'ordre de la sourate Houd dans le Coran ?",
+      "options": [
+        "12",
+        "11",
+        "10",
+        "21"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 39,
+      "question": "Quel est le numéro d'ordre de la sourate Youssef dans le Coran ?",
+      "options": [
+        "12",
+        "13",
+        "22",
+        "11"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 40,
+      "question": "Quel est le numéro d'ordre de la sourate Ar-Ra'd dans le Coran ?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "23"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 41,
+      "question": "Quel est le numéro d'ordre de la sourate Ibrahim dans le Coran ?",
+      "options": [
+        "15",
+        "14",
+        "13",
+        "24"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 42,
+      "question": "Quel est le numéro d'ordre de la sourate Al-Hijr dans le Coran ?",
+      "options": [
+        "16",
+        "14",
+        "25",
+        "15"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 43,
+      "question": "Quel est le numéro d'ordre de la sourate An-Nahl dans le Coran ?",
+      "options": [
+        "17",
+        "26",
+        "15",
+        "16"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 44,
+      "question": "Quel est le numéro d'ordre de la sourate Al-Isra dans le Coran ?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "27"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 45,
+      "question": "Quel est le numéro d'ordre de la sourate Al-Kahf dans le Coran ?",
+      "options": [
+        "18",
+        "28",
+        "17",
+        "19"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 46,
+      "question": "Quel est le numéro d'ordre de la sourate Maryam dans le Coran ?",
+      "options": [
+        "20",
+        "29",
+        "18",
+        "19"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 47,
+      "question": "Quel est le numéro d'ordre de la sourate Taha dans le Coran ?",
+      "options": [
+        "30",
+        "19",
+        "20",
+        "21"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 48,
+      "question": "Quel est le numéro d'ordre de la sourate Al-Anbiya dans le Coran ?",
+      "options": [
+        "31",
+        "20",
+        "21",
+        "22"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 49,
+      "question": "Quel est le numéro d'ordre de la sourate Al-Hajj dans le Coran ?",
+      "options": [
+        "32",
+        "23",
+        "21",
+        "22"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 50,
+      "question": "Quel est le numéro d'ordre de la sourate Al-Mu'minun dans le Coran ?",
+      "options": [
+        "23",
+        "24",
+        "22",
+        "33"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 51,
+      "question": "Quel est le numéro d'ordre de la sourate An-Nur dans le Coran ?",
+      "options": [
+        "34",
+        "24",
+        "25",
+        "23"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 52,
+      "question": "Quel est le numéro d'ordre de la sourate Al-Furqan dans le Coran ?",
+      "options": [
+        "35",
+        "24",
+        "25",
+        "26"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 53,
+      "question": "Quel est le numéro d'ordre de la sourate Ash-Shu'ara dans le Coran ?",
+      "options": [
+        "26",
+        "27",
+        "36",
+        "25"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 54,
+      "question": "Quel est le numéro d'ordre de la sourate An-Naml dans le Coran ?",
+      "options": [
+        "27",
+        "28",
+        "37",
+        "26"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 55,
+      "question": "Quel est le numéro d'ordre de la sourate Al-Qasas dans le Coran ?",
+      "options": [
+        "27",
+        "29",
+        "38",
+        "28"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 56,
+      "question": "Quel est le numéro d'ordre de la sourate Al-'Ankabut dans le Coran ?",
+      "options": [
+        "39",
+        "30",
+        "28",
+        "29"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 57,
+      "question": "Quel est le numéro d'ordre de la sourate Ar-Rum dans le Coran ?",
+      "options": [
+        "31",
+        "40",
+        "29",
+        "30"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 58,
+      "question": "Quel est le numéro d'ordre de la sourate Luqman dans le Coran ?",
+      "options": [
+        "41",
+        "32",
+        "31",
+        "30"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 59,
+      "question": "Quel est le numéro d'ordre de la sourate As-Sajdah dans le Coran ?",
+      "options": [
+        "33",
+        "42",
+        "32",
+        "31"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 60,
+      "question": "Quel est le numéro d'ordre de la sourate Al-Ahzab dans le Coran ?",
+      "options": [
+        "43",
+        "33",
+        "32",
+        "34"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 61,
+      "question": "Quel est le numéro d'ordre de la sourate Saba dans le Coran ?",
+      "options": [
+        "33",
+        "35",
+        "34",
+        "44"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 62,
+      "question": "Quel est le numéro d'ordre de la sourate Fatir dans le Coran ?",
+      "options": [
+        "45",
+        "36",
+        "35",
+        "34"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 63,
+      "question": "Quel est le numéro d'ordre de la sourate Yasin dans le Coran ?",
+      "options": [
+        "36",
+        "37",
+        "35",
+        "46"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 64,
+      "question": "Quel est le numéro d'ordre de la sourate As-Saffat dans le Coran ?",
+      "options": [
+        "38",
+        "36",
+        "37",
+        "47"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 65,
+      "question": "Quel est le numéro d'ordre de la sourate Sad dans le Coran ?",
+      "options": [
+        "38",
+        "39",
+        "37",
+        "48"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 66,
+      "question": "Quel est le numéro d'ordre de la sourate Az-Zumar dans le Coran ?",
+      "options": [
+        "49",
+        "40",
+        "38",
+        "39"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 67,
+      "question": "Quel est le numéro d'ordre de la sourate Ghafir dans le Coran ?",
+      "options": [
+        "41",
+        "39",
+        "50",
+        "40"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 68,
+      "question": "Quel est le numéro d'ordre de la sourate Fussilat dans le Coran ?",
+      "options": [
+        "40",
+        "41",
+        "42",
+        "51"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 69,
+      "question": "Quel est le numéro d'ordre de la sourate Ash-Shura dans le Coran ?",
+      "options": [
+        "41",
+        "43",
+        "52",
+        "42"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 70,
+      "question": "Quel est le numéro d'ordre de la sourate Az-Zukhruf dans le Coran ?",
+      "options": [
+        "53",
+        "44",
+        "42",
+        "43"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 71,
+      "question": "Quel est le numéro d'ordre de la sourate Ad-Dukhan dans le Coran ?",
+      "options": [
+        "43",
+        "44",
+        "54",
+        "45"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 72,
+      "question": "Quel est le numéro d'ordre de la sourate Al-Jathiyah dans le Coran ?",
+      "options": [
+        "44",
+        "55",
+        "46",
+        "45"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 73,
+      "question": "Quel est le numéro d'ordre de la sourate Al-Ahqaf dans le Coran ?",
+      "options": [
+        "56",
+        "45",
+        "46",
+        "47"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 74,
+      "question": "Quel est le numéro d'ordre de la sourate Muhammad dans le Coran ?",
+      "options": [
+        "48",
+        "57",
+        "46",
+        "47"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 75,
+      "question": "Quel est le numéro d'ordre de la sourate Al-Fath dans le Coran ?",
+      "options": [
+        "48",
+        "47",
+        "49",
+        "58"
+      ],
+      "bonneReponse": 0
+    }
+  ],
+  "hadith": [
+    {
+      "id": 76,
+      "question": "Selon le célèbre hadith, « Les actions ne valent que par... »",
+      "options": [
+        "Les intentions (An-Niyyah)",
+        "La richesse",
+        "La force physique",
+        "La réputation"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 77,
+      "question": "Quel imam est l'auteur du recueil de hadiths considéré comme le plus authentique ?",
+      "options": [
+        "L'Imam Ash-Shafi'i",
+        "L'Imam Al-Bukhari",
+        "L'Imam Malik",
+        "L'Imam Ahmad"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 78,
+      "question": "Quel recueil est considéré comme le plus authentique juste après Sahih Al-Bukhari ?",
+      "options": [
+        "Sunan at-Tirmidhi",
+        "Sunan an-Nasa'i",
+        "Sahih Muslim",
+        "Sunan Abu Dawud"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 79,
+      "question": "Comment appelle-t-on l'ensemble des deux recueils Sahih Al-Bukhari et Sahih Muslim ?",
+      "options": [
+        "Les Sahihayn",
+        "Al-Muwatta",
+        "Les Sunan",
+        "Al-Musnad"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 80,
+      "question": "Que signifie le terme 'Hadith Qudsi' ?",
+      "options": [
+        "Une parole divine rapportée par le Prophète ﷺ avec ses propres mots",
+        "Le récit d'un compagnon",
+        "Un verset du Coran",
+        "Un poème ancien"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 81,
+      "question": "Quel compagnon a rapporté le plus grand nombre de hadiths du Prophète ﷺ ?",
+      "options": [
+        "Abu Hurairah",
+        "Anas ibn Malik",
+        "Ali ibn Abi Talib",
+        "Omar ibn al-Khattab"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 82,
+      "question": "Quel compagnon, serviteur du Prophète ﷺ pendant dix ans à Médine, a rapporté de très nombreux hadiths ?",
+      "options": [
+        "Anas ibn Malik",
+        "Zaïd ibn Thabit",
+        "Abu Bakr",
+        "Ibn Abbas"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 83,
+      "question": "Quelle épouse du Prophète ﷺ a rapporté un très grand nombre de hadiths ?",
+      "options": [
+        "Khadija bint Khuwaylid",
+        "Aïcha bint Abu Bakr",
+        "Umm Salama",
+        "Hafsa bint Omar"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 84,
+      "question": "Dans le hadith de Jibril (Gabriel), quels sont les trois niveaux de la religion enseignés ?",
+      "options": [
+        "La prière, le jeûne et la zakat",
+        "Le Coran, la Sunnah et le Fiqh",
+        "L'Islam, l'Iman et l'Ihsan",
+        "La foi, le savoir et l'action"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 85,
+      "question": "Que signifie 'Ihsan' selon le hadith de Jibril ?",
+      "options": [
+        "Donner l'aumône aux pauvres",
+        "Adorer Allah comme si tu Le voyais, car si tu ne Le vois pas, Lui te voit",
+        "Faire le pèlerinage chaque année",
+        "Apprendre le Coran par cœur"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 86,
+      "question": "Combien de piliers compte l'Islam selon le hadith d'Ibn Omar ?",
+      "options": [
+        "7 piliers",
+        "6 piliers",
+        "4 piliers",
+        "5 piliers"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 87,
+      "question": "Combien de piliers compte la foi (Iman) selon le hadith de Jibril ?",
+      "options": [
+        "3 piliers",
+        "6 piliers",
+        "7 piliers",
+        "5 piliers"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 88,
+      "question": "Selon le hadith : « Le meilleur d'entre vous est celui qui apprend... »",
+      "options": [
+        "...la poésie",
+        "...le commerce",
+        "...le Coran et l'enseigne",
+        "...la guerre"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 89,
+      "question": "Selon le hadith : « Aucun d'entre vous ne croit vraiment jusqu'à ce qu'il aime pour son frère... »",
+      "options": [
+        "...sa richesse",
+        "...sa santé",
+        "...sa maison",
+        "...ce qu'il aime pour lui-même"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 90,
+      "question": "Selon le hadith : « La recherche de la science est... »",
+      "options": [
+        "...une option facultative",
+        "...une obligation pour chaque musulman",
+        "...interdite",
+        "...réservée aux vieillards"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 91,
+      "question": "Selon le hadith : « La purification est... »",
+      "options": [
+        "...facultative",
+        "...un luxe",
+        "...un devoir hebdomadaire",
+        "...la moitié de la foi"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 92,
+      "question": "Quel jeune compagnon était surnommé 'Al-Hibb' (le bien-aimé du Prophète ﷺ) ?",
+      "options": [
+        "Usama ibn Zayd",
+        "Bilal ibn Rabah",
+        "Abu Dharr",
+        "Khalid ibn al-Walid"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 93,
+      "question": "Selon le hadith : « Dis la vérité, même si elle est... »",
+      "options": [
+        "...amère",
+        "...cachée",
+        "...facile",
+        "...douce"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 94,
+      "question": "Quel savant a rédigé le célèbre recueil des 'Quarante Hadiths' (Al-Arba'in) ?",
+      "options": [
+        "Ibn Taymiyyah",
+        "L'Imam Al-Ghazali",
+        "L'Imam An-Nawawi",
+        "Ibn Kathir"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 95,
+      "question": "Selon le hadith, que doit faire celui qui voit un acte blâmable ?",
+      "options": [
+        "Le photographier",
+        "Le changer de sa main, sinon de sa langue, sinon le désapprouver en son cœur",
+        "L'ignorer complètement",
+        "Fuir le pays"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 96,
+      "question": "Comment appelle-t-on la chaîne de transmission d'un hadith ?",
+      "options": [
+        "Isnad",
+        "Fiqh",
+        "Tafsir",
+        "Matn"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 97,
+      "question": "Comment appelle-t-on le texte même du hadith ?",
+      "options": [
+        "Matn",
+        "Tafsir",
+        "Isnad",
+        "Sira"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 98,
+      "question": "Comment qualifie-t-on un hadith authentique, à la chaîne ininterrompue et aux narrateurs fiables ?",
+      "options": [
+        "Da'if",
+        "Sahih",
+        "Mawdu'",
+        "Gharib"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 99,
+      "question": "Comment qualifie-t-on un hadith inventé ou fabriqué ?",
+      "options": [
+        "Sahih",
+        "Mawdu'",
+        "Mutawatir",
+        "Hasan"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 100,
+      "question": "Quel ouvrage de hadith et de fiqh a été rédigé par l'Imam Malik ibn Anas ?",
+      "options": [
+        "Al-Muwatta",
+        "Sahih",
+        "Sunan",
+        "Al-Musnad"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 101,
+      "question": "Selon le hadith : « Le fort n'est pas celui qui terrasse les gens, mais celui qui... »",
+      "options": [
+        "...maîtrise sa colère",
+        "...court vite",
+        "...gagne beaucoup d'argent",
+        "...parle fort"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 102,
+      "question": "Quel conseil bref le Prophète ﷺ a-t-il répété à un homme qui lui demandait un conseil ?",
+      "options": [
+        "Ne te mets pas en colère",
+        "Achète beaucoup de biens",
+        "Voyage beaucoup",
+        "Jeûne tous les jours"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 103,
+      "question": "Selon le hadith, comment doit-on traiter son voisin ?",
+      "options": [
+        "En l'ignorant",
+        "Avec bienfaisance, respect et sans lui nuire",
+        "En lui achetant sa maison",
+        "En l'enviant"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 104,
+      "question": "Selon le hadith : « Sourire à ton frère est une... »",
+      "options": [
+        "...obligation légale",
+        "...erreur",
+        "...perte de temps",
+        "...aumône (Sadaqa)"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 105,
+      "question": "Selon le hadith, la meilleure des aumônes est celle faite tout en étant...",
+      "options": [
+        "...riche et âgé",
+        "...en bonne santé et avide de la vie",
+        "...malade au lit",
+        "...endormi"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 106,
+      "question": "Quel savant est l'auteur du célèbre recueil 'Riyad as-Salihin' ?",
+      "options": [
+        "Ibn Kathir",
+        "Ibn Hajar al-Asqalani",
+        "L'Imam An-Nawawi",
+        "L'Imam Al-Ghazali"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 107,
+      "question": "Qui est l'auteur de 'Fath al-Bari', le grand commentaire de Sahih Al-Bukhari ?",
+      "options": [
+        "Ibn Hajar al-Asqalani",
+        "Adh-Dhahabi",
+        "Ibn Kathir",
+        "L'Imam An-Nawawi"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 108,
+      "question": "Quel est le nom complet de l'Imam Al-Bukhari ?",
+      "options": [
+        "Yahya ibn Sharaf",
+        "Muhammad ibn Isma'il",
+        "Muslim ibn al-Hajjaj",
+        "Ahmad ibn Muhammad"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 109,
+      "question": "Quel est le nom complet de l'auteur de Sahih Muslim ?",
+      "options": [
+        "Abu Dawud as-Sijistani",
+        "Muhammad ibn Isma'il al-Bukhari",
+        "Muslim ibn al-Hajjaj an-Naysaburi",
+        "Ahmad ibn Hanbal"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 110,
+      "question": "Quel imam est l'auteur du célèbre 'Musnad' ?",
+      "options": [
+        "Ash-Shafi'i",
+        "Ahmad ibn Hanbal",
+        "Malik ibn Anas",
+        "Abu Hanifa"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 111,
+      "question": "Que désigne l'expression 'Kutub as-Sittah' ?",
+      "options": [
+        "Les six grands recueils de hadiths",
+        "Les six jours de jeûne de Shawwal",
+        "Les six écoles juridiques",
+        "Les six piliers de la foi"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 112,
+      "question": "Comment appelle-t-on un hadith rapporté par un si grand nombre de narrateurs que leur entente sur un mensonge est impossible ?",
+      "options": [
+        "Mutawatir",
+        "Ahad",
+        "Gharib",
+        "Mawdu'"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 113,
+      "question": "Comment appelle-t-on un hadith dont la chaîne présente un défaut, comme un narrateur peu fiable ?",
+      "options": [
+        "Mutawatir",
+        "Sahih",
+        "Hasan",
+        "Da'if (faible)"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 114,
+      "question": "Comment appelle-t-on un hadith acceptable, dont la fiabilité est légèrement inférieure à celle du Sahih ?",
+      "options": [
+        "Mutawatir",
+        "Hasan",
+        "Da'if",
+        "Mawdu'"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 115,
+      "question": "Comment appelle-t-on un hadith rapporté par un seul narrateur à un niveau de la chaîne ?",
+      "options": [
+        "Mutawatir",
+        "Sahih",
+        "Gharib",
+        "Mashhur"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 116,
+      "question": "Comment appelle-t-on un narrateur de hadith ?",
+      "options": [
+        "Mufti",
+        "Mufassir",
+        "Rawi",
+        "Qadi"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 117,
+      "question": "Comment appelle-t-on un savant spécialiste des hadiths ?",
+      "options": [
+        "Qari'",
+        "Faqih",
+        "Muhaddith",
+        "Mufassir"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 118,
+      "question": "Quel est le premier pilier cité dans le hadith de Jibril ?",
+      "options": [
+        "Le jeûne",
+        "La double attestation de foi (Shahada)",
+        "Le pèlerinage",
+        "La prière"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 119,
+      "question": "Selon le hadith : « Que celui qui croit en Allah et au Jour dernier dise du bien ou qu'il... »",
+      "options": [
+        "...s'en aille",
+        "...se venge",
+        "...se taise",
+        "...s'éloigne"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 120,
+      "question": "Selon le hadith : « Facilitez et ne rendez pas les choses... »",
+      "options": [
+        "...chères",
+        "...secrètes",
+        "...difficiles",
+        "...courtes"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 121,
+      "question": "Selon le hadith : « La religion, c'est... »",
+      "options": [
+        "...la richesse",
+        "...le jeûne",
+        "...l'épée",
+        "...le bon conseil (An-Nasiha)"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 122,
+      "question": "Selon le hadith : « Ne vous enviez pas, ne vous détestez pas... et soyez, ô serviteurs d'Allah, des... »",
+      "options": [
+        "...frères",
+        "...étrangers",
+        "...voisins",
+        "...rivaux"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 123,
+      "question": "Selon le hadith, quelle est l'œuvre la plus aimée d'Allah ?",
+      "options": [
+        "La veille de la nuit entière",
+        "Le jeûne de tous les jours",
+        "Le pèlerinage chaque année",
+        "La prière accomplie à son heure"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 124,
+      "question": "Selon le hadith, qui a le plus de droit à ta bonne compagnie ?",
+      "options": [
+        "Ton père",
+        "Ta mère",
+        "Ton voisin",
+        "Ton frère"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 125,
+      "question": "Selon le hadith, la pudeur (Al-Haya') fait partie de...",
+      "options": [
+        "...la science",
+        "...l'art",
+        "...la foi",
+        "...la richesse"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 126,
+      "question": "Dans le hadith sur les branches de la foi, quelle est la plus haute ?",
+      "options": [
+        "Retirer une nuisance du chemin",
+        "Faire l'aumône",
+        "Jeûner",
+        "Dire « La ilaha illa Allah »"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 127,
+      "question": "Que répond-on à celui qui éternue et dit « Al-hamdulillah » ?",
+      "options": [
+        "« Barak Allahu fik »",
+        "« Subhan Allah »",
+        "« Astaghfirullah »",
+        "« Yarhamuk Allah »"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 128,
+      "question": "Que dit-on avant de manger selon la Sunnah ?",
+      "options": [
+        "« Bismillah »",
+        "« Subhan Allah »",
+        "« Astaghfirullah »",
+        "« Allahu Akbar »"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 129,
+      "question": "Avec quelle main le Prophète ﷺ a-t-il recommandé de manger ?",
+      "options": [
+        "Peu importe, selon le hadith",
+        "La main gauche",
+        "La main droite",
+        "Les deux mains ensemble"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 130,
+      "question": "Selon le hadith, que se passe-t-il pour celui qui invoque la paix sur le Prophète ﷺ une fois ?",
+      "options": [
+        "Allah prie sur lui dix fois",
+        "Il reçoit mille bonnes actions",
+        "Allah lui donne un jardin",
+        "Rien de particulier"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 131,
+      "question": "Selon le hadith, quel est le meilleur jour de la semaine ?",
+      "options": [
+        "Le dimanche",
+        "Le vendredi",
+        "Le lundi",
+        "Le samedi"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 132,
+      "question": "Quels sont les deux jours de jeûne surérogatoire hebdomadaire recommandés par le Prophète ﷺ ?",
+      "options": [
+        "Le samedi et le dimanche",
+        "Le mardi et le mercredi",
+        "Le lundi et le jeudi",
+        "Le vendredi et le samedi"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 133,
+      "question": "Quel compagnon a rapporté le hadith des intentions ?",
+      "options": [
+        "Omar ibn al-Khattab",
+        "Ali ibn Abi Talib",
+        "Abu Hurairah",
+        "Anas ibn Malik"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 134,
+      "question": "Quel compagnon, grand rapporteur de hadiths, est surnommé « le père du chaton » ?",
+      "options": [
+        "Abu Bakr",
+        "Abu Hurairah",
+        "Abu Dharr",
+        "Abu Ubayda"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 135,
+      "question": "Quel compagnon, cousin du Prophète ﷺ, est surnommé « l'interprète du Coran » ?",
+      "options": [
+        "Abdullah ibn Abbas",
+        "Abdullah ibn Omar",
+        "Zaïd ibn Thabit",
+        "Anas ibn Malik"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 136,
+      "question": "Combien de hadiths contient réellement le recueil des « Quarante Hadiths » de l'Imam An-Nawawi ?",
+      "options": [
+        "40",
+        "42",
+        "45",
+        "50"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 137,
+      "question": "Que désigne la 'Sunnah' au sens large ?",
+      "options": [
+        "Les avis des juristes",
+        "Le Coran",
+        "Les coutumes arabes",
+        "Les paroles, actes et approbations du Prophète ﷺ"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 138,
+      "question": "Comment appelle-t-on l'approbation tacite du Prophète ﷺ à un acte accompli devant lui ?",
+      "options": [
+        "Taqrir",
+        "Ijma'",
+        "Qiyas",
+        "Fatwa"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 139,
+      "question": "Selon le hadith, quelle est la meilleure formule de dhikr ?",
+      "options": [
+        "« Astaghfirullah »",
+        "« Subhan Allah »",
+        "« Allahu Akbar »",
+        "« La ilaha illa Allah »"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 140,
+      "question": "Quelles paroles sont « légères sur la langue, lourdes dans la balance, aimées du Miséricordieux » ?",
+      "options": [
+        "« Astaghfirullah wa atubu ilayh »",
+        "« La hawla wa la quwwata illa billah »",
+        "« Hasbunallahu wa ni'mal wakil »",
+        "« Subhan Allahi wa bihamdihi, Subhan Allahil-'Azim »"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 141,
+      "question": "Selon le hadith, qui doit saluer en premier ?",
+      "options": [
+        "Le plus savant salue tout le monde",
+        "Le plus âgé salue le plus jeune",
+        "Le plus riche salue le plus pauvre",
+        "Le plus jeune salue le plus âgé"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 142,
+      "question": "Selon le hadith, le musulman est celui dont les musulmans sont à l'abri de sa langue et de sa...",
+      "options": [
+        "...famille",
+        "...richesse",
+        "...main",
+        "...maison"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 143,
+      "question": "Selon le hadith du 'failli' (Al-Muflis), qui est le véritable failli le Jour du Jugement ?",
+      "options": [
+        "Celui qui n'a pas de maison",
+        "Celui qui n'a pas d'enfants",
+        "Celui qui vient avec prière, jeûne et zakat mais a lésé autrui",
+        "Celui qui n'a pas d'argent"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 144,
+      "question": "Selon le hadith, qui est plus aimé d'Allah ?",
+      "options": [
+        "Le plus âgé",
+        "Le plus riche",
+        "Le croyant fort",
+        "Le plus célèbre"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 145,
+      "question": "Selon le hadith, celui qui emprunte un chemin pour chercher la science, Allah lui facilite...",
+      "options": [
+        "...un chemin vers La Mecque",
+        "...un chemin vers le Paradis",
+        "...le commerce",
+        "...la richesse"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 146,
+      "question": "À la mort de l'homme, ses œuvres s'arrêtent sauf : une aumône continue, une science utile et...",
+      "options": [
+        "...un vaste héritage",
+        "...une tombe entretenue",
+        "...un enfant pieux qui invoque pour lui",
+        "...une grande maison"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 147,
+      "question": "Selon le hadith, qu'est-ce que la médisance (Al-Ghiba) ?",
+      "options": [
+        "Mentionner de ton frère ce qu'il déteste",
+        "Mentir à son sujet uniquement",
+        "Prier pour lui",
+        "Dire la vérité en face"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 148,
+      "question": "Selon le hadith, que dit-on à celui qui nous a fait un bien pour bien le remercier ?",
+      "options": [
+        "« Subhan Allah »",
+        "« Jazak Allahu khayran »",
+        "« Inna lillahi »",
+        "« Ma sha Allah »"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 149,
+      "question": "Parmi les sept personnes à l'ombre d'Allah au Jour du Jugement, on trouve...",
+      "options": [
+        "Un grand voyageur",
+        "Un homme riche",
+        "Un commerçant",
+        "Un dirigeant juste"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 150,
+      "question": "Selon le hadith, que fait Allah pour celui qui cache la faute d'un musulman ?",
+      "options": [
+        "Il l'exempte de la prière",
+        "Il cache ses fautes en ce monde et dans l'au-delà",
+        "Il révèle ses fautes",
+        "Il le rend riche"
+      ],
+      "bonneReponse": 1
+    }
+  ],
+  "fiqh": [
+    {
+      "id": 151,
+      "question": "Combien de prières obligatoires (Fard) un musulman doit-il accomplir par jour ?",
+      "options": [
+        "6 prières",
+        "5 prières",
+        "4 prières",
+        "3 prières"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 152,
+      "question": "Quel est le premier pilier pratique de l'Islam après la double attestation de foi (Shahada) ?",
+      "options": [
+        "Le Hajj",
+        "La prière (Salat)",
+        "La Zakat",
+        "Le jeûne (Sawm)"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 153,
+      "question": "Quelle est la condition préalable de purification avant d'accomplir la prière ?",
+      "options": [
+        "Le repas",
+        "Le sommeil",
+        "Les ablutions (Woudou)",
+        "Le parfum"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 154,
+      "question": "Comment s'appelle l'ablution sèche réalisée avec de la terre propre en l'absence d'eau ?",
+      "options": [
+        "Tayammum",
+        "Ghusl",
+        "Istinja",
+        "Woudou"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 155,
+      "question": "Comment s'appelle le lavage purificateur de tout le corps ?",
+      "options": [
+        "Ghusl",
+        "Mas'h",
+        "Woudou",
+        "Tayammum"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 156,
+      "question": "Quelle prière obligatoire est accomplie entre l'aube et le lever du soleil ?",
+      "options": [
+        "Asr",
+        "Fajr (2 raka'at)",
+        "Dhuhr",
+        "Maghrib"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 157,
+      "question": "Combien de Raka'at compte la prière du Dhuhr ?",
+      "options": [
+        "2 Raka'at",
+        "3 Raka'at",
+        "4 Raka'at",
+        "5 Raka'at"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 158,
+      "question": "Combien de Raka'at compte la prière du Maghrib ?",
+      "options": [
+        "5 Raka'at",
+        "2 Raka'at",
+        "3 Raka'at",
+        "4 Raka'at"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 159,
+      "question": "Combien de Raka'at compte la prière de l'Isha ?",
+      "options": [
+        "2 Raka'at",
+        "3 Raka'at",
+        "4 Raka'at",
+        "5 Raka'at"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 160,
+      "question": "Quelle prière collective remplace le Dhuhr le vendredi ?",
+      "options": [
+        "La prière du Tarawih",
+        "La prière du Janazah",
+        "La prière de l'Aïd",
+        "La prière du vendredi (Jumu'ah)"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 161,
+      "question": "Vers quelle direction (Qibla) les musulmans se tournent-ils pour prier ?",
+      "options": [
+        "Jérusalem",
+        "La Ka'ba à La Mecque",
+        "Le soleil couchant",
+        "Médine"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 162,
+      "question": "Comment s'appelle l'appel à la prière lancé par le muezzin ?",
+      "options": [
+        "Le Dhikr",
+        "L'Iqama",
+        "La Khutba",
+        "L'Adhan"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 163,
+      "question": "Comment s'appelle le second appel annonçant le début imminent de la prière en groupe ?",
+      "options": [
+        "L'Adhan",
+        "L'Iqama",
+        "Le Tashahhud",
+        "Le Takbir"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 164,
+      "question": "Durant quel mois du calendrier hégirien le jeûne est-il obligatoire ?",
+      "options": [
+        "Shawwal",
+        "Rajab",
+        "Sha'ban",
+        "Ramadan"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 165,
+      "question": "De quand à quand s'étend le jeûne quotidien pendant Ramadan ?",
+      "options": [
+        "De midi à l'aube",
+        "Du lever du soleil à minuit",
+        "Toute la journée et toute la nuit",
+        "De l'aube (Fajr) au coucher du soleil (Maghrib)"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 166,
+      "question": "Comment s'appelle le repas pris avant l'aube avant de jeûner ?",
+      "options": [
+        "Suhoor",
+        "Walimah",
+        "Aqiqah",
+        "Iftar"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 167,
+      "question": "Comment s'appelle la rupture du jeûne au coucher du soleil ?",
+      "options": [
+        "Suhoor",
+        "Fidya",
+        "Iftar",
+        "Niyyah"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 168,
+      "question": "Quel pilier de l'Islam consiste à verser une aumône purificatrice sur ses biens ?",
+      "options": [
+        "La Shahada",
+        "Le Hajj",
+        "Le Sawm",
+        "La Zakat"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 169,
+      "question": "Quel est le taux standard de la Zakat sur l'argent épargné pendant un an ?",
+      "options": [
+        "5 %",
+        "2,5 %",
+        "10 %",
+        "20 %"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 170,
+      "question": "Quel pilier de l'Islam est obligatoire une fois dans la vie pour qui en a les moyens ?",
+      "options": [
+        "Le pèlerinage à La Mecque (Hajj)",
+        "La Zakat",
+        "La Umrah",
+        "Le Tarawih"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 171,
+      "question": "Comment s'appelle le petit pèlerinage qui peut être accompli à n'importe quel moment de l'année ?",
+      "options": [
+        "Mina",
+        "La Umrah",
+        "Le Hajj",
+        "Arafat"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 172,
+      "question": "Quel est le jour le plus important du grand pèlerinage (Hajj) ?",
+      "options": [
+        "Le vendredi",
+        "Le jour de l'Aïd al-Fitr",
+        "Le jour d'Arafat (9 Dhul-Hijjah)",
+        "Le premier jour de Ramadan"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 173,
+      "question": "Comment s'appelle l'état de sacralisation du pèlerin pour le Hajj ou la Umrah ?",
+      "options": [
+        "Ihram",
+        "Sa'y",
+        "Tawaf",
+        "Halq"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 174,
+      "question": "Comment s'appelle la circumambulation de sept tours autour de la Ka'ba ?",
+      "options": [
+        "Ihram",
+        "Sa'y",
+        "Rami",
+        "Tawaf"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 175,
+      "question": "Comment s'appelle la marche de sept trajets entre Safa et Marwa ?",
+      "options": [
+        "Tawaf",
+        "Ihram",
+        "Sa'y",
+        "Rami"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 176,
+      "question": "Combien d'écoles juridiques sunnites principales existent ?",
+      "options": [
+        "6 écoles",
+        "10 écoles",
+        "2 écoles",
+        "4 écoles"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 177,
+      "question": "Quelles sont les 4 grandes écoles juridiques sunnites ?",
+      "options": [
+        "Hanafite, Malikite, Chafi'ite, Hanbalite",
+        "Ja'farite, Zaydite, Ibadhite, Zahirite",
+        "Mecquoise, Médinoise, Syrienne, Égyptienne",
+        "Sufi, Salafi, Mu'tazili, Ash'ari"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 178,
+      "question": "Que signifie 'Halal' en Fiqh ?",
+      "options": [
+        "Ce qui est obligatoire",
+        "Ce qui est interdit",
+        "Ce qui est détestable",
+        "Ce qui est permis et licite"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 179,
+      "question": "Que signifie 'Haram' en Fiqh ?",
+      "options": [
+        "Ce qui est neutre",
+        "Ce qui est permis",
+        "Ce qui est strictement interdit",
+        "Ce qui est recommandé"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 180,
+      "question": "Que signifie le terme 'Fard' ou 'Wajib' ?",
+      "options": [
+        "Permis",
+        "Recommandé",
+        "Obligatoire",
+        "Détestable"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 181,
+      "question": "Combien de Raka'at compte la prière de l'Asr ?",
+      "options": [
+        "3 Raka'at",
+        "2 Raka'at",
+        "5 Raka'at",
+        "4 Raka'at"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 182,
+      "question": "Combien de Raka'at compte la prière du vendredi (Jumu'ah) ?",
+      "options": [
+        "3 Raka'at",
+        "2 Raka'at",
+        "4 Raka'at",
+        "6 Raka'at"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 183,
+      "question": "Comment s'appelle la prière nocturne spéciale du mois de Ramadan ?",
+      "options": [
+        "Le Janazah",
+        "L'Istisqa",
+        "Le Duha",
+        "Le Tarawih"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 184,
+      "question": "Comment s'appelle la prière surérogatoire accomplie en milieu de matinée ?",
+      "options": [
+        "Le Tarawih",
+        "Le Kusuf",
+        "Le Duha",
+        "L'Istisqa"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 185,
+      "question": "Comment s'appelle la prière pour demander la pluie ?",
+      "options": [
+        "Salat al-Kusuf",
+        "Salat al-Istikhara",
+        "Salat al-Janazah",
+        "Salat al-Istisqa"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 186,
+      "question": "Comment s'appelle la prière accomplie lors d'une éclipse solaire ?",
+      "options": [
+        "Salat al-Kusuf",
+        "Salat al-Istisqa",
+        "Le Witr",
+        "Le Tarawih"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 187,
+      "question": "Comment s'appelle la prière accomplie pour un défunt ?",
+      "options": [
+        "La prière de l'Aïd",
+        "Salat al-Janazah",
+        "La prière de la Jumu'ah",
+        "Salat al-Istisqa"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 188,
+      "question": "Quel est le statut de la prière du Janazah pour la communauté ?",
+      "options": [
+        "Sunnah mu'akkadah",
+        "Fard kifaya (obligation collective)",
+        "Mubah (permis)",
+        "Fard 'ayn (obligation individuelle)"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 189,
+      "question": "Comment s'appelle le premier Takbir qui ouvre la prière ?",
+      "options": [
+        "Takbirat al-Ihram",
+        "Tashahhud",
+        "Tasleem",
+        "Iqama"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 190,
+      "question": "Que dit-on lors de la prosternation (Sujud) ?",
+      "options": [
+        "« Sami'a Allahu liman hamidah »",
+        "« Subhana Rabbiyal-'Azim »",
+        "« At-tahiyyat »",
+        "« Subhana Rabbiyal-A'la »"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 191,
+      "question": "Que dit-on lors de l'inclinaison (Ruku') ?",
+      "options": [
+        "« Subhana Rabbiyal-'Azim »",
+        "« Rabbana wa lakal hamd »",
+        "« At-tahiyyat »",
+        "« Subhana Rabbiyal-A'la »"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 192,
+      "question": "Combien de prosternations (Sujud) accomplit-on dans chaque Raka'ah ?",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 193,
+      "question": "Quelle sourate est récitée à chaque Raka'ah de la prière ?",
+      "options": [
+        "Al-Kawthar",
+        "Al-Ikhlas",
+        "Al-Fatiha",
+        "Al-Baqarah"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 194,
+      "question": "Lequel de ces éléments annule les ablutions ?",
+      "options": [
+        "Se parfumer",
+        "Marcher",
+        "Parler",
+        "Le sommeil profond"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 195,
+      "question": "Quelle partie du corps est essuyée (mas'h) et non lavée lors des ablutions ?",
+      "options": [
+        "Les mains",
+        "Le visage",
+        "La tête",
+        "Les avant-bras"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 196,
+      "question": "Comment s'appelle l'essuyage sur les chaussettes de cuir lors des ablutions ?",
+      "options": [
+        "Ghusl",
+        "Tayammum",
+        "Istinja",
+        "Al-Mas'h 'ala al-khuffayn"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 197,
+      "question": "Quelle est la durée du mas'h sur les khuff pour le voyageur ?",
+      "options": [
+        "1 jour et 1 nuit",
+        "5 jours",
+        "7 jours",
+        "3 jours et 3 nuits"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 198,
+      "question": "Quel est le nisab approximatif de l'or pour la Zakat ?",
+      "options": [
+        "1 kilogramme",
+        "20 grammes",
+        "200 grammes",
+        "85 grammes"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 199,
+      "question": "Quand la Zakat al-Fitr doit-elle être versée ?",
+      "options": [
+        "Avant la prière de l'Aïd",
+        "Après l'Aïd al-Adha",
+        "Pendant le Hajj",
+        "Au début de Rajab"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 200,
+      "question": "Combien de catégories de bénéficiaires de la Zakat le Coran mentionne-t-il ?",
+      "options": [
+        "5",
+        "7",
+        "10",
+        "8"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 201,
+      "question": "Combien de jours dure le mois de Ramadan ?",
+      "options": [
+        "Toujours 30 jours",
+        "28 ou 29 jours",
+        "30 ou 31 jours",
+        "29 ou 30 jours"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 202,
+      "question": "Qu'est-ce qui invalide le jeûne ?",
+      "options": [
+        "Manger ou boire volontairement",
+        "Dormir",
+        "Se parfumer",
+        "Se laver"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 203,
+      "question": "Durant quelle période de Ramadan recherche-t-on Laylat al-Qadr ?",
+      "options": [
+        "Le milieu du mois uniquement",
+        "Les dix premières nuits",
+        "Le premier jour",
+        "Les dix dernières nuits, surtout les impaires"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 204,
+      "question": "Que désigne l'I'tikaf ?",
+      "options": [
+        "Le voyage vers La Mecque",
+        "Une aumône",
+        "La retraite spirituelle à la mosquée",
+        "Un jeûne sans manger"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 205,
+      "question": "À quelle date tombe l'Aïd al-Adha ?",
+      "options": [
+        "Le 9 Dhul-Hijjah",
+        "Le 10 Dhul-Hijjah",
+        "Le 1er Shawwal",
+        "Le 12 Muharram"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 206,
+      "question": "Quel mois du calendrier hégirien suit Ramadan ?",
+      "options": [
+        "Dhul-Qa'da",
+        "Sha'ban",
+        "Rajab",
+        "Shawwal"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 207,
+      "question": "Durant quel mois le Hajj a-t-il lieu ?",
+      "options": [
+        "Ramadan",
+        "Dhul-Hijjah",
+        "Rajab",
+        "Muharram"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 208,
+      "question": "Comment s'appelle le rite de lapidation accompli à Mina ?",
+      "options": [
+        "Sa'y",
+        "Ramy al-Jamarat",
+        "Ihram",
+        "Tawaf"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 209,
+      "question": "Où le pèlerin passe-t-il la nuit qui suit le jour d'Arafat ?",
+      "options": [
+        "Taïf",
+        "Médine",
+        "Hira",
+        "Muzdalifah"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 210,
+      "question": "Comment s'appelle l'eau bénie du puits situé près de la Ka'ba ?",
+      "options": [
+        "Salsabil",
+        "Kawthar",
+        "Zamzam",
+        "Tasnim"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 211,
+      "question": "Comment s'appelle la dot versée par l'époux à l'épouse lors du mariage ?",
+      "options": [
+        "La Nafaqa",
+        "Le Mahr (Sadaq)",
+        "La Walimah",
+        "Le Khul'"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 212,
+      "question": "Comment s'appelle le banquet de mariage ?",
+      "options": [
+        "L'Aqiqah",
+        "La Walimah",
+        "L'Iftar",
+        "La Sadaqa"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 213,
+      "question": "Comment s'appelle le sacrifice offert à la naissance d'un enfant ?",
+      "options": [
+        "La Fidya",
+        "L'Aqiqah",
+        "Le Hady",
+        "L'Udhiyah"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 214,
+      "question": "Comment s'appelle le sacrifice d'un animal lors de l'Aïd al-Adha ?",
+      "options": [
+        "L'Udhiyah",
+        "La Kaffara",
+        "L'Aqiqah",
+        "La Zakat"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 215,
+      "question": "Quel est le statut de l'intérêt usuraire (Riba) en Islam ?",
+      "options": [
+        "Mustahabb (recommandé)",
+        "Makruh (détestable)",
+        "Mubah (permis)",
+        "Haram (interdit)"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 216,
+      "question": "Que signifie 'Makruh' en Fiqh ?",
+      "options": [
+        "Recommandé",
+        "Détestable : mieux vaut l'éviter, sans qu'il y ait péché",
+        "Interdit",
+        "Obligatoire"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 217,
+      "question": "Que signifie 'Mubah' en Fiqh ?",
+      "options": [
+        "Fard (obligatoire)",
+        "Sunnah (recommandé)",
+        "Permis : ni récompense ni péché",
+        "Haram (interdit)"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 218,
+      "question": "Quel imam est le fondateur de l'école hanafite ?",
+      "options": [
+        "Malik ibn Anas",
+        "Ahmad ibn Hanbal",
+        "Abu Hanifa",
+        "Ash-Shafi'i"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 219,
+      "question": "Quel imam est le fondateur de l'école malikite ?",
+      "options": [
+        "Abu Hanifa",
+        "Malik ibn Anas",
+        "Ahmad ibn Hanbal",
+        "Ash-Shafi'i"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 220,
+      "question": "Quel imam est le fondateur de l'école chafi'ite ?",
+      "options": [
+        "Ahmad ibn Hanbal",
+        "Muhammad ibn Idris ash-Shafi'i",
+        "Abu Hanifa",
+        "Malik ibn Anas"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 221,
+      "question": "Quel imam est le fondateur de l'école hanbalite ?",
+      "options": [
+        "Malik ibn Anas",
+        "Ahmad ibn Hanbal",
+        "Abu Hanifa",
+        "Ash-Shafi'i"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 222,
+      "question": "Quelle école juridique est dominante au Maroc ?",
+      "options": [
+        "L'école chafi'ite",
+        "L'école hanafite",
+        "L'école hanbalite",
+        "L'école malikite"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 223,
+      "question": "Quelles sont les deux sources premières et fondamentales du Fiqh ?",
+      "options": [
+        "Le Coran et la Sunnah",
+        "Les avis des savants",
+        "L'Ijma' et le Qiyas",
+        "La coutume et la raison seule"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 224,
+      "question": "Que signifie 'Ijma'' en usul al-fiqh ?",
+      "options": [
+        "L'avis d'un seul savant",
+        "L'analogie juridique",
+        "Le décret d'un souverain",
+        "Le consensus des savants"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 225,
+      "question": "Que signifie 'Qiyas' en usul al-fiqh ?",
+      "options": [
+        "Le pèlerinage",
+        "Le jeûne surérogatoire",
+        "L'analogie juridique",
+        "Le consensus des savants"
+      ],
+      "bonneReponse": 2
+    }
+  ],
+  "sira": [
+    {
+      "id": 226,
+      "question": "Dans quelle ville le Prophète Muhammad ﷺ est-il né ?",
+      "options": [
+        "Médine",
+        "Jérusalem",
+        "La Mecque",
+        "Taïf"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 227,
+      "question": "Quelle année, marquée par la tentative d'invasion d'Abraha, correspond à la naissance du Prophète ﷺ ?",
+      "options": [
+        "L'Année de l'Éléphant (Am al-Fil)",
+        "L'Année de la Tristesse",
+        "L'Année de la Conquête",
+        "L'Année des Ambassades"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 228,
+      "question": "Quel était le nom du père du Prophète ﷺ, mort avant sa naissance ?",
+      "options": [
+        "Abdul-Muttalib",
+        "Abdallah",
+        "Abu Talib",
+        "Hamza"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 229,
+      "question": "Quel était le nom de la mère du Prophète ﷺ, morte alors qu'il avait 6 ans ?",
+      "options": [
+        "Fatima",
+        "Halima Sa'diyyah",
+        "Amina bint Wahb",
+        "Khadija"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 230,
+      "question": "Quel grand-père a pris soin du Prophète ﷺ après le décès de sa mère ?",
+      "options": [
+        "Abu Lahab",
+        "Abdul-Muttalib",
+        "Al-Abbas",
+        "Abu Talib"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 231,
+      "question": "Quel oncle a élevé et protégé le Prophète ﷺ après le décès de son grand-père ?",
+      "options": [
+        "Abu Lahab",
+        "Hamza",
+        "Al-Abbas",
+        "Abu Talib"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 232,
+      "question": "Comment s'appelait la nourrice de la tribu de Sa'd qui l'a élevé dans le désert ?",
+      "options": [
+        "Amina",
+        "Barakah (Umm Ayman)",
+        "Halima Sa'diyyah",
+        "Shima"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 233,
+      "question": "Quel surnom les Mecquois donnaient-ils à Muhammad avant la prophétie pour son honnêteté ?",
+      "options": [
+        "As-Siddiq",
+        "Al-Amin (le digne de confiance)",
+        "Al-Farouq",
+        "Saïf Allah"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 234,
+      "question": "Qui fut la première épouse du Prophète ﷺ et la première personne à embrasser l'Islam ?",
+      "options": [
+        "Aïcha",
+        "Khadija bint Khuwaylid",
+        "Sawda",
+        "Hafsa"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 235,
+      "question": "Quel âge avait le Prophète ﷺ lors de la première révélation dans la grotte de Hira ?",
+      "options": [
+        "25 ans",
+        "40 ans",
+        "30 ans",
+        "63 ans"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 236,
+      "question": "Quel ange est venu apporter la première révélation dans la grotte de Hira ?",
+      "options": [
+        "Jibril (Gabriel)",
+        "Mikail",
+        "Israfil",
+        "Azrail"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 237,
+      "question": "Quel est le premier mot révélé au Prophète ﷺ dans la sourate Al-'Alaq ?",
+      "options": [
+        "Qul ! (Dis !)",
+        "Ibla' !",
+        "Iqra' ! (Lis !)",
+        "Qum ! (Lève-toi !)"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 238,
+      "question": "Qui fut le premier homme adulte libre à embrasser l'Islam ?",
+      "options": [
+        "Uthman ibn Affan",
+        "Ali ibn Abi Talib",
+        "Abu Bakr As-Siddiq",
+        "Omar ibn al-Khattab"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 239,
+      "question": "Qui fut le premier enfant à embrasser l'Islam, cousin du Prophète ﷺ ?",
+      "options": [
+        "Ibn Abbas",
+        "Ibn Omar",
+        "Zaïd ibn Harithah",
+        "Ali ibn Abi Talib"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 240,
+      "question": "Qui fut le premier muezzin de l'Islam, ancien esclave affranchi par Abu Bakr ?",
+      "options": [
+        "Suhayb ar-Rumi",
+        "Ammar ibn Yasir",
+        "Salman al-Farisi",
+        "Bilal ibn Rabah"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 241,
+      "question": "Où les premiers musulmans persécutés ont-ils émigré sur ordre du Prophète ﷺ ?",
+      "options": [
+        "À Taïf",
+        "Au Yémen",
+        "À Médine",
+        "En Abyssinie (Habasha)"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 242,
+      "question": "Comment s'appelait le roi chrétien juste d'Abyssinie qui a protégé les musulmans ?",
+      "options": [
+        "Chosroès",
+        "Héraclius",
+        "Le Négus (An-Najashi)",
+        "Muqawqis"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 243,
+      "question": "Comment appelle-t-on l'année où le Prophète ﷺ a perdu Abu Talib et Khadija ?",
+      "options": [
+        "L'Année du Boycott",
+        "L'Année de la Tristesse ('Am al-Huzn)",
+        "L'Année de l'Éléphant",
+        "L'Année de l'Hégire"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 244,
+      "question": "Comment s'appelle le voyage nocturne de La Mecque à Jérusalem suivi de l'ascension céleste ?",
+      "options": [
+        "Al-Isra wa al-Mi'raj",
+        "Al-Hijrah",
+        "Al-Fath",
+        "Al-Hudaybiyyah"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 245,
+      "question": "De quelle ville venaient les croyants qui ont prêté serment au Prophète ﷺ à al-Aqaba ?",
+      "options": [
+        "Yathrib (Médine)",
+        "Taïf",
+        "Sanaa",
+        "La Mecque"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 246,
+      "question": "Comment s'appelle l'émigration du Prophète ﷺ et des musulmans de La Mecque vers Médine ?",
+      "options": [
+        "L'Isra",
+        "La Umrah",
+        "Le Hajj",
+        "L'Hégire (Al-Hijrah)"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 247,
+      "question": "Qui a accompagné le Prophète ﷺ durant l'Hégire et s'est caché avec lui dans la grotte de Thawr ?",
+      "options": [
+        "Omar ibn al-Khattab",
+        "Abu Bakr As-Siddiq",
+        "Ali ibn Abi Talib",
+        "Uthman ibn Affan"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 248,
+      "question": "Comment s'appelaient les habitants de Médine qui ont accueilli les émigrés mecquois ?",
+      "options": [
+        "Les Ansar (les Auxiliaires)",
+        "Les Muhajirun (les Émigrés)",
+        "Les Quraysh",
+        "Les Thaqif"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 249,
+      "question": "Comment s'appelaient les musulmans qui ont quitté La Mecque pour Médine ?",
+      "options": [
+        "Les Muhajirun (les Émigrés)",
+        "Les Munafiqun",
+        "Les Ansar",
+        "Les Aws"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 250,
+      "question": "Quelle fut la première grande bataille gagnée par les musulmans, le 17 Ramadan de l'an 2 de l'Hégire ?",
+      "options": [
+        "La bataille du Khandaq",
+        "La bataille de Badr",
+        "La bataille d'Uhud",
+        "La bataille de Hunayn"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 251,
+      "question": "Lors de quelle bataille le Prophète ﷺ a-t-il été blessé et son oncle Hamza tué en martyr ?",
+      "options": [
+        "La bataille d'Uhud",
+        "La bataille de Badr",
+        "La bataille de Khaybar",
+        "La bataille de Tabuk"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 252,
+      "question": "Quel compagnon d'origine perse a suggéré de creuser une tranchée (Khandaq) autour de Médine ?",
+      "options": [
+        "Khalid ibn al-Walid",
+        "Abu Dharr",
+        "Bilal ibn Rabah",
+        "Salman al-Farisi"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 253,
+      "question": "Comment s'appelle le traité de paix signé entre les musulmans et Quraysh en l'an 6 de l'Hégire ?",
+      "options": [
+        "Le serment d'al-Aqaba",
+        "Le traité d'Al-Hudaybiyyah",
+        "Le pacte de Najran",
+        "La constitution de Médine"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 254,
+      "question": "En quelle année hégirienne la conquête pacifique de La Mecque (Fath Makkah) a-t-elle eu lieu ?",
+      "options": [
+        "L'an 8",
+        "L'an 2",
+        "L'an 10",
+        "L'an 5"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 255,
+      "question": "À quel âge le Prophète Muhammad ﷺ est-il décédé à Médine ?",
+      "options": [
+        "65 ans",
+        "70 ans",
+        "60 ans",
+        "63 ans"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 256,
+      "question": "Dans quel clan de Quraysh le Prophète ﷺ est-il né ?",
+      "options": [
+        "Les Banu Hashim",
+        "Les Banu Makhzum",
+        "Les Banu Umayya",
+        "Les Banu Taym"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 257,
+      "question": "Quel âge avait le Prophète ﷺ lors de son mariage avec Khadija ?",
+      "options": [
+        "40 ans",
+        "25 ans",
+        "20 ans",
+        "30 ans"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 258,
+      "question": "Combien de temps environ la mission prophétique a-t-elle duré à La Mecque ?",
+      "options": [
+        "Environ 23 ans",
+        "Environ 3 ans",
+        "Environ 10 ans",
+        "Environ 13 ans"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 259,
+      "question": "Combien de temps le Prophète ﷺ a-t-il vécu à Médine après l'Hégire ?",
+      "options": [
+        "Environ 5 ans",
+        "Environ 23 ans",
+        "Environ 13 ans",
+        "Environ 10 ans"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 260,
+      "question": "Quel fils du Prophète ﷺ est né de Maria al-Qibtiyya ?",
+      "options": [
+        "Abdallah",
+        "Al-Hasan",
+        "Ibrahim",
+        "Qasim"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 261,
+      "question": "Combien de filles le Prophète ﷺ a-t-il eues ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 262,
+      "question": "Quelle fille du Prophète ﷺ a épousé Ali ibn Abi Talib ?",
+      "options": [
+        "Fatima az-Zahra",
+        "Zaynab",
+        "Umm Kulthum",
+        "Ruqayya"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 263,
+      "question": "Quel compagnon, surnommé Dhun-Nurayn, a épousé deux filles du Prophète ﷺ ?",
+      "options": [
+        "Uthman ibn Affan",
+        "Abu Bakr",
+        "Ali ibn Abi Talib",
+        "Omar ibn al-Khattab"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 264,
+      "question": "Qui fut la première martyre de l'Islam, morte sous la torture à La Mecque ?",
+      "options": [
+        "Khadija",
+        "Sumayya bint Khayyat",
+        "Asma bint Abi Bakr",
+        "Fatima"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 265,
+      "question": "Quel oncle du Prophète ﷺ, surnommé « le Lion d'Allah », a embrassé l'Islam ?",
+      "options": [
+        "Hamza",
+        "Abu Talib",
+        "Abu Lahab",
+        "Al-Abbas"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 266,
+      "question": "Quel oncle du Prophète ﷺ s'est violemment opposé à lui et est cité dans le Coran ?",
+      "options": [
+        "Hamza",
+        "Al-Abbas",
+        "Abu Talib",
+        "Abu Lahab"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 267,
+      "question": "Comment s'appelle le lieu où les Banu Hashim ont subi le boycott de Quraysh ?",
+      "options": [
+        "Thawr",
+        "Hira",
+        "Shi'b Abi Talib",
+        "Dar al-Arqam"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 268,
+      "question": "Quelle maison servit de premier lieu d'enseignement discret aux premiers musulmans ?",
+      "options": [
+        "Dar Khadija",
+        "Dar an-Nadwa",
+        "Dar al-Arqam",
+        "Dar Abi Bakr"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 269,
+      "question": "Dans quelle ville le Prophète ﷺ a-t-il été rejeté et lapidé lorsqu'il est allé prêcher ?",
+      "options": [
+        "Yathrib",
+        "Sanaa",
+        "Damas",
+        "Taïf"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 270,
+      "question": "Quelle est la première mosquée construite par le Prophète ﷺ à son arrivée près de Médine ?",
+      "options": [
+        "La mosquée d'Al-Qiblatayn",
+        "La mosquée de Quba",
+        "La mosquée al-Haram",
+        "La mosquée al-Aqsa"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 271,
+      "question": "Vers quelle direction les musulmans priaient-ils avant le changement de Qibla vers la Ka'ba ?",
+      "options": [
+        "Jérusalem (Bayt al-Maqdis)",
+        "Taïf",
+        "Médine",
+        "Le Yémen"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 272,
+      "question": "Comment s'appelle la fraternisation instaurée entre Muhajirun et Ansar à Médine ?",
+      "options": [
+        "Sulh al-Hudaybiyyah",
+        "Al-Mu'akhat",
+        "Bay'at ar-Ridwan",
+        "Al-Hilf"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 273,
+      "question": "Combien de musulmans environ ont combattu à la bataille de Badr ?",
+      "options": [
+        "Environ 3000",
+        "Environ 313",
+        "Environ 1000",
+        "Environ 100"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 274,
+      "question": "En quelle année hégirienne a eu lieu la bataille d'Uhud ?",
+      "options": [
+        "L'an 3",
+        "L'an 5",
+        "L'an 7",
+        "L'an 1"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 275,
+      "question": "Quelle bataille est aussi appelée la bataille des Coalisés (Al-Ahzab) ?",
+      "options": [
+        "La bataille de Hunayn",
+        "La bataille de Badr",
+        "La bataille d'Uhud",
+        "La bataille du Khandaq"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 276,
+      "question": "Quelle bataille contre des forteresses juives au nord de Médine a eu lieu en l'an 7 ?",
+      "options": [
+        "Hunayn",
+        "Badr",
+        "Khaybar",
+        "Tabuk"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 277,
+      "question": "Quel compagnon, surnommé « l'Épée d'Allah », s'est illustré à Mu'ta ?",
+      "options": [
+        "Amr ibn al-As",
+        "Sa'd ibn Abi Waqqas",
+        "Zubayr ibn al-Awwam",
+        "Khalid ibn al-Walid"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 278,
+      "question": "Quelle bataille a eu lieu peu après la conquête de La Mecque contre Hawazin et Thaqif ?",
+      "options": [
+        "Hunayn",
+        "Tabuk",
+        "Badr",
+        "Uhud"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 279,
+      "question": "Quelle est la dernière expédition dirigée par le Prophète ﷺ, en l'an 9 vers le nord ?",
+      "options": [
+        "Hunayn",
+        "Tabuk",
+        "Khaybar",
+        "Mu'ta"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 280,
+      "question": "En quelle année hégirienne a eu lieu le pèlerinage d'adieu ?",
+      "options": [
+        "L'an 11",
+        "L'an 10",
+        "L'an 8",
+        "L'an 9"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 281,
+      "question": "Dans quel lieu le Prophète ﷺ a-t-il prononcé son sermon d'adieu ?",
+      "options": [
+        "Al-Aqaba",
+        "La mosquée de Quba",
+        "La grotte de Hira",
+        "Arafat"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 282,
+      "question": "Qui fut le premier calife après la mort du Prophète ﷺ ?",
+      "options": [
+        "Ali ibn Abi Talib",
+        "Omar ibn al-Khattab",
+        "Uthman ibn Affan",
+        "Abu Bakr As-Siddiq"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 283,
+      "question": "Comment s'appelle la chamelle du Prophète ﷺ pendant l'Hégire ?",
+      "options": [
+        "Al-Buraq",
+        "Duldul",
+        "Ya'fur",
+        "Al-Qaswa"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 284,
+      "question": "Comment s'appelle la monture du Prophète ﷺ lors du voyage nocturne (Isra) ?",
+      "options": [
+        "Ya'fur",
+        "Duldul",
+        "Al-Qaswa",
+        "Al-Buraq"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 285,
+      "question": "Quel compagnon fut envoyé à Médine pour y enseigner l'Islam avant l'Hégire ?",
+      "options": [
+        "Mus'ab ibn Umayr",
+        "Salman al-Farisi",
+        "Bilal ibn Rabah",
+        "Khalid ibn al-Walid"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 286,
+      "question": "Quel compagnon est surnommé « l'homme de confiance de cette communauté » ?",
+      "options": [
+        "Zubayr ibn al-Awwam",
+        "Abdurrahman ibn Awf",
+        "Abu Ubayda ibn al-Jarrah",
+        "Talha ibn Ubaydillah"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 287,
+      "question": "Combien de compagnons sont appelés « les Dix promis au Paradis » ?",
+      "options": [
+        "12",
+        "7",
+        "4",
+        "10"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 288,
+      "question": "Quel compagnon est surnommé « Al-Farouq », celui qui distingue le vrai du faux ?",
+      "options": [
+        "Omar ibn al-Khattab",
+        "Ali ibn Abi Talib",
+        "Abu Bakr",
+        "Uthman ibn Affan"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 289,
+      "question": "Qui fut l'épouse du Prophète ﷺ après le décès de Khadija ?",
+      "options": [
+        "Aïcha",
+        "Sawda bint Zam'a",
+        "Zaynab bint Jahsh",
+        "Hafsa"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 290,
+      "question": "Quelle épouse du Prophète ﷺ était la fille d'Abu Bakr ?",
+      "options": [
+        "Sawda",
+        "Aïcha",
+        "Hafsa",
+        "Umm Salama"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 291,
+      "question": "Quelle épouse du Prophète ﷺ était la fille d'Omar ibn al-Khattab ?",
+      "options": [
+        "Aïcha",
+        "Hafsa",
+        "Zaynab bint Jahsh",
+        "Umm Habiba"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 292,
+      "question": "Quel compagnon a émigré le premier en Abyssinie avec son épouse Ruqayya ?",
+      "options": [
+        "Abu Bakr",
+        "Uthman ibn Affan",
+        "Zubayr ibn al-Awwam",
+        "Ja'far ibn Abi Talib"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 293,
+      "question": "Quel compagnon a plaidé la cause des musulmans devant le Négus ?",
+      "options": [
+        "Abu Bakr",
+        "Ja'far ibn Abi Talib",
+        "Uthman ibn Affan",
+        "Ali ibn Abi Talib"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 294,
+      "question": "Comment s'appelle le serment prêté sous un arbre avant le traité d'Al-Hudaybiyyah ?",
+      "options": [
+        "Bay'at as-Saqifa",
+        "Bay'at al-Fath",
+        "Bay'at ar-Ridwan",
+        "Bay'at al-Aqaba"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 295,
+      "question": "Qui a lancé l'Adhan depuis le toit de la Ka'ba lors de la conquête de La Mecque ?",
+      "options": [
+        "Bilal ibn Rabah",
+        "Abu Bakr",
+        "Khalid ibn al-Walid",
+        "Omar ibn al-Khattab"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 296,
+      "question": "Quel souverain perse a déchiré la lettre du Prophète ﷺ ?",
+      "options": [
+        "Al-Muqawqis",
+        "An-Najashi",
+        "Héraclius",
+        "Chosroès (Kisra)"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 297,
+      "question": "Quel gouverneur d'Égypte a envoyé Maria al-Qibtiyya en cadeau au Prophète ﷺ ?",
+      "options": [
+        "Al-Muqawqis",
+        "Héraclius",
+        "An-Najashi",
+        "Chosroès"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 298,
+      "question": "Dans la maison de quelle épouse le Prophète ﷺ est-il décédé ?",
+      "options": [
+        "Sawda",
+        "Aïcha",
+        "Umm Salama",
+        "Hafsa"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 299,
+      "question": "Quel compagnon a dormi dans le lit du Prophète ﷺ la nuit de l'Hégire ?",
+      "options": [
+        "Abu Bakr",
+        "Ali ibn Abi Talib",
+        "Zubayr ibn al-Awwam",
+        "Omar ibn al-Khattab"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 300,
+      "question": "Quelles tribus de Médine formaient les Ansar ?",
+      "options": [
+        "Les Banu Qurayza et les Banu Nadir",
+        "Les Aws et les Khazraj",
+        "Les Quraysh et les Thaqif",
+        "Les Ghatafan et les Hawazin"
+      ],
+      "bonneReponse": 1
+    }
+  ]
+}

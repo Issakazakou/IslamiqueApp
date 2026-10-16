@@ -1,0 +1,528 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+
+import 'app_strings.dart';
+import 'auth_screen.dart';
+import 'category_group_screen.dart';
+import 'category_progress.dart';
+import 'certificates.dart';
+import 'certificates_screen.dart';
+import 'config/api_config.dart';
+import 'language_button.dart';
+import 'level_screen.dart';
+import 'quiz_models.dart';
+import 'quiz_screen.dart';
+import 'services/auth_service.dart';
+import 'stage_progress_manager.dart';
+import 'theme/theme.dart';
+import 'theme_button.dart';
+import 'user_progress.dart';
+import 'widgets.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await ApiConfig.load();
+  await LanguageController.instance.load();
+  await ThemeController.instance.load();
+  await StageProgressManager.instance.init();
+  await UserProgress.instance.load();
+  await CertificateManager.instance.init();
+  await AuthService.instance.init();
+  runApp(const QuizIslamiqueApp());
+}
+
+/// Alias pour compatibilité
+typedef MyApp = QuizIslamiqueApp;
+
+class QuizIslamiqueApp extends StatelessWidget {
+  const QuizIslamiqueApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    // Reconstruit toute l'application quand la langue ou le thème change.
+    return AnimatedBuilder(
+      animation: Listenable.merge([
+        LanguageController.instance,
+        ThemeController.instance,
+      ]),
+      builder: (context, _) {
+        final langCode = LanguageController.instance.locale.languageCode;
+        return MaterialApp(
+          onGenerateTitle: (ctx) => ctx.tr('app_title'),
+          debugShowCheckedModeBanner: false,
+          locale: LanguageController.instance.locale,
+          supportedLocales: const [Locale('fr'), Locale('en'), Locale('ar')],
+          localizationsDelegates: const [
+            GlobalMaterialLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+          ],
+          theme: AppTheme.lightTheme(langCode),
+          darkTheme: AppTheme.darkTheme(langCode),
+          themeMode: ThemeController.instance.themeMode,
+          // Grands écrans (tablette, web) : contenu centré, largeur limitée.
+          builder: (context, child) => ColoredBox(
+            color: Theme.of(context).scaffoldBackgroundColor,
+            child: Align(
+              alignment: Alignment.topCenter,
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 720),
+                child: child,
+              ),
+            ),
+          ),
+          home: const HomeScreen(),
+        );
+      },
+    );
+  }
+}
+
+/// ---------------------------------------------------------------------------
+/// Écran d'accueil
+/// ---------------------------------------------------------------------------
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
+  void _openLevels(BuildContext context, QuizCategory category) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        // Un groupe (Coran) ouvre d'abord ses sous-catégories.
+        builder: (_) => category.isGroup
+            ? CategoryGroupScreen(group: category)
+            : LevelScreen(category: category),
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final tw = context.tw;
+    return Scaffold(
+      backgroundColor: tw.background,
+      body: SafeArea(
+        child: Padding(
+          padding: TwSpace.pagePadding,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const SizedBox(height: TwSpace.s35),
+              const _Header(),
+              const SizedBox(height: TwSpace.s35),
+
+              // Contenu principal entièrement scrollable pour responsivité totale
+              Expanded(
+                child: ListView(
+                  physics: const BouncingScrollPhysics(),
+                  padding: EdgeInsets.zero,
+                  children: [
+                    // Bannière héroïque avec motif géométrique islamique discret
+                    const _HeroBanner(),
+
+                    const SizedBox(height: TwSpace.s35),
+                    const _DailyChallengeCard(),
+                    const SizedBox(height: TwSpace.s25),
+                    const CertificatesCard(),
+
+                    const SizedBox(height: TwSpace.s5),
+
+                    // Titre de section "Choisir une catégorie"
+                    TwSectionHeader(
+                      icon: Icons.grid_view_rounded,
+                      title: context.tr('home_choose_category'),
+                    ),
+
+                    const SizedBox(height: TwSpace.s3),
+
+                    // Liste des catégories avec apparition en cascade
+                    ...categories.asMap().entries.map((entry) {
+                      final index = entry.key;
+                      final category = entry.value;
+                      return Padding(
+                        padding: const EdgeInsets.only(bottom: TwSpace.s35),
+                        child: AppCard(
+                          icon: category.icon,
+                          iconColor: category.iconColor,
+                          iconBackground: category.iconBackground,
+                          title: category.titleOf(context),
+                          description: category.descriptionOf(context),
+                          heroTag: 'category_icon_${category.id}',
+                          extra: CategoryProgress(category: category),
+                          onTap: () => _openLevels(context, category),
+                        )
+                            .animate()
+                            .fadeIn(
+                              duration: TwMotion.standard,
+                              delay: (index * 60).ms,
+                              curve: TwMotion.emphasized,
+                            )
+                            .slideY(
+                              begin: 0.08,
+                              end: 0,
+                              duration: TwMotion.standard,
+                              delay: (index * 60).ms,
+                              curve: TwMotion.emphasized,
+                            ),
+                      );
+                    }),
+
+                    const SizedBox(height: TwSpace.s2),
+                    const AppFooter(),
+                    const SizedBox(height: TwSpace.s4),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// ---------------------------------------------------------------------------
+/// Barre supérieure : Logo, Titre, Thème, Langue, Réglages
+/// ---------------------------------------------------------------------------
+class _Header extends StatelessWidget {
+  const _Header();
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Container(
+          width: 42,
+          height: 42,
+          decoration: BoxDecoration(
+            gradient: TwColors.brandGradient,
+            borderRadius: TwRadius.rXl,
+            boxShadow: TwShadow.sm(context),
+            border: Border.all(
+              color: TwColors.gold500.withValues(alpha: 0.3),
+              width: TwBorder.thin,
+            ),
+          ),
+          child: const Center(
+            child: Icon(
+              Icons.mosque_outlined,
+              color: Colors.white,
+              size: 22,
+            ),
+          ),
+        ),
+        const SizedBox(width: TwSpace.s25),
+        Expanded(
+          child: Text(
+            context.tr('app_title'),
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            style: TwText.h3(context)
+                .copyWith(fontWeight: TwWeight.extrabold),
+          ),
+        ),
+        ListenableBuilder(
+          listenable: AuthService.instance,
+          builder: (context, _) => RoundIconButton(
+            icon: AuthService.instance.isLoggedIn
+                ? Icons.account_circle
+                : Icons.account_circle_outlined,
+            tooltip: context.tr('auth_account'),
+            onTap: () => openAccount(context),
+          ),
+        ),
+        const ThemeButton(),
+        const LanguageButton(),
+        RoundIconButton(
+          icon: Icons.settings_outlined,
+          tooltip: context.tr('srv_title'),
+          onTap: () {
+            ServerSettingsDialog.show(context);
+          },
+        ),
+      ],
+    );
+  }
+}
+
+/// ---------------------------------------------------------------------------
+/// Bannière d'en-tête Héroïque (Dégradé émeraude + Motif géométrique islamique)
+/// ---------------------------------------------------------------------------
+class _HeroBanner extends StatelessWidget {
+  const _HeroBanner();
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: double.infinity,
+      decoration: BoxDecoration(
+        gradient: TwColors.brandGradient,
+        borderRadius: TwRadius.r3xl,
+        boxShadow: TwShadow.md(context),
+        border: Border.all(
+          color: TwColors.gold500.withValues(alpha: 0.3),
+          width: 1.2,
+        ),
+      ),
+      child: ClipRRect(
+        borderRadius: TwRadius.r3xl,
+        child: Stack(
+          children: [
+            // Motif géométrique islamique subtil en surimpression
+            Positioned.fill(
+              child: CustomPaint(
+                painter: const IslamicPatternPainter(
+                  color: TwColors.gold500,
+                  opacity: 0.08,
+                  scale: 36.0,
+                ),
+              ),
+            ),
+
+            // Contenu textuel
+            Padding(
+              padding: const EdgeInsets.all(TwSpace.s5),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // Badge supérieur
+                  Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: TwSpace.s25,
+                      vertical: TwSpace.s1,
+                    ),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withValues(alpha: 0.15),
+                      borderRadius: TwRadius.rXl,
+                      border: Border.all(
+                        color: TwColors.gold500.withValues(alpha: 0.4),
+                        width: TwBorder.thin,
+                      ),
+                    ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        const Icon(Icons.stars,
+                            color: TwColors.gold500, size: 14),
+                        const SizedBox(width: TwSpace.s15),
+                        Text(
+                          context.tr('badge_counts'),
+                          style: const TextStyle(
+                            fontSize: 11,
+                            fontWeight: TwWeight.bold,
+                            letterSpacing: 0.3,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+
+                  const SizedBox(height: TwSpace.s3),
+
+                  // Titre principal
+                  Text(
+                    context.tr('app_title'),
+                    style: const TextStyle(
+                      fontSize: 26,
+                      fontWeight: FontWeight.w900,
+                      color: Colors.white,
+                      height: TwLeading.tight,
+                    ),
+                  ),
+
+                  const SizedBox(height: TwSpace.s15),
+
+                  // Sous-titre inspirant
+                  Text(
+                    context.tr('home_subtitle'),
+                    style: TextStyle(
+                      fontSize: TwFontSize.sm,
+                      color: Colors.white.withValues(alpha: 0.85),
+                      height: TwLeading.snug,
+                    ),
+                  ),
+
+                  const SizedBox(height: TwSpace.s4),
+
+                  // Progression globale (toutes catégories confondues)
+                  const _GlobalProgress(),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// ---------------------------------------------------------------------------
+/// Progression globale dans la bannière (étoiles gagnées / total)
+/// Se met à jour automatiquement quand une étape est terminée.
+/// ---------------------------------------------------------------------------
+class _GlobalProgress extends StatelessWidget {
+  const _GlobalProgress();
+
+  @override
+  Widget build(BuildContext context) {
+    return ListenableBuilder(
+      listenable: StageProgressManager.instance,
+      builder: (context, _) {
+        final max = totalMaxStars();
+        final stars = totalStars();
+        final value = max == 0 ? 0.0 : (stars / max).clamp(0.0, 1.0);
+
+        return Semantics(
+          label: '${context.tr('home_progress')} $stars / $max',
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Expanded(
+                    child: Text(
+                      context.tr('home_progress'),
+                      style: TextStyle(
+                        fontSize: TwFontSize.xs,
+                        fontWeight: TwWeight.semibold,
+                        color: Colors.white.withValues(alpha: 0.85),
+                      ),
+                    ),
+                  ),
+                  const Icon(Icons.star_rounded, size: 14, color: TwColors.gold500),
+                  const SizedBox(width: TwSpace.s1),
+                  Text(
+                    '$stars / $max',
+                    style: const TextStyle(
+                      fontSize: TwFontSize.xs,
+                      fontWeight: TwWeight.extrabold,
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: TwSpace.s2),
+              ClipRRect(
+                borderRadius: TwRadius.pill,
+                child: Stack(
+                  children: [
+                    Container(height: 8, color: Colors.white.withValues(alpha: 0.2)),
+                    FractionallySizedBox(
+                      widthFactor: value,
+                      child: AnimatedContainer(
+                        duration: TwMotion.d500,
+                        curve: TwMotion.emphasized,
+                        height: 8,
+                        decoration: const BoxDecoration(
+                          gradient: TwColors.goldGradient,
+                          borderRadius: TwRadius.pill,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+}
+
+/// ---------------------------------------------------------------------------
+/// Série de jours + défi du jour (un quiz rapide, catégorie différente chaque jour)
+/// ---------------------------------------------------------------------------
+class _DailyChallengeCard extends StatelessWidget {
+  const _DailyChallengeCard();
+
+  /// Catégorie du jour : change chaque jour, identique pour tous les joueurs.
+  QuizCategory _todayCategory() {
+    final now = DateTime.now();
+    final days = DateTime.utc(now.year, now.month, now.day)
+        .difference(DateTime.utc(2024))
+        .inDays;
+    return leafCategories[days % leafCategories.length];
+  }
+
+  void _start(BuildContext context, QuizCategory category) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => QuizScreen(
+          category: category,
+          level: QuizLevel.debutant,
+          options: StageProgressManager.instance.options,
+        ),
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    return ListenableBuilder(
+      listenable: UserProgress.instance,
+      builder: (context, _) {
+        final progress = UserProgress.instance;
+        final category = _todayCategory();
+        final done = progress.playedToday;
+
+        return Card(
+          margin: EdgeInsets.zero,
+          child: Padding(
+            padding: const EdgeInsets.all(14),
+            child: Row(
+              children: [
+                Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    const Icon(Icons.local_fire_department,
+                        size: 30, color: TwColors.gold500),
+                    const SizedBox(height: 2),
+                    Text(
+                      context.tr('streak_label',
+                          {'n': progress.activeStreak.toString()}),
+                      style: const TextStyle(
+                          fontSize: 11, fontWeight: FontWeight.w700),
+                    ),
+                  ],
+                ),
+                const SizedBox(width: 14),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        context.tr('daily_title'),
+                        style: const TextStyle(
+                            fontSize: 14, fontWeight: FontWeight.w800),
+                      ),
+                      const SizedBox(height: 2),
+                      Text(
+                        done
+                            ? context.tr('daily_done')
+                            : category.titleOf(context),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(
+                          fontSize: 12,
+                          color: done ? scheme.primary : context.tw.textSecondary,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(width: 10),
+                FilledButton(
+                  onPressed: () => _start(context, category),
+                  child: Text(context.tr(done ? 'daily_again' : 'daily_start')),
+                ),
+              ],
+            ),
+          ),
+        );
+      },
+    );
+  }
+}

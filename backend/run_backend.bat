@@ -2,49 +2,70 @@
 title Serveur Backend PHP - Quiz Islamique
 chcp 65001 >nul
 cls
-echo ========================================================
-echo         SERVEUR BACKEND PHP - QUIZ ISLAMIQUE
-echo ========================================================
+
+echo ============================================================
+echo        BACKEND PHP - QUIZ ISLAMIQUE
+echo ============================================================
 echo.
 
-set PHP_BIN=php
-rem --- Base de données SQL Server (optionnel) : décommentez et adaptez ---
-rem set QUIZ_DB_DSN=sqlsrv:Server=localhost\SQLEXPRESS;Database=quiz;TrustServerCertificate=1
-rem set QUIZ_DB_USER=quiz_app
-rem set QUIZ_DB_PASS=un_mot_de_passe_fort
+:: ─── Arreter l'ancien serveur sur port 8000 (sans quitter si erreur) ───────
+echo Nettoyage du port 8000...
+for /f "tokens=5" %%p in ('netstat -ano 2^>nul ^| findstr /C:":8000"') do (
+    taskkill /PID %%p /F >nul 2>&1
+)
+ping -n 2 127.0.0.1 >nul
 
-where php >nul 2>nul
-if %errorlevel% neq 0 (
-    if exist "C:\xampp\php\php.exe" (
-        set "PHP_BIN=C:\xampp\php\php.exe"
-    ) else if exist "C:\wamp64\bin\php" (
-        set "PHP_BIN=C:\wamp64\bin\php"
-    ) else (
-        echo [ERREUR] PHP n'a pas ete trouve dans le PATH ni dans C:\xampp\php\php.exe.
-        echo Veuillez installer PHP ou XAMPP pour demarrer le backend.
-        pause
-        exit /b 1
-    )
+:: ─── Detecter PHP ──────────────────────────────────────────────────────────
+set PHP_BIN=
+if exist "C:\xampp\php\php.exe" set "PHP_BIN=C:\xampp\php\php.exe"
+if exist "C:\wamp64\bin\php\php.exe" set "PHP_BIN=C:\wamp64\bin\php\php.exe"
+
+if "%PHP_BIN%"=="" (
+    where php >nul 2>nul
+    if %errorlevel%==0 set "PHP_BIN=php"
 )
 
-echo PHP utilise : %PHP_BIN%
-echo.
-echo Adresses d'acces :
-echo   - Navigateur / PC local   : http://localhost:8000/api/health
-echo   - Emulateur Android       : http://localhost:8000/api/health
-echo   - Telephone physique       : utiliser une des IP ci-dessous (meme reseau)
-echo.
-echo   IP locales detectees sur ce PC :
-powershell -NoProfile -Command "Get-NetIPAddress -AddressFamily IPv4 | Where-Object { $_.IPAddress -notlike '127.*' -and $_.IPAddress -notlike '169.254.*' } | ForEach-Object { '       http://' + $_.IPAddress + ':8000/api/health' }"
-echo.
-echo   ^>^> Copiez l'IP correspondant a votre reseau, puis saisissez
-echo      http://localhost:8000 dans les Reglages de l'application.
-echo.
-echo ========================================================
-echo  Serveur en cours d'execution... Appuyez sur Ctrl+C pour arreter.
-echo ========================================================
+if "%PHP_BIN%"=="" (
+    echo.
+    echo  [ERREUR] PHP introuvable !
+    echo  Installez XAMPP sur C:\xampp
+    echo.
+    pause
+    exit /b 1
+)
+
+echo  PHP trouve : %PHP_BIN%
 echo.
 
+:: ─── Detecter l'IP Wi-Fi (methode simple sans goto) ────────────────────────
+set WIFI_IP=Inconnue
+for /f "skip=1 tokens=1" %%a in (
+    'powershell -NoProfile -Command "Get-NetIPAddress -AddressFamily IPv4 | Where-Object {$_.IPAddress -notlike '127.*' -and $_.IPAddress -notlike '169.*'} | Select-Object -First 1 -ExpandProperty IPAddress"'
+) do set WIFI_IP=%%a
+
+:: ─── Affichage des adresses ─────────────────────────────────────────────────
+echo  ADRESSES POUR FLUTTER :
+echo.
+echo  [PC / Web]           http://127.0.0.1:8000
+echo  [Emulateur Android]  http://10.0.2.2:8000
+echo  [Telephone Wi-Fi]    http://%WIFI_IP%:8000
+echo.
+echo  Test : http://127.0.0.1:8000/api/health
+echo.
+echo  >> Pour tester sur PC mettre : http://127.0.0.1:8000
+echo.
+echo ============================================================
+echo  Serveur en cours... NE FERMEZ PAS cette fenetre !
+echo  Appuyez sur Ctrl+C pour arreter le serveur.
+echo ============================================================
+echo.
+
+:: ─── Lancer le serveur ──────────────────────────────────────────────────────
 cd /d "%~dp0"
 "%PHP_BIN%" -S 0.0.0.0:8000 -t public public/index.php
-pause
+
+:: ─── Si le serveur s'arrete ─────────────────────────────────────────────────
+echo.
+echo  Serveur arrete.
+echo  Appuyez sur une touche pour fermer...
+pause >nul

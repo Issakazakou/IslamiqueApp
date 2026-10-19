@@ -23,7 +23,18 @@ function throwsStatus(callable $fn, int $status): bool
 
 echo "QuestionRepository\n";
 $repo = QuestionRepository::fromJsonFile(__DIR__ . '/../data/questions.json');
-$expected = ['coran_mediter' => 10, 'coran_tajwid' => 100, 'coran_culture' => 25, 'hadith' => 25, 'fiqh' => 25, 'sira' => 25];
+$expected = [
+    'coran_mediter'       => 10,
+    'coran_tajwid'        => 100,
+    'coran_culture'       => 25,
+    'hadith_fondements'   => 10,
+    'hadith_comportement' => 10,
+    'hadith_sciences'     => 10,
+    'fiqh_general'        => 25,
+    'sira_mecquoise'      => 10,
+    'sira_medinoise'      => 10,
+    'sira_evenements'     => 10,
+];
 foreach ($expected as $cat => $perLevel) {
     $all = $repo->all($cat);
     check("$cat : " . ($perLevel * 3) . " questions", count($all) === $perLevel * 3);
@@ -31,6 +42,19 @@ foreach ($expected as $cat => $perLevel) {
         $n = count($repo->pick($cat, $lvl, 0, false));
         check("$cat / $lvl : $perLevel questions", $n === $perLevel);
     }
+    $ids = array_column($all, 'id');
+    check("$cat : ids uniques", count($ids) === count(array_unique($ids)));
+    $validAnswers = true;
+    foreach ($all as $q) {
+        $validAnswers = $validAnswers && is_int($q['bonneReponse'])
+            && $q['bonneReponse'] >= 0 && $q['bonneReponse'] < count($q['options'])
+            && count($q['options']) === count(array_unique($q['options']));
+    }
+    check("$cat : bonneReponse valide, choix distincts", $validAnswers);
+}
+foreach (['fiqh_priere' => 31, 'fiqh_funerailles' => 59] as $cat => $count) {
+    $all = $repo->all($cat);
+    check("$cat : $count questions", count($all) === $count);
     $ids = array_column($all, 'id');
     check("$cat : ids uniques", count($ids) === count(array_unique($ids)));
     $validAnswers = true;
@@ -49,7 +73,16 @@ foreach ($repo->all('coran_mediter') as $q) {
 check('coran_mediter : explication et source sur chaque question', $withSources);
 $cats = $repo->categories();
 check('catégories Coran rattachées au parent « coran »',
-    count(array_filter($cats, static fn(array $c): bool => $c['parent'] === 'coran')) === 3);
+    count(array_filter($cats, static fn(array $c): bool => ($c['parent'] ?? null) === 'coran')) === 3);
+check('catégories Hadith rattachées au parent « hadith »',
+    count(array_filter($cats, static fn(array $c): bool => ($c['parent'] ?? null) === 'hadith')) === 3);
+check('catégories Fiqh rattachées au parent « fiqh »',
+    count(array_filter($cats, static fn(array $c): bool => ($c['parent'] ?? null) === 'fiqh')) === 3);
+check('catégories Sira rattachées au parent « sira »',
+    count(array_filter($cats, static fn(array $c): bool => ($c['parent'] ?? null) === 'sira')) === 3);
+check('alias hadith redirige vers hadith_fondements', $repo->hasCategory('hadith') && count($repo->all('hadith')) === 30);
+check('alias sira redirige vers sira_mecquoise', $repo->hasCategory('sira') && count($repo->all('sira')) === 30);
+check('alias fiqh redirige vers fiqh_general', $repo->hasCategory('fiqh') && count($repo->all('fiqh')) === 75);
 $debutant = array_column($repo->pick('coran_culture', 'debutant', 0, false), 'id');
 $avance   = array_column($repo->pick('coran_culture', 'avance', 0, false), 'id');
 check('niveaux disjoints', array_intersect($debutant, $avance) === []);
@@ -103,7 +136,7 @@ check('normalizeLang', QuestionRepository::normalizeLang('EN-us') === 'en'
 
 echo "AdminPanel (validation)\n";
 $form = [
-    'categorie' => 'sira', 'niveau' => 'debutant', 'question' => ' Qui fut le premier calife ? ',
+    'categorie' => 'sira_mecquoise', 'niveau' => 'debutant', 'question' => ' Qui fut le premier calife ? ',
     'options' => ['Abu Bakr', 'Omar', 'Othman', 'Ali'], 'bonne' => '0',
     'explication' => '', 'source' => '',
     'en' => ['question' => '', 'options' => ['', '', '', ''], 'explication' => '', 'source' => ''],
@@ -216,10 +249,10 @@ if (!extension_loaded('pdo_sqlite')) {
         }
         $same = $same && count($loaded[$cat]) === count($qs);
     }
-    check('630 questions identiques au JSON (texte, ordre des choix, niveau, bonne réponse)', $same);
+    check('750 questions identiques au JSON (texte, ordre des choix, niveau, bonne réponse)', $same);
     $dbRepo = new QuestionRepository($loaded);
     check('niveaux via la base : 25 questions', count($dbRepo->pick('coran_culture', 'debutant', 0, false)) === 25);
-    check('indexById via la base', ($dbRepo->indexById('sira')[226]['bonneReponse'] ?? null) === 2);
+    check('indexById via la base', ($dbRepo->indexById('sira_mecquoise')[226]['bonneReponse'] ?? null) === 2);
 
     // données invalides -> erreur claire
     $pdo->exec('UPDATE choix SET est_correct = 1 WHERE question_id = 1');

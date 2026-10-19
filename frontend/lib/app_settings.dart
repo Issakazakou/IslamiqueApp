@@ -156,6 +156,73 @@ const Map<String, Map<String, String>> _strings = {
     'ar': 'تعلّم بنيّة، وتقدّم بثبات',
   },
 
+  // ---- Écran de bienvenue / Choix de connexion ----
+  'welcome_title': {
+    'fr': 'Quiz Islamique',
+    'en': 'Islamic Quiz',
+    'ar': 'مسابقة إسلامية',
+  },
+  'welcome_tagline': {
+    'fr': 'Votre compagnon pour apprendre, méditer et tester vos connaissances.',
+    'en': 'Your companion to learn, reflect and test your knowledge.',
+    'ar': 'رفيقك للتعلّم والتدبّر واختبار معلوماتك.',
+  },
+  'welcome_feat_cloud_title': {
+    'fr': 'Sauvegarde Cloud',
+    'en': 'Cloud Backup',
+    'ar': 'حفظ سحابي',
+  },
+  'welcome_feat_cloud_desc': {
+    'fr': 'Retrouvez vos scores, séries et étoiles sur tous vos appareils.',
+    'en': 'Keep your scores, streaks and stars across all your devices.',
+    'ar': 'استعد نتائجك وسلسلتك ونجومك على جميع أجهزتك.',
+  },
+  'welcome_feat_cert_title': {
+    'fr': 'Certificats Officiels',
+    'en': 'Official Certificates',
+    'ar': 'شهادات رسمية',
+  },
+  'welcome_feat_cert_desc': {
+    'fr': 'Débloquez des attestations de réussite uniques après chaque parcours.',
+    'en': 'Unlock unique certificates of achievement after each journey.',
+    'ar': 'احصل على شهادات نجاح مميزة بعد كل مسار.',
+  },
+  'welcome_feat_offline_title': {
+    'fr': '100% Accessible',
+    'en': '100% Accessible',
+    'ar': 'متاح للجميع',
+  },
+  'welcome_feat_offline_desc': {
+    'fr': 'Apprenez à votre rythme, même sans connexion Internet.',
+    'en': 'Learn at your own pace, even without an internet connection.',
+    'ar': 'تعلّم بالسرعة التي تناسبك حتى بدون اتصال بالإنترنت.',
+  },
+  'welcome_login_btn': {
+    'fr': 'Se connecter à mon compte',
+    'en': 'Sign in to my account',
+    'ar': 'تسجيل الدخول إلى حسابي',
+  },
+  'welcome_login_desc': {
+    'fr': 'Synchronisez vos progrès et vos attestations',
+    'en': 'Sync your progress and certificates',
+    'ar': 'مزامنة تقدمك وشهاداتك',
+  },
+  'welcome_guest_btn': {
+    'fr': 'Continuer sans compte',
+    'en': 'Continue without account',
+    'ar': 'المتابعة بدون حساب',
+  },
+  'welcome_guest_desc': {
+    'fr': 'Accédez immédiatement aux quiz (sauvegarde locale)',
+    'en': 'Access quizzes immediately (local storage)',
+    'ar': 'الدخول المباشر إلى الاختبارات (حفظ محلي)',
+  },
+  'welcome_hint': {
+    'fr': 'Vous pourrez créer ou lier un compte à tout moment depuis votre profil.',
+    'en': 'You can create or link an account anytime from your profile.',
+    'ar': 'يمكنك إنشاء حساب أو ربطه في أي وقت من ملفك الشخصي.',
+  },
+
   // ---- Catégories ----
   'cat_coran_title': {'fr': 'Coran', 'en': 'Quran', 'ar': 'القرآن'},
   'cat_coran_desc': {
@@ -206,9 +273,39 @@ const Map<String, Map<String, String>> _strings = {
     'ar': 'اختبار الفقه',
   },
   'cat_fiqh_desc': {
-    'fr': 'Testez vos connaissances en jurisprudence islamique',
-    'en': 'Test your knowledge of Islamic jurisprudence',
-    'ar': 'اختبر معلوماتك في الفقه الإسلامي',
+    'fr': 'Bases, prière malikite et funérailles',
+    'en': 'Foundations, prayer and funerals',
+    'ar': 'الأساسيات والصلاة والجنائز',
+  },
+  'cat_fiqh_general_title': {
+    'fr': 'Fiqh Général',
+    'en': 'General Fiqh',
+    'ar': 'الفقه العام',
+  },
+  'cat_fiqh_general_desc': {
+    'fr': 'Purification, piliers, jeûne et bases',
+    'en': 'Purification, pillars, fasting and basics',
+    'ar': 'الطهارة والأركان والصيام والأساسيات',
+  },
+  'cat_fiqh_priere_title': {
+    'fr': 'La Prière',
+    'en': 'The Prayer',
+    'ar': 'الصلاة',
+  },
+  'cat_fiqh_priere_desc': {
+    'fr': 'Sunnas, mérites et rattrapage (rite malikite)',
+    'en': 'Sunnahs, merits and make-up (Maliki rite)',
+    'ar': 'السنن والفضائل والقضاء (المذهب المالكي)',
+  },
+  'cat_fiqh_funerailles_title': {
+    'fr': 'Les Funérailles',
+    'en': 'The Funerals',
+    'ar': 'الجنائز',
+  },
+  'cat_fiqh_funerailles_desc': {
+    'fr': 'Assistance, lavage, linceul et enterrement',
+    'en': 'Assisting the dying, washing, shroud and burial',
+    'ar': 'الاحتضار والغسل والكفن والدفن',
   },
   'cat_sira_title': {
     'fr': 'Sira du Prophète ﷺ',

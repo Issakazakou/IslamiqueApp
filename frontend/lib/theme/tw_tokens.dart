@@ -52,17 +52,19 @@ abstract final class TwSpace {
 /// ---------------------------------------------------------------------------
 abstract final class TwRadius {
   static const double none    = 0.0;
-  static const double sm      = 2.0;
-  static const double DEFAULT = 4.0;
-  static const double md      = 6.0;
-  static const double lg      = 8.0;
-  static const double xl      = 12.0;
-  static const double xxl     = 16.0; // 2xl
-  static const double xxxl    = 24.0; // 3xl
-  static const double full    = 9999.0;
+  static const double sm           = 2.0;
+  static const double defaultValue = 4.0;
+  // ignore: constant_identifier_names
+  static const double DEFAULT      = defaultValue;
+  static const double md           = 6.0;
+  static const double lg           = 8.0;
+  static const double xl           = 12.0;
+  static const double xxl          = 16.0; // 2xl
+  static const double xxxl         = 24.0; // 3xl
+  static const double full         = 9999.0;
 
   static const BorderRadius rSm      = BorderRadius.all(Radius.circular(sm));
-  static const BorderRadius rDefault = BorderRadius.all(Radius.circular(DEFAULT));
+  static const BorderRadius rDefault = BorderRadius.all(Radius.circular(defaultValue));
   static const BorderRadius rMd      = BorderRadius.all(Radius.circular(md));
   static const BorderRadius rLg      = BorderRadius.all(Radius.circular(lg));
   static const BorderRadius rXl      = BorderRadius.all(Radius.circular(xl));

@@ -12,12 +12,18 @@ declare(strict_types=1);
 final class AdminPanel
 {
     public const CATEGORIES = [
-        'coran_mediter' => 'Coran – Méditer',
-        'coran_tajwid'  => 'Coran – Tajwid',
-        'coran_culture' => 'Coran – Culture coranique',
-        'hadith'        => 'Hadith',
-        'fiqh'          => 'Fiqh',
-        'sira'          => 'Sira',
+        'coran_mediter'       => 'Coran – Méditer',
+        'coran_tajwid'        => 'Coran – Tajwid',
+        'coran_culture'       => 'Coran – Culture coranique',
+        'hadith_fondements'   => 'Hadith – Grands Enseignements',
+        'hadith_comportement' => 'Hadith – Comportement & Adab',
+        'hadith_sciences'     => 'Hadith – Sciences du Hadith',
+        'fiqh_general'        => 'Fiqh – Général',
+        'fiqh_priere'         => 'Fiqh – La Prière',
+        'fiqh_funerailles'    => 'Fiqh – Les Funérailles',
+        'sira_mecquoise'      => 'Sira – Période Mecquoise',
+        'sira_medinoise'      => 'Sira – Période Médinoise',
+        'sira_evenements'     => 'Sira – Grandes Étapes & Victoires',
     ];
     public const LEVELS = ['debutant' => 'Débutant', 'intermediaire' => 'Intermédiaire', 'avance' => 'Avancé'];
     public const LANGS  = ['en' => 'English', 'ar' => 'العربية'];

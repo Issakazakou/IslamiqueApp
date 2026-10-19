@@ -130,7 +130,7 @@ if ($method === 'GET' && $path === '/api/me') {
 
 /** Catégories (et groupes) donnant droit à un certificat. */
 $certDefs = static function () use ($repo): array {
-    $groupTitles = ['coran' => 'Coran'];
+    $groupTitles = ['coran' => 'Coran', 'hadith' => 'Hadith', 'fiqh' => 'Fiqh', 'sira' => 'Sira'];
     $defs = [];
     $groups = [];
     foreach ($repo->categories() as $c) {

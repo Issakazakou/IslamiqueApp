@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'quiz_models.dart';
 import 'stage_progress_manager.dart';
 import 'theme/theme.dart';
-import 'widgets.dart';
 
 /// ---------------------------------------------------------------------------
 /// Progression (étoiles) : 5 étapes × 3 étoiles par niveau

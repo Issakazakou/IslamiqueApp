@@ -42,8 +42,8 @@ void main() {
   });
 
   test('pas de certificat tant que toutes les étapes ne sont pas réussies', () async {
-    await complete(['sira'], skipLevel: 'avance', skipStage: 5);
-    final sira = byId('sira');
+    await complete(['sira_mecquoise'], skipLevel: 'avance', skipStage: 5);
+    final sira = byId('sira_mecquoise');
     expect(certificates.completedStages(sira), 14);
     expect(certificates.totalStages(sira), 15);
     expect(certificates.isComplete(sira), isFalse);
@@ -51,19 +51,19 @@ void main() {
   });
 
   test('certificat délivré à la dernière étape, annoncé une seule fois', () async {
-    await complete(['sira'], skipLevel: 'avance', skipStage: 5);
+    await complete(['sira_mecquoise'], skipLevel: 'avance', skipStage: 5);
     await progress.recordStageResult(
-      categoryId: 'sira',
+      categoryId: 'sira_mecquoise',
       levelValue: 'avance',
       stageNumber: 5,
       score: 5,
       total: 5,
     );
     final fresh = await certificates.refresh(announce: true);
-    expect(fresh.map((c) => c.id), ['sira']);
-    expect(certificates.isEarned(byId('sira')), isTrue);
-    expect(certificates.earnedOn(byId('sira')), isNotNull);
-    expect(certificates.takePending().map((c) => c.id), ['sira']);
+    expect(fresh.map((c) => c.id), ['sira_mecquoise']);
+    expect(certificates.isEarned(byId('sira_mecquoise')), isTrue);
+    expect(certificates.earnedOn(byId('sira_mecquoise')), isNotNull);
+    expect(certificates.takePending().map((c) => c.id), ['sira_mecquoise']);
     expect(certificates.takePending(), isEmpty);
     // Un second passage ne redélivre rien.
     expect(await certificates.refresh(announce: true), isEmpty);
@@ -81,11 +81,23 @@ void main() {
     expect(certificates.totalStages(byId('coran')), 45);
   });
 
+  test('le certificat Sira exige ses 3 sous-catégories', () async {
+    await complete(['sira_mecquoise', 'sira_medinoise']);
+    expect(certificates.isEarned(byId('sira_mecquoise')), isTrue);
+    expect(certificates.isEarned(byId('sira_medinoise')), isTrue);
+    expect(certificates.isEarned(byId('sira')), isFalse);
+
+    await complete(['sira_evenements']);
+    expect(certificates.isEarned(byId('sira_evenements')), isTrue);
+    expect(certificates.isEarned(byId('sira')), isTrue);
+    expect(certificates.totalStages(byId('sira')), 45);
+  });
+
   test('effacer la progression (déconnexion) retire les certificats', () async {
-    await complete(['hadith']);
-    expect(certificates.isEarned(byId('hadith')), isTrue);
+    await complete(['hadith_fondements']);
+    expect(certificates.isEarned(byId('hadith_fondements')), isTrue);
     await progress.clearProgress();
-    expect(certificates.isEarned(byId('hadith')), isFalse);
+    expect(certificates.isEarned(byId('hadith_fondements')), isFalse);
   });
 
   test('le nom du certificat est mémorisé', () async {

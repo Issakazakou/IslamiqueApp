@@ -901,7 +901,7 @@
             "bonneReponse": 0
         }
     ],
-    "hadith": [
+    "hadith_fondements": [
         {
             "id": 76,
             "question": "Selon le célèbre hadith, « Les actions ne valent que par... »",
@@ -912,7 +912,9 @@
                 "La réputation"
             ],
             "niveau": "debutant",
-            "bonneReponse": 0
+            "bonneReponse": 0,
+            "source": "Hadith • Fondements",
+            "explication": "Les intentions (An-Niyyah)"
         },
         {
             "id": 77,
@@ -924,7 +926,9 @@
                 "L'Imam Ahmad"
             ],
             "niveau": "debutant",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Hadith • Fondements",
+            "explication": "L'Imam Al-Bukhari"
         },
         {
             "id": 78,
@@ -936,7 +940,9 @@
                 "Sunan Abu Dawud"
             ],
             "niveau": "debutant",
-            "bonneReponse": 2
+            "bonneReponse": 2,
+            "source": "Hadith • Fondements",
+            "explication": "Sahih Muslim"
         },
         {
             "id": 79,
@@ -948,7 +954,9 @@
                 "Al-Musnad"
             ],
             "niveau": "debutant",
-            "bonneReponse": 0
+            "bonneReponse": 0,
+            "source": "Hadith • Fondements",
+            "explication": "Les Sahihayn"
         },
         {
             "id": 80,
@@ -960,7 +968,9 @@
                 "Un poème ancien"
             ],
             "niveau": "debutant",
-            "bonneReponse": 0
+            "bonneReponse": 0,
+            "source": "Hadith • Fondements",
+            "explication": "Une parole divine rapportée par le Prophète ﷺ avec ses propres mots"
         },
         {
             "id": 81,
@@ -972,7 +982,9 @@
                 "Omar ibn al-Khattab"
             ],
             "niveau": "debutant",
-            "bonneReponse": 0
+            "bonneReponse": 0,
+            "source": "Hadith • Fondements",
+            "explication": "Abu Hurairah"
         },
         {
             "id": 82,
@@ -984,7 +996,9 @@
                 "Ibn Abbas"
             ],
             "niveau": "debutant",
-            "bonneReponse": 0
+            "bonneReponse": 0,
+            "source": "Hadith • Fondements",
+            "explication": "Anas ibn Malik"
         },
         {
             "id": 83,
@@ -996,7 +1010,9 @@
                 "Hafsa bint Omar"
             ],
             "niveau": "debutant",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Hadith • Fondements",
+            "explication": "Aïcha bint Abu Bakr"
         },
         {
             "id": 84,
@@ -1008,7 +1024,9 @@
                 "La foi, le savoir et l'action"
             ],
             "niveau": "debutant",
-            "bonneReponse": 2
+            "bonneReponse": 2,
+            "source": "Hadith • Fondements",
+            "explication": "L'Islam, l'Iman et l'Ihsan"
         },
         {
             "id": 85,
@@ -1020,7 +1038,9 @@
                 "Apprendre le Coran par cœur"
             ],
             "niveau": "debutant",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Hadith • Fondements",
+            "explication": "Adorer Allah comme si tu Le voyais, car si tu ne Le vois pas, Lui te voit"
         },
         {
             "id": 86,
@@ -1031,8 +1051,10 @@
                 "4 piliers",
                 "5 piliers"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 3
+            "niveau": "intermediaire",
+            "bonneReponse": 3,
+            "source": "Hadith • Fondements",
+            "explication": "5 piliers"
         },
         {
             "id": 87,
@@ -1043,8 +1065,10 @@
                 "7 piliers",
                 "5 piliers"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 1
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "source": "Hadith • Fondements",
+            "explication": "6 piliers"
         },
         {
             "id": 88,
@@ -1055,8 +1079,10 @@
                 "...le Coran et l'enseigne",
                 "...la guerre"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 2
+            "niveau": "intermediaire",
+            "bonneReponse": 2,
+            "source": "Hadith • Fondements",
+            "explication": "...le Coran et l'enseigne"
         },
         {
             "id": 89,
@@ -1067,8 +1093,10 @@
                 "...sa maison",
                 "...ce qu'il aime pour lui-même"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 3
+            "niveau": "intermediaire",
+            "bonneReponse": 3,
+            "source": "Hadith • Fondements",
+            "explication": "...ce qu'il aime pour lui-même"
         },
         {
             "id": 90,
@@ -1079,8 +1107,10 @@
                 "...interdite",
                 "...réservée aux vieillards"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 1
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "source": "Hadith • Fondements",
+            "explication": "...une obligation pour chaque musulman"
         },
         {
             "id": 91,
@@ -1091,8 +1121,10 @@
                 "...un devoir hebdomadaire",
                 "...la moitié de la foi"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 3
+            "niveau": "intermediaire",
+            "bonneReponse": 3,
+            "source": "Hadith • Fondements",
+            "explication": "...la moitié de la foi"
         },
         {
             "id": 92,
@@ -1103,8 +1135,10 @@
                 "Abu Dharr",
                 "Khalid ibn al-Walid"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 0
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "source": "Hadith • Fondements",
+            "explication": "Usama ibn Zayd"
         },
         {
             "id": 93,
@@ -1115,8 +1149,10 @@
                 "...facile",
                 "...douce"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 0
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "source": "Hadith • Fondements",
+            "explication": "...amère"
         },
         {
             "id": 94,
@@ -1127,8 +1163,10 @@
                 "L'Imam An-Nawawi",
                 "Ibn Kathir"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 2
+            "niveau": "intermediaire",
+            "bonneReponse": 2,
+            "source": "Hadith • Fondements",
+            "explication": "L'Imam An-Nawawi"
         },
         {
             "id": 95,
@@ -1139,8 +1177,10 @@
                 "L'ignorer complètement",
                 "Fuir le pays"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 1
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "source": "Hadith • Fondements",
+            "explication": "Le changer de sa main, sinon de sa langue, sinon le désapprouver en son cœur"
         },
         {
             "id": 96,
@@ -1151,8 +1191,10 @@
                 "Tafsir",
                 "Matn"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 0
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "source": "Hadith • Fondements",
+            "explication": "Isnad"
         },
         {
             "id": 97,
@@ -1163,8 +1205,10 @@
                 "Isnad",
                 "Sira"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 0
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "source": "Hadith • Fondements",
+            "explication": "Matn"
         },
         {
             "id": 98,
@@ -1175,8 +1219,10 @@
                 "Mawdu'",
                 "Gharib"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 1
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "source": "Hadith • Fondements",
+            "explication": "Sahih"
         },
         {
             "id": 99,
@@ -1187,8 +1233,10 @@
                 "Mutawatir",
                 "Hasan"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 1
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "source": "Hadith • Fondements",
+            "explication": "Mawdu'"
         },
         {
             "id": 100,
@@ -1199,9 +1247,83 @@
                 "Sunan",
                 "Al-Musnad"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 0
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "source": "Hadith • Fondements",
+            "explication": "Al-Muwatta"
         },
+        {
+            "id": 801,
+            "question": "Selon le hadith d'Ibn Abbas : « Préserve Allah... »",
+            "options": [
+                "...et Il te préservera",
+                "...et tu deviendras riche",
+                "...et les gens t'aimeront",
+                "...pendant la nuit"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ a enseigné à Ibn Abbas : « Préserve Allah, Il te préservera. Préserve Allah, tu Le trouveras devant toi. »",
+            "source": "Hadith Nawawi n°19 • At-Tirmidhi",
+            "niveau": "avance"
+        },
+        {
+            "id": 802,
+            "question": "Quelle règle d'or le Prophète ﷺ a-t-il énoncée concernant le doute ?",
+            "options": [
+                "« Laisse ce qui te fait douter pour ce qui ne te fait pas douter »",
+                "« Suis toujours ton premier avis »",
+                "« Le doute annule toutes les actions »",
+                "« Évite de poser des questions »"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ a dit : « Laisse ce qui te fait douter pour ce qui ne te fait pas douter. Car la véracité apporte la sérénité et le mensonge apporte le doute. »",
+            "source": "Hadith Nawawi n°11 • At-Tirmidhi",
+            "niveau": "avance"
+        },
+        {
+            "id": 803,
+            "question": "Selon le hadith : « Fait partie de la perfection de l'Islam d'un homme... »",
+            "options": [
+                "...de délaisser ce qui ne le regarde pas",
+                "...d'avoir beaucoup de richesses",
+                "...de jeûner chaque jour",
+                "...de voyager constamment"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ a dit : « Fait partie du bel Islam d'une personne de délaisser ce qui ne la concerne pas. »",
+            "source": "Hadith Nawawi n°12 • At-Tirmidhi",
+            "niveau": "avance"
+        },
+        {
+            "id": 804,
+            "question": "Selon le hadith, que doit dire celui qui croit en Allah et au Jour dernier ?",
+            "options": [
+                "« Qu'il dise du bien ou qu'il se taise »",
+                "« Qu'il parle sans cesse »",
+                "« Qu'il ne salue personne »",
+                "« Qu'il argumente toujours »"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ a dit : « Que celui qui croit en Allah et au Jour dernier dise du bien ou qu'il garde le silence. »",
+            "source": "Hadith Nawawi n°15 • Al-Boukhari et Muslim",
+            "niveau": "avance"
+        },
+        {
+            "id": 805,
+            "question": "Quel conseil majeur le Prophète ﷺ a-t-il répété 3 fois à un homme demandant une recommandation ?",
+            "options": [
+                "« Ne te mets pas en colère »",
+                "« Ne voyage jamais seul »",
+                "« Ne dors jamais la nuit »",
+                "« Ne commerce pas »"
+            ],
+            "bonneReponse": 0,
+            "explication": "Un homme a demandé au Prophète ﷺ : « Conseille-moi ». Il lui a répondu à plusieurs reprises : « Ne te mets pas en colère ».",
+            "source": "Hadith Nawawi n°16 • Al-Boukhari",
+            "niveau": "avance"
+        }
+    ],
+    "hadith_sciences": [
         {
             "id": 101,
             "question": "Selon le hadith : « Le fort n'est pas celui qui terrasse les gens, mais celui qui... »",
@@ -1211,8 +1333,10 @@
                 "...gagne beaucoup d'argent",
                 "...parle fort"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 0
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "source": "Hadith • Sciences",
+            "explication": "...maîtrise sa colère"
         },
         {
             "id": 102,
@@ -1223,8 +1347,10 @@
                 "Voyage beaucoup",
                 "Jeûne tous les jours"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 0
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "source": "Hadith • Sciences",
+            "explication": "Ne te mets pas en colère"
         },
         {
             "id": 103,
@@ -1235,8 +1361,10 @@
                 "En lui achetant sa maison",
                 "En l'enviant"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 1
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "source": "Hadith • Sciences",
+            "explication": "Avec bienfaisance, respect et sans lui nuire"
         },
         {
             "id": 104,
@@ -1247,8 +1375,10 @@
                 "...perte de temps",
                 "...aumône (Sadaqa)"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 3
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "source": "Hadith • Sciences",
+            "explication": "...aumône (Sadaqa)"
         },
         {
             "id": 105,
@@ -1259,8 +1389,10 @@
                 "...malade au lit",
                 "...endormi"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 1
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "source": "Hadith • Sciences",
+            "explication": "...en bonne santé et avide de la vie"
         },
         {
             "id": 106,
@@ -1271,8 +1403,10 @@
                 "L'Imam An-Nawawi",
                 "L'Imam Al-Ghazali"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 2
+            "niveau": "debutant",
+            "bonneReponse": 2,
+            "source": "Hadith • Sciences",
+            "explication": "L'Imam An-Nawawi"
         },
         {
             "id": 107,
@@ -1283,8 +1417,10 @@
                 "Ibn Kathir",
                 "L'Imam An-Nawawi"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 0
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "source": "Hadith • Sciences",
+            "explication": "Ibn Hajar al-Asqalani"
         },
         {
             "id": 108,
@@ -1295,8 +1431,10 @@
                 "Muslim ibn al-Hajjaj",
                 "Ahmad ibn Muhammad"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 1
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "source": "Hadith • Sciences",
+            "explication": "Muhammad ibn Isma'il"
         },
         {
             "id": 109,
@@ -1307,8 +1445,10 @@
                 "Muslim ibn al-Hajjaj an-Naysaburi",
                 "Ahmad ibn Hanbal"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 2
+            "niveau": "debutant",
+            "bonneReponse": 2,
+            "source": "Hadith • Sciences",
+            "explication": "Muslim ibn al-Hajjaj an-Naysaburi"
         },
         {
             "id": 110,
@@ -1319,8 +1459,10 @@
                 "Malik ibn Anas",
                 "Abu Hanifa"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 1
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "source": "Hadith • Sciences",
+            "explication": "Ahmad ibn Hanbal"
         },
         {
             "id": 111,
@@ -1332,7 +1474,9 @@
                 "Les six piliers de la foi"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 0
+            "bonneReponse": 0,
+            "source": "Hadith • Sciences",
+            "explication": "Les six grands recueils de hadiths"
         },
         {
             "id": 112,
@@ -1344,7 +1488,9 @@
                 "Mawdu'"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 0
+            "bonneReponse": 0,
+            "source": "Hadith • Sciences",
+            "explication": "Mutawatir"
         },
         {
             "id": 113,
@@ -1356,7 +1502,9 @@
                 "Da'if (faible)"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 3
+            "bonneReponse": 3,
+            "source": "Hadith • Sciences",
+            "explication": "Da'if (faible)"
         },
         {
             "id": 114,
@@ -1368,7 +1516,9 @@
                 "Mawdu'"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Hadith • Sciences",
+            "explication": "Hasan"
         },
         {
             "id": 115,
@@ -1380,7 +1530,9 @@
                 "Mashhur"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 2
+            "bonneReponse": 2,
+            "source": "Hadith • Sciences",
+            "explication": "Gharib"
         },
         {
             "id": 116,
@@ -1392,7 +1544,9 @@
                 "Qadi"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 2
+            "bonneReponse": 2,
+            "source": "Hadith • Sciences",
+            "explication": "Rawi"
         },
         {
             "id": 117,
@@ -1404,7 +1558,9 @@
                 "Mufassir"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 2
+            "bonneReponse": 2,
+            "source": "Hadith • Sciences",
+            "explication": "Muhaddith"
         },
         {
             "id": 118,
@@ -1416,7 +1572,9 @@
                 "La prière"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Hadith • Sciences",
+            "explication": "La double attestation de foi (Shahada)"
         },
         {
             "id": 119,
@@ -1428,7 +1586,9 @@
                 "...s'éloigne"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 2
+            "bonneReponse": 2,
+            "source": "Hadith • Sciences",
+            "explication": "...se taise"
         },
         {
             "id": 120,
@@ -1440,7 +1600,9 @@
                 "...courtes"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 2
+            "bonneReponse": 2,
+            "source": "Hadith • Sciences",
+            "explication": "...difficiles"
         },
         {
             "id": 121,
@@ -1451,8 +1613,10 @@
                 "...l'épée",
                 "...le bon conseil (An-Nasiha)"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 3
+            "niveau": "avance",
+            "bonneReponse": 3,
+            "source": "Hadith • Sciences",
+            "explication": "...le bon conseil (An-Nasiha)"
         },
         {
             "id": 122,
@@ -1463,8 +1627,10 @@
                 "...voisins",
                 "...rivaux"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 0
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "source": "Hadith • Sciences",
+            "explication": "...frères"
         },
         {
             "id": 123,
@@ -1475,8 +1641,10 @@
                 "Le pèlerinage chaque année",
                 "La prière accomplie à son heure"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 3
+            "niveau": "avance",
+            "bonneReponse": 3,
+            "source": "Hadith • Sciences",
+            "explication": "La prière accomplie à son heure"
         },
         {
             "id": 124,
@@ -1487,8 +1655,10 @@
                 "Ton voisin",
                 "Ton frère"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 1
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "source": "Hadith • Sciences",
+            "explication": "Ta mère"
         },
         {
             "id": 125,
@@ -1499,9 +1669,83 @@
                 "...la foi",
                 "...la richesse"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 2
+            "niveau": "avance",
+            "bonneReponse": 2,
+            "source": "Hadith • Sciences",
+            "explication": "...la foi"
         },
+        {
+            "id": 806,
+            "question": "Qu'est-ce qu'un « Hadith Qudsi » ?",
+            "options": [
+                "Une parole dont le sens émane d'Allah et le texte du Prophète ﷺ",
+                "Un verset coranique abrogé",
+                "Une parole d'un grand savant",
+                "Un hadith inventé"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le Hadith Qudsi est une parole sacrée que le Prophète ﷺ rapporte directement de son Seigneur, distincte du Coran par son statut de récitation.",
+            "source": "Sciences du Hadith • Mustalah al-Hadith",
+            "niveau": "avance"
+        },
+        {
+            "id": 807,
+            "question": "Quel est le recueil de hadiths le plus authentique après le Saint Coran ?",
+            "options": [
+                "Sahih Al-Boukhari",
+                "Sunan Ibn Majah",
+                "Al-Mowatta",
+                "Sunan Abi Dawud"
+            ],
+            "bonneReponse": 0,
+            "explication": "La communauté des savants est unanime sur le fait que le Sahih d'Al-Boukhari est l'ouvrage le plus authentique après le Livre d'Allah.",
+            "source": "Sciences du Hadith • Les Recueils Majeurs",
+            "niveau": "avance"
+        },
+        {
+            "id": 808,
+            "question": "Que désigne un hadith « Marfou' » (élevé) ?",
+            "options": [
+                "Un hadith attribué directement au Prophète ﷺ",
+                "Une parole attribuée à un Compagnon",
+                "Une parole attribuée à un Suivant (Tabi'i)",
+                "Un hadith dont la chaîne est coupée"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le hadith Marfou' est toute parole, geste ou approbation expressément rattaché au Prophète Muhammad ﷺ.",
+            "source": "Sciences du Hadith • Terminologie",
+            "niveau": "avance"
+        },
+        {
+            "id": 809,
+            "question": "Que désigne un hadith « Mawqouf » (arrêté) ?",
+            "options": [
+                "Une parole ou un acte attribué à un Compagnon (Sahabi)",
+                "Un hadith faux",
+                "Un hadith rapporté par 100 narrateurs",
+                "Un hadith faible sans remède"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le hadith Mawqouf est une narration dont la chaîne s'arrête à un compagnon du Prophète sans être attribuée au Prophète ﷺ lui-même.",
+            "source": "Sciences du Hadith • Terminologie",
+            "niveau": "avance"
+        },
+        {
+            "id": 810,
+            "question": "Que désigne la science du « Jarh wa Ta'dil » en études du hadith ?",
+            "options": [
+                "L'évaluation critique de la probité et de la précision des narrateurs",
+                "La traduction des hadiths en d'autres langues",
+                "La mémorisation par cœur du texte seul",
+                "La calligraphie des manuscrits"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le Jarh wa Ta'dil est la science fondamentale qui analyse la fiabilité, la mémoire et la moralité de chaque rapporteur de la chaîne de transmission.",
+            "source": "Sciences du Hadith • Critique des transmetteurs",
+            "niveau": "avance"
+        }
+    ],
+    "hadith_comportement": [
         {
             "id": 126,
             "question": "Dans le hadith sur les branches de la foi, quelle est la plus haute ?",
@@ -1511,8 +1755,10 @@
                 "Jeûner",
                 "Dire « La ilaha illa Allah »"
             ],
-            "niveau": "avance",
-            "bonneReponse": 3
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "source": "Hadith • Comportement",
+            "explication": "Dire « La ilaha illa Allah »"
         },
         {
             "id": 127,
@@ -1523,8 +1769,10 @@
                 "« Astaghfirullah »",
                 "« Yarhamuk Allah »"
             ],
-            "niveau": "avance",
-            "bonneReponse": 3
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "source": "Hadith • Comportement",
+            "explication": "« Yarhamuk Allah »"
         },
         {
             "id": 128,
@@ -1535,8 +1783,10 @@
                 "« Astaghfirullah »",
                 "« Allahu Akbar »"
             ],
-            "niveau": "avance",
-            "bonneReponse": 0
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "source": "Hadith • Comportement",
+            "explication": "« Bismillah »"
         },
         {
             "id": 129,
@@ -1547,8 +1797,10 @@
                 "La main droite",
                 "Les deux mains ensemble"
             ],
-            "niveau": "avance",
-            "bonneReponse": 2
+            "niveau": "debutant",
+            "bonneReponse": 2,
+            "source": "Hadith • Comportement",
+            "explication": "La main droite"
         },
         {
             "id": 130,
@@ -1559,8 +1811,10 @@
                 "Allah lui donne un jardin",
                 "Rien de particulier"
             ],
-            "niveau": "avance",
-            "bonneReponse": 0
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "source": "Hadith • Comportement",
+            "explication": "Allah prie sur lui dix fois"
         },
         {
             "id": 131,
@@ -1571,8 +1825,10 @@
                 "Le lundi",
                 "Le samedi"
             ],
-            "niveau": "avance",
-            "bonneReponse": 1
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "source": "Hadith • Comportement",
+            "explication": "Le vendredi"
         },
         {
             "id": 132,
@@ -1583,8 +1839,10 @@
                 "Le lundi et le jeudi",
                 "Le vendredi et le samedi"
             ],
-            "niveau": "avance",
-            "bonneReponse": 2
+            "niveau": "debutant",
+            "bonneReponse": 2,
+            "source": "Hadith • Comportement",
+            "explication": "Le lundi et le jeudi"
         },
         {
             "id": 133,
@@ -1595,8 +1853,10 @@
                 "Abu Hurairah",
                 "Anas ibn Malik"
             ],
-            "niveau": "avance",
-            "bonneReponse": 0
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "source": "Hadith • Comportement",
+            "explication": "Omar ibn al-Khattab"
         },
         {
             "id": 134,
@@ -1607,8 +1867,10 @@
                 "Abu Dharr",
                 "Abu Ubayda"
             ],
-            "niveau": "avance",
-            "bonneReponse": 1
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "source": "Hadith • Comportement",
+            "explication": "Abu Hurairah"
         },
         {
             "id": 135,
@@ -1619,8 +1881,10 @@
                 "Zaïd ibn Thabit",
                 "Anas ibn Malik"
             ],
-            "niveau": "avance",
-            "bonneReponse": 0
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "source": "Hadith • Comportement",
+            "explication": "Abdullah ibn Abbas"
         },
         {
             "id": 136,
@@ -1631,8 +1895,10 @@
                 "45",
                 "50"
             ],
-            "niveau": "avance",
-            "bonneReponse": 1
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "source": "Hadith • Comportement",
+            "explication": "42"
         },
         {
             "id": 137,
@@ -1643,8 +1909,10 @@
                 "Les coutumes arabes",
                 "Les paroles, actes et approbations du Prophète ﷺ"
             ],
-            "niveau": "avance",
-            "bonneReponse": 3
+            "niveau": "intermediaire",
+            "bonneReponse": 3,
+            "source": "Hadith • Comportement",
+            "explication": "Les paroles, actes et approbations du Prophète ﷺ"
         },
         {
             "id": 138,
@@ -1655,8 +1923,10 @@
                 "Qiyas",
                 "Fatwa"
             ],
-            "niveau": "avance",
-            "bonneReponse": 0
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "source": "Hadith • Comportement",
+            "explication": "Taqrir"
         },
         {
             "id": 139,
@@ -1667,8 +1937,10 @@
                 "« Allahu Akbar »",
                 "« La ilaha illa Allah »"
             ],
-            "niveau": "avance",
-            "bonneReponse": 3
+            "niveau": "intermediaire",
+            "bonneReponse": 3,
+            "source": "Hadith • Comportement",
+            "explication": "« La ilaha illa Allah »"
         },
         {
             "id": 140,
@@ -1679,8 +1951,10 @@
                 "« Hasbunallahu wa ni'mal wakil »",
                 "« Subhan Allahi wa bihamdihi, Subhan Allahil-'Azim »"
             ],
-            "niveau": "avance",
-            "bonneReponse": 3
+            "niveau": "intermediaire",
+            "bonneReponse": 3,
+            "source": "Hadith • Comportement",
+            "explication": "« Subhan Allahi wa bihamdihi, Subhan Allahil-'Azim »"
         },
         {
             "id": 141,
@@ -1691,8 +1965,10 @@
                 "Le plus riche salue le plus pauvre",
                 "Le plus jeune salue le plus âgé"
             ],
-            "niveau": "avance",
-            "bonneReponse": 3
+            "niveau": "intermediaire",
+            "bonneReponse": 3,
+            "source": "Hadith • Comportement",
+            "explication": "Le plus jeune salue le plus âgé"
         },
         {
             "id": 142,
@@ -1703,8 +1979,10 @@
                 "...main",
                 "...maison"
             ],
-            "niveau": "avance",
-            "bonneReponse": 2
+            "niveau": "intermediaire",
+            "bonneReponse": 2,
+            "source": "Hadith • Comportement",
+            "explication": "...main"
         },
         {
             "id": 143,
@@ -1715,8 +1993,10 @@
                 "Celui qui vient avec prière, jeûne et zakat mais a lésé autrui",
                 "Celui qui n'a pas d'argent"
             ],
-            "niveau": "avance",
-            "bonneReponse": 2
+            "niveau": "intermediaire",
+            "bonneReponse": 2,
+            "source": "Hadith • Comportement",
+            "explication": "Celui qui vient avec prière, jeûne et zakat mais a lésé autrui"
         },
         {
             "id": 144,
@@ -1727,8 +2007,10 @@
                 "Le croyant fort",
                 "Le plus célèbre"
             ],
-            "niveau": "avance",
-            "bonneReponse": 2
+            "niveau": "intermediaire",
+            "bonneReponse": 2,
+            "source": "Hadith • Comportement",
+            "explication": "Le croyant fort"
         },
         {
             "id": 145,
@@ -1739,8 +2021,10 @@
                 "...le commerce",
                 "...la richesse"
             ],
-            "niveau": "avance",
-            "bonneReponse": 1
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "source": "Hadith • Comportement",
+            "explication": "...un chemin vers le Paradis"
         },
         {
             "id": 146,
@@ -1752,7 +2036,9 @@
                 "...une grande maison"
             ],
             "niveau": "avance",
-            "bonneReponse": 2
+            "bonneReponse": 2,
+            "source": "Hadith • Comportement",
+            "explication": "...un enfant pieux qui invoque pour lui"
         },
         {
             "id": 147,
@@ -1764,7 +2050,9 @@
                 "Dire la vérité en face"
             ],
             "niveau": "avance",
-            "bonneReponse": 0
+            "bonneReponse": 0,
+            "source": "Hadith • Comportement",
+            "explication": "Mentionner de ton frère ce qu'il déteste"
         },
         {
             "id": 148,
@@ -1776,7 +2064,9 @@
                 "« Ma sha Allah »"
             ],
             "niveau": "avance",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Hadith • Comportement",
+            "explication": "« Jazak Allahu khayran »"
         },
         {
             "id": 149,
@@ -1788,7 +2078,9 @@
                 "Un dirigeant juste"
             ],
             "niveau": "avance",
-            "bonneReponse": 3
+            "bonneReponse": 3,
+            "source": "Hadith • Comportement",
+            "explication": "Un dirigeant juste"
         },
         {
             "id": 150,
@@ -1800,10 +2092,82 @@
                 "Il le rend riche"
             ],
             "niveau": "avance",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Hadith • Comportement",
+            "explication": "Il cache ses fautes en ce monde et dans l'au-delà"
+        },
+        {
+            "id": 811,
+            "question": "Selon le hadith : « Le musulman est le frère du musulman... »",
+            "options": [
+                "« ...il ne le trahit pas, ne lui ment pas et ne l'opprime pas »",
+                "« ...seulement s'il habite la même ville »",
+                "« ...s'il partage son commerce »",
+                "« ...pendant les jours de fête »"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ a insisté sur la fraternité sacrée : « Le musulman est le frère du musulman : il ne l'opprime pas, ne l'abandonne pas et ne le méprise pas. »",
+            "source": "Al-Boukhari et Muslim",
+            "niveau": "avance"
+        },
+        {
+            "id": 812,
+            "question": "Quel acte du quotidien est qualifié d'aumône (Sadaqah) selon le hadith ?",
+            "options": [
+                "Sourire à son frère",
+                "Dormir profondément",
+                "Parler à voix haute",
+                "Acheter des vêtements neufs"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ a dit : « Ton sourire à l'égard de ton frère est une aumône. »",
+            "source": "At-Tirmidhi",
+            "niveau": "avance"
+        },
+        {
+            "id": 813,
+            "question": "Selon le hadith sur les branches de la foi, quelle en est la plus élevée ?",
+            "options": [
+                "La parole « La ilaha illa Allah »",
+                "Le pèlerinage",
+                "La pudeur",
+                "Le jeûne de Ramadan"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ a dit : « La foi compte soixante-dix et quelques branches : la plus élevée est l'attestation qu'il n'y a de divinité qu'Allah... »",
+            "source": "Muslim",
+            "niveau": "avance"
+        },
+        {
+            "id": 814,
+            "question": "Et quelle est la branche la plus humble de la foi citée dans ce même hadith ?",
+            "options": [
+                "Écarter un obstacle ou une nuisance de la route",
+                "Donner tout son argent",
+                "Faire des ablutions sans eau",
+                "Garder le silence"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le hadith poursuit : « ...et la plus humble est d'ôter un obstacle de la route. Et la pudeur est une branche de la foi. »",
+            "source": "Muslim",
+            "niveau": "avance"
+        },
+        {
+            "id": 815,
+            "question": "Selon le hadith : « L'image des croyants dans leur amour et leur compassion mutuelle est comparable à... »",
+            "options": [
+                "« ...un seul corps : lorsqu'un membre souffre, tout le corps veille et a la fièvre »",
+                "« ...des arbres dans une forêt »",
+                "« ...des étoiles isolées dans le ciel »",
+                "« ...des vagues dans la mer »"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ a magnifiquement décrit la solidarité des croyants comme un corps unique et solidaire.",
+            "source": "Al-Boukhari et Muslim",
+            "niveau": "avance"
         }
     ],
-    "fiqh": [
+    "fiqh_general": [
         {
             "id": 151,
             "question": "Combien de prières obligatoires (Fard) un musulman doit-il accomplir par jour ?",
@@ -2705,7 +3069,7 @@
             "bonneReponse": 2
         }
     ],
-    "sira": [
+    "sira_mecquoise": [
         {
             "id": 226,
             "question": "Dans quelle ville le Prophète Muhammad ﷺ est-il né ?",
@@ -2716,7 +3080,9 @@
                 "Taïf"
             ],
             "niveau": "debutant",
-            "bonneReponse": 2
+            "bonneReponse": 2,
+            "source": "Sira • Période Mecquoise",
+            "explication": "La Mecque"
         },
         {
             "id": 227,
@@ -2728,7 +3094,9 @@
                 "L'Année des Ambassades"
             ],
             "niveau": "debutant",
-            "bonneReponse": 0
+            "bonneReponse": 0,
+            "source": "Sira • Période Mecquoise",
+            "explication": "L'Année de l'Éléphant (Am al-Fil)"
         },
         {
             "id": 228,
@@ -2740,7 +3108,9 @@
                 "Hamza"
             ],
             "niveau": "debutant",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Abdallah"
         },
         {
             "id": 229,
@@ -2752,7 +3122,9 @@
                 "Khadija"
             ],
             "niveau": "debutant",
-            "bonneReponse": 2
+            "bonneReponse": 2,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Amina bint Wahb"
         },
         {
             "id": 230,
@@ -2764,7 +3136,9 @@
                 "Abu Talib"
             ],
             "niveau": "debutant",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Abdul-Muttalib"
         },
         {
             "id": 231,
@@ -2776,7 +3150,9 @@
                 "Abu Talib"
             ],
             "niveau": "debutant",
-            "bonneReponse": 3
+            "bonneReponse": 3,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Abu Talib"
         },
         {
             "id": 232,
@@ -2788,7 +3164,9 @@
                 "Shima"
             ],
             "niveau": "debutant",
-            "bonneReponse": 2
+            "bonneReponse": 2,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Halima Sa'diyyah"
         },
         {
             "id": 233,
@@ -2800,7 +3178,9 @@
                 "Saïf Allah"
             ],
             "niveau": "debutant",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Al-Amin (le digne de confiance)"
         },
         {
             "id": 234,
@@ -2812,7 +3192,9 @@
                 "Hafsa"
             ],
             "niveau": "debutant",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Khadija bint Khuwaylid"
         },
         {
             "id": 235,
@@ -2824,7 +3206,9 @@
                 "63 ans"
             ],
             "niveau": "debutant",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Sira • Période Mecquoise",
+            "explication": "40 ans"
         },
         {
             "id": 236,
@@ -2835,8 +3219,10 @@
                 "Israfil",
                 "Azrail"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 0
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Jibril (Gabriel)"
         },
         {
             "id": 237,
@@ -2847,8 +3233,10 @@
                 "Iqra' ! (Lis !)",
                 "Qum ! (Lève-toi !)"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 2
+            "niveau": "intermediaire",
+            "bonneReponse": 2,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Iqra' ! (Lis !)"
         },
         {
             "id": 238,
@@ -2859,8 +3247,10 @@
                 "Abu Bakr As-Siddiq",
                 "Omar ibn al-Khattab"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 2
+            "niveau": "intermediaire",
+            "bonneReponse": 2,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Abu Bakr As-Siddiq"
         },
         {
             "id": 239,
@@ -2871,8 +3261,10 @@
                 "Zaïd ibn Harithah",
                 "Ali ibn Abi Talib"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 3
+            "niveau": "intermediaire",
+            "bonneReponse": 3,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Ali ibn Abi Talib"
         },
         {
             "id": 240,
@@ -2883,8 +3275,10 @@
                 "Salman al-Farisi",
                 "Bilal ibn Rabah"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 3
+            "niveau": "intermediaire",
+            "bonneReponse": 3,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Bilal ibn Rabah"
         },
         {
             "id": 241,
@@ -2895,8 +3289,10 @@
                 "À Médine",
                 "En Abyssinie (Habasha)"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 3
+            "niveau": "intermediaire",
+            "bonneReponse": 3,
+            "source": "Sira • Période Mecquoise",
+            "explication": "En Abyssinie (Habasha)"
         },
         {
             "id": 242,
@@ -2907,8 +3303,10 @@
                 "Le Négus (An-Najashi)",
                 "Muqawqis"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 2
+            "niveau": "intermediaire",
+            "bonneReponse": 2,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Le Négus (An-Najashi)"
         },
         {
             "id": 243,
@@ -2919,8 +3317,10 @@
                 "L'Année de l'Éléphant",
                 "L'Année de l'Hégire"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 1
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "source": "Sira • Période Mecquoise",
+            "explication": "L'Année de la Tristesse ('Am al-Huzn)"
         },
         {
             "id": 244,
@@ -2931,8 +3331,10 @@
                 "Al-Fath",
                 "Al-Hudaybiyyah"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 0
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Al-Isra wa al-Mi'raj"
         },
         {
             "id": 245,
@@ -2943,8 +3345,10 @@
                 "Sanaa",
                 "La Mecque"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 0
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Yathrib (Médine)"
         },
         {
             "id": 246,
@@ -2955,8 +3359,10 @@
                 "Le Hajj",
                 "L'Hégire (Al-Hijrah)"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 3
+            "niveau": "avance",
+            "bonneReponse": 3,
+            "source": "Sira • Période Mecquoise",
+            "explication": "L'Hégire (Al-Hijrah)"
         },
         {
             "id": 247,
@@ -2967,8 +3373,10 @@
                 "Ali ibn Abi Talib",
                 "Uthman ibn Affan"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 1
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Abu Bakr As-Siddiq"
         },
         {
             "id": 248,
@@ -2979,8 +3387,10 @@
                 "Les Quraysh",
                 "Les Thaqif"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 0
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Les Ansar (les Auxiliaires)"
         },
         {
             "id": 249,
@@ -2991,8 +3401,10 @@
                 "Les Ansar",
                 "Les Aws"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 0
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "source": "Sira • Période Mecquoise",
+            "explication": "Les Muhajirun (les Émigrés)"
         },
         {
             "id": 250,
@@ -3003,9 +3415,83 @@
                 "La bataille d'Uhud",
                 "La bataille de Hunayn"
             ],
-            "niveau": "debutant",
-            "bonneReponse": 1
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "source": "Sira • Période Mecquoise",
+            "explication": "La bataille de Badr"
         },
+        {
+            "id": 816,
+            "question": "Quel était le noble surnom du Prophète ﷺ à La Mecque avant la Révélation ?",
+            "options": [
+                "As-Sadiq Al-Amin (Le Véridique, le Digne de confiance)",
+                "Al-Farouq",
+                "As-Siddiq",
+                "Dhu an-Nurayn"
+            ],
+            "bonneReponse": 0,
+            "explication": "Même avant la prophétie, les habitants de La Mecque reconnaissaient son honnêteté irréprochable et le nommaient As-Sadiq Al-Amin.",
+            "source": "Sira • Période Mecquoise",
+            "niveau": "avance"
+        },
+        {
+            "id": 817,
+            "question": "À quel âge précis le Prophète ﷺ a-t-il reçu la première Révélation dans la grotte de Hira ?",
+            "options": [
+                "40 ans",
+                "35 ans",
+                "25 ans",
+                "43 ans"
+            ],
+            "bonneReponse": 0,
+            "explication": "C'est au mois de Ramadan, à l'âge de 40 ans, que l'ange Jibril lui apporta les premiers versets de la sourate Al-'Alaq.",
+            "source": "Sira • La Révélation",
+            "niveau": "avance"
+        },
+        {
+            "id": 818,
+            "question": "Quelle fut la première personne de l'histoire à embrasser l'Islam ?",
+            "options": [
+                "Khadija bint Khuwaylid",
+                "Abu Bakr",
+                "Ali ibn Abi Talib",
+                "Zayd ibn Harithah"
+            ],
+            "bonneReponse": 0,
+            "explication": "Khadija (qu'Allah l'agrée), son épouse bien-aimée, fut la première à croire en son message et à le réconforter dès le premier instant.",
+            "source": "Sira • Les Premiers Croyants",
+            "niveau": "avance"
+        },
+        {
+            "id": 819,
+            "question": "Où les premiers croyants se réunissaient-ils secrètement à La Mecque pour prier et apprendre ?",
+            "options": [
+                "Dar Al-Arqam",
+                "La Ka'ba",
+                "La maison d'Abu Bakr",
+                "La grotte de Thawr"
+            ],
+            "bonneReponse": 0,
+            "explication": "Dar Al-Arqam (la demeure d'Al-Arqam ibn Abi Al-Arqam) fut le premier centre éducatif et spirituel clandestin de l'Islam à La Mecque.",
+            "source": "Sira • L'Appel secret",
+            "niveau": "avance"
+        },
+        {
+            "id": 820,
+            "question": "Vers quel pays eut lieu la première émigration des compagnons persécutés par Quraysh ?",
+            "options": [
+                "L'Abyssinie (Al-Habasha)",
+                "Yémen",
+                "Médine",
+                "La Syrie (Sham)"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ recommanda l'Abyssinie car elle était gouvernée par un roi chrétien juste, le Négus (An-Najashi), qui n'opprimait personne.",
+            "source": "Sira • Première Hégire",
+            "niveau": "avance"
+        }
+    ],
+    "sira_medinoise": [
         {
             "id": 251,
             "question": "Lors de quelle bataille le Prophète ﷺ a-t-il été blessé et son oncle Hamza tué en martyr ?",
@@ -3015,8 +3501,10 @@
                 "La bataille de Khaybar",
                 "La bataille de Tabuk"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 0
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "La bataille d'Uhud"
         },
         {
             "id": 252,
@@ -3027,8 +3515,10 @@
                 "Bilal ibn Rabah",
                 "Salman al-Farisi"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 3
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Salman al-Farisi"
         },
         {
             "id": 253,
@@ -3039,8 +3529,10 @@
                 "Le pacte de Najran",
                 "La constitution de Médine"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 1
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Le traité d'Al-Hudaybiyyah"
         },
         {
             "id": 254,
@@ -3051,8 +3543,10 @@
                 "L'an 10",
                 "L'an 5"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 0
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "L'an 8"
         },
         {
             "id": 255,
@@ -3063,8 +3557,10 @@
                 "60 ans",
                 "63 ans"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 3
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "63 ans"
         },
         {
             "id": 256,
@@ -3075,8 +3571,10 @@
                 "Les Banu Umayya",
                 "Les Banu Taym"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 0
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Les Banu Hashim"
         },
         {
             "id": 257,
@@ -3087,8 +3585,10 @@
                 "20 ans",
                 "30 ans"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 1
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "25 ans"
         },
         {
             "id": 258,
@@ -3099,8 +3599,10 @@
                 "Environ 10 ans",
                 "Environ 13 ans"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 3
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Environ 13 ans"
         },
         {
             "id": 259,
@@ -3111,8 +3613,10 @@
                 "Environ 13 ans",
                 "Environ 10 ans"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 3
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Environ 10 ans"
         },
         {
             "id": 260,
@@ -3123,8 +3627,10 @@
                 "Ibrahim",
                 "Qasim"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 2
+            "niveau": "debutant",
+            "bonneReponse": 2,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Ibrahim"
         },
         {
             "id": 261,
@@ -3136,7 +3642,9 @@
                 "5"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 2
+            "bonneReponse": 2,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "4"
         },
         {
             "id": 262,
@@ -3148,7 +3656,9 @@
                 "Ruqayya"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 0
+            "bonneReponse": 0,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Fatima az-Zahra"
         },
         {
             "id": 263,
@@ -3160,7 +3670,9 @@
                 "Omar ibn al-Khattab"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 0
+            "bonneReponse": 0,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Uthman ibn Affan"
         },
         {
             "id": 264,
@@ -3172,7 +3684,9 @@
                 "Fatima"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Sumayya bint Khayyat"
         },
         {
             "id": 265,
@@ -3184,7 +3698,9 @@
                 "Al-Abbas"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 0
+            "bonneReponse": 0,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Hamza"
         },
         {
             "id": 266,
@@ -3196,7 +3712,9 @@
                 "Abu Lahab"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 3
+            "bonneReponse": 3,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Abu Lahab"
         },
         {
             "id": 267,
@@ -3208,7 +3726,9 @@
                 "Dar al-Arqam"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 2
+            "bonneReponse": 2,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Shi'b Abi Talib"
         },
         {
             "id": 268,
@@ -3220,7 +3740,9 @@
                 "Dar Abi Bakr"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 2
+            "bonneReponse": 2,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Dar al-Arqam"
         },
         {
             "id": 269,
@@ -3232,7 +3754,9 @@
                 "Taïf"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 3
+            "bonneReponse": 3,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Taïf"
         },
         {
             "id": 270,
@@ -3244,7 +3768,9 @@
                 "La mosquée al-Aqsa"
             ],
             "niveau": "intermediaire",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "La mosquée de Quba"
         },
         {
             "id": 271,
@@ -3255,8 +3781,10 @@
                 "Médine",
                 "Le Yémen"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 0
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Jérusalem (Bayt al-Maqdis)"
         },
         {
             "id": 272,
@@ -3267,8 +3795,10 @@
                 "Bay'at ar-Ridwan",
                 "Al-Hilf"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 1
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Al-Mu'akhat"
         },
         {
             "id": 273,
@@ -3279,8 +3809,10 @@
                 "Environ 1000",
                 "Environ 100"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 1
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "Environ 313"
         },
         {
             "id": 274,
@@ -3291,8 +3823,10 @@
                 "L'an 7",
                 "L'an 1"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 0
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "L'an 3"
         },
         {
             "id": 275,
@@ -3303,9 +3837,83 @@
                 "La bataille d'Uhud",
                 "La bataille du Khandaq"
             ],
-            "niveau": "intermediaire",
-            "bonneReponse": 3
+            "niveau": "avance",
+            "bonneReponse": 3,
+            "source": "Sira • L'Hégire & Médine",
+            "explication": "La bataille du Khandaq"
         },
+        {
+            "id": 821,
+            "question": "Quel pacte historique le Prophète ﷺ a-t-il conclu pour unir les Émigrés (Muhajirun) et les Auxiliaires (Ansar) ?",
+            "options": [
+                "La Mu'akhah (la fraternisation)",
+                "Le traité de Hudaybiyyah",
+                "Le serment de Ridwan",
+                "Le serment d'Al-Aqaba"
+            ],
+            "bonneReponse": 0,
+            "explication": "La Mu'akhah a créé un lien fraternel fraternel inédit où les Ansar ont partagé leurs biens et logements avec leurs frères émigrés sans ressources.",
+            "source": "Sira • Société de Médine",
+            "niveau": "avance"
+        },
+        {
+            "id": 822,
+            "question": "Comment s'appelle le document fondateur rédigé par le Prophète ﷺ organisant les droits et devoirs à Médine ?",
+            "options": [
+                "La Constitution de Médine (Sahifat Al-Madinah)",
+                "Le pacte de Fudul",
+                "La charte de La Mecque",
+                "Le testament prophétique"
+            ],
+            "bonneReponse": 0,
+            "explication": "La Sahifat Al-Madinah est considérée comme l'une des plus anciennes constitutions écrites garantissant la liberté de culte et la justice commune.",
+            "source": "Sira • Constitution de Médine",
+            "niveau": "avance"
+        },
+        {
+            "id": 823,
+            "question": "Quelle fut la toute première mosquée bâtie par le Prophète ﷺ à son arrivée aux portes de Médine ?",
+            "options": [
+                "La mosquée de Quba",
+                "La mosquée Al-Nabawi",
+                "La mosquée Al-Qiblatayn",
+                "La mosquée Al-Haram"
+            ],
+            "bonneReponse": 0,
+            "explication": "La mosquée de Quba est la première mosquée construite dans l'histoire de l'Islam, fondée sur la piété dès son premier jour.",
+            "source": "Sira • Arrivée à Médine",
+            "niveau": "avance"
+        },
+        {
+            "id": 824,
+            "question": "Quel compagnon a eu l'honneur d'héberger le Prophète ﷺ chez lui lors de son entrée à Médine ?",
+            "options": [
+                "Abu Ayyub Al-Ansari",
+                "Sa'd ibn Mu'adh",
+                "Abdullah ibn Rawahah",
+                "As'ad ibn Zurarah"
+            ],
+            "bonneReponse": 0,
+            "explication": "La chamelle du Prophète ﷺ s'est arrêtée devant la demeure d'Abu Ayyub Al-Ansari, qui l'accueillit avec dévouement pendant plusieurs mois.",
+            "source": "Sira • Entrée à Médine",
+            "niveau": "avance"
+        },
+        {
+            "id": 825,
+            "question": "En quelle année hégirienne le jeûne du mois de Ramadan a-t-il été prescrit à Médine ?",
+            "options": [
+                "L'an 2 de l'Hégire",
+                "L'an 1 de l'Hégire",
+                "L'an 5 de l'Hégire",
+                "L'an 8 de l'Hégire"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le jeûne de Ramadan a été rendu obligatoire au mois de Sha'ban de la 2e année après l'Hégire.",
+            "source": "Sira • Législation médinoise",
+            "niveau": "avance"
+        }
+    ],
+    "sira_evenements": [
         {
             "id": 276,
             "question": "Quelle bataille contre des forteresses juives au nord de Médine a eu lieu en l'an 7 ?",
@@ -3315,8 +3923,10 @@
                 "Khaybar",
                 "Tabuk"
             ],
-            "niveau": "avance",
-            "bonneReponse": 2
+            "niveau": "debutant",
+            "bonneReponse": 2,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Khaybar"
         },
         {
             "id": 277,
@@ -3327,8 +3937,10 @@
                 "Zubayr ibn al-Awwam",
                 "Khalid ibn al-Walid"
             ],
-            "niveau": "avance",
-            "bonneReponse": 3
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Khalid ibn al-Walid"
         },
         {
             "id": 278,
@@ -3339,8 +3951,10 @@
                 "Badr",
                 "Uhud"
             ],
-            "niveau": "avance",
-            "bonneReponse": 0
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Hunayn"
         },
         {
             "id": 279,
@@ -3351,8 +3965,10 @@
                 "Khaybar",
                 "Mu'ta"
             ],
-            "niveau": "avance",
-            "bonneReponse": 1
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Tabuk"
         },
         {
             "id": 280,
@@ -3363,8 +3979,10 @@
                 "L'an 8",
                 "L'an 9"
             ],
-            "niveau": "avance",
-            "bonneReponse": 1
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "source": "Sira • Grandes Étapes",
+            "explication": "L'an 10"
         },
         {
             "id": 281,
@@ -3375,8 +3993,10 @@
                 "La grotte de Hira",
                 "Arafat"
             ],
-            "niveau": "avance",
-            "bonneReponse": 3
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Arafat"
         },
         {
             "id": 282,
@@ -3387,8 +4007,10 @@
                 "Uthman ibn Affan",
                 "Abu Bakr As-Siddiq"
             ],
-            "niveau": "avance",
-            "bonneReponse": 3
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Abu Bakr As-Siddiq"
         },
         {
             "id": 283,
@@ -3399,8 +4021,10 @@
                 "Ya'fur",
                 "Al-Qaswa"
             ],
-            "niveau": "avance",
-            "bonneReponse": 3
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Al-Qaswa"
         },
         {
             "id": 284,
@@ -3411,8 +4035,10 @@
                 "Al-Qaswa",
                 "Al-Buraq"
             ],
-            "niveau": "avance",
-            "bonneReponse": 3
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Al-Buraq"
         },
         {
             "id": 285,
@@ -3423,8 +4049,10 @@
                 "Bilal ibn Rabah",
                 "Khalid ibn al-Walid"
             ],
-            "niveau": "avance",
-            "bonneReponse": 0
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Mus'ab ibn Umayr"
         },
         {
             "id": 286,
@@ -3435,8 +4063,10 @@
                 "Abu Ubayda ibn al-Jarrah",
                 "Talha ibn Ubaydillah"
             ],
-            "niveau": "avance",
-            "bonneReponse": 2
+            "niveau": "intermediaire",
+            "bonneReponse": 2,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Abu Ubayda ibn al-Jarrah"
         },
         {
             "id": 287,
@@ -3447,8 +4077,10 @@
                 "4",
                 "10"
             ],
-            "niveau": "avance",
-            "bonneReponse": 3
+            "niveau": "intermediaire",
+            "bonneReponse": 3,
+            "source": "Sira • Grandes Étapes",
+            "explication": "10"
         },
         {
             "id": 288,
@@ -3459,8 +4091,10 @@
                 "Abu Bakr",
                 "Uthman ibn Affan"
             ],
-            "niveau": "avance",
-            "bonneReponse": 0
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Omar ibn al-Khattab"
         },
         {
             "id": 289,
@@ -3471,8 +4105,10 @@
                 "Zaynab bint Jahsh",
                 "Hafsa"
             ],
-            "niveau": "avance",
-            "bonneReponse": 1
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Sawda bint Zam'a"
         },
         {
             "id": 290,
@@ -3483,8 +4119,10 @@
                 "Hafsa",
                 "Umm Salama"
             ],
-            "niveau": "avance",
-            "bonneReponse": 1
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Aïcha"
         },
         {
             "id": 291,
@@ -3495,8 +4133,10 @@
                 "Zaynab bint Jahsh",
                 "Umm Habiba"
             ],
-            "niveau": "avance",
-            "bonneReponse": 1
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Hafsa"
         },
         {
             "id": 292,
@@ -3507,8 +4147,10 @@
                 "Zubayr ibn al-Awwam",
                 "Ja'far ibn Abi Talib"
             ],
-            "niveau": "avance",
-            "bonneReponse": 1
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Uthman ibn Affan"
         },
         {
             "id": 293,
@@ -3519,8 +4161,10 @@
                 "Uthman ibn Affan",
                 "Ali ibn Abi Talib"
             ],
-            "niveau": "avance",
-            "bonneReponse": 1
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Ja'far ibn Abi Talib"
         },
         {
             "id": 294,
@@ -3531,8 +4175,10 @@
                 "Bay'at ar-Ridwan",
                 "Bay'at al-Aqaba"
             ],
-            "niveau": "avance",
-            "bonneReponse": 2
+            "niveau": "intermediaire",
+            "bonneReponse": 2,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Bay'at ar-Ridwan"
         },
         {
             "id": 295,
@@ -3543,8 +4189,10 @@
                 "Khalid ibn al-Walid",
                 "Omar ibn al-Khattab"
             ],
-            "niveau": "avance",
-            "bonneReponse": 0
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Bilal ibn Rabah"
         },
         {
             "id": 296,
@@ -3556,7 +4204,9 @@
                 "Chosroès (Kisra)"
             ],
             "niveau": "avance",
-            "bonneReponse": 3
+            "bonneReponse": 3,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Chosroès (Kisra)"
         },
         {
             "id": 297,
@@ -3568,7 +4218,9 @@
                 "Chosroès"
             ],
             "niveau": "avance",
-            "bonneReponse": 0
+            "bonneReponse": 0,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Al-Muqawqis"
         },
         {
             "id": 298,
@@ -3580,7 +4232,9 @@
                 "Hafsa"
             ],
             "niveau": "avance",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Aïcha"
         },
         {
             "id": 299,
@@ -3592,7 +4246,9 @@
                 "Omar ibn al-Khattab"
             ],
             "niveau": "avance",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Ali ibn Abi Talib"
         },
         {
             "id": 300,
@@ -3604,7 +4260,79 @@
                 "Les Ghatafan et les Hawazin"
             ],
             "niveau": "avance",
-            "bonneReponse": 1
+            "bonneReponse": 1,
+            "source": "Sira • Grandes Étapes",
+            "explication": "Les Aws et les Khazraj"
+        },
+        {
+            "id": 826,
+            "question": "En quelle année de l'Hégire le pacte de paix d'Al-Hudaybiyyah a-t-il été signé ?",
+            "options": [
+                "L'an 6 de l'Hégire",
+                "L'an 4 de l'Hégire",
+                "L'an 8 de l'Hégire",
+                "L'an 10 de l'Hégire"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le traité d'Al-Hudaybiyyah a été signé en l'an 6 de l'Hégire et a ouvert une ère de diffusion pacifique majeure qualifiée de 'victoire éclatante'.",
+            "source": "Sira • Traité d'Al-Hudaybiyyah",
+            "niveau": "avance"
+        },
+        {
+            "id": 827,
+            "question": "En quelle année hégirienne a eu lieu la libération pacifique de La Mecque (Fath Makkah) ?",
+            "options": [
+                "L'an 8 de l'Hégire",
+                "L'an 9 de l'Hégire",
+                "L'an 7 de l'Hégire",
+                "L'an 11 de l'Hégire"
+            ],
+            "bonneReponse": 0,
+            "explication": "Au mois de Ramadan de l'an 8 de l'Hégire, le Prophète ﷺ entra à La Mecque à la tête de dix mille musulmans dans la paix et le pardon.",
+            "source": "Sira • Fath Makkah",
+            "niveau": "avance"
+        },
+        {
+            "id": 828,
+            "question": "Quelle parole miséricordieuse le Prophète ﷺ a-t-il prononcée envers les Qurayshites lors de la conquête ?",
+            "options": [
+                "« Partez, car vous êtes libres ! »",
+                "« Vous paierez pour le passé »",
+                "« Vous devez quitter la ville »",
+                "« Rendez tous vos biens »"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ a accordé un pardon général et historique à ses anciens persécuteurs en disant : « Partez, car vous êtes libres ! »",
+            "source": "Sira • Pardon prophétique",
+            "niveau": "avance"
+        },
+        {
+            "id": 829,
+            "question": "Comment s'appelle le célèbre pèlerinage accompli par le Prophète ﷺ en l'an 10 de l'Hégire ?",
+            "options": [
+                "Le Pèlerinage d'Adieu (Hajjat Al-Wada')",
+                "Le Pèlerinage de la Victoire",
+                "La Umrah de compensation",
+                "Le Pèlerinage de la Fraternité"
+            ],
+            "bonneReponse": 0,
+            "explication": "Hajjat Al-Wada' fut le seul grand pèlerinage du Prophète ﷺ, au cours duquel il prononça son sermon d'adieu fixant les droits universels.",
+            "source": "Sira • Pèlerinage d'Adieu",
+            "niveau": "avance"
+        },
+        {
+            "id": 830,
+            "question": "À quelle date selon le calendrier hégirien le Messager d'Allah ﷺ est-il retourné vers son Créateur ?",
+            "options": [
+                "Le 12 Rabi' al-Awwal de l'an 11 de l'Hégire",
+                "Le 1er Ramadan de l'an 10",
+                "Le 10 Dhul-Hijjah de l'an 11",
+                "Le 27 Rajab de l'an 12"
+            ],
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ est décédé un lundi, le 12 Rabi' al-Awwal de l'an 11 de l'Hégire, à Médine dans les bras de son épouse Aïcha.",
+            "source": "Sira • Décès du Prophète ﷺ",
+            "niveau": "avance"
         }
     ],
     "coran_mediter": [
@@ -8229,6 +8957,1270 @@
             "bonneReponse": 2,
             "explication": "C'est le fait de reprendre la récitation après une pause ; il doit obligatoirement se faire sur un mot ayant un sens indépendant et correct.",
             "source": "Al-Ibtidâ'"
+        }
+    ],
+    "fiqh_priere": [
+        {
+            "id": 701,
+            "question": "Que faut-il faire si l'on oublie involontairement une ou plusieurs Sunnas de la prière ?",
+            "options": [
+                "Refaire la prière entièrement",
+                "Se prosterner deux fois en fin de prière en expiation",
+                "Rien du tout",
+                "Refaire seulement l'unité concernée"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "explication": "La prière n'est pas à refaire, mais on se prosterne deux fois en fin de prière en expiation.",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 702,
+            "question": "Est-il valide de lire une sourate avant la Fatiha ?",
+            "options": [
+                "Oui, toujours",
+                "Oui, dans les prières surérogatoires uniquement",
+                "Non, ce n'est pas valide",
+                "Oui, si l'imam le fait"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 2,
+            "explication": "Il n'est pas valide de lire une sourate ou un verset avant la Fatiha.",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 703,
+            "question": "Pour quelles prières récite-t-on à haute voix dans les deux premières unités ?",
+            "options": [
+                "Dhor et Asr",
+                "Aube, vendredi, Maghreb et Icha",
+                "Asr et Maghreb",
+                "Toutes les prières"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "explication": "La récitation à haute voix concerne l'aube, le vendredi, le Maghreb et l'Icha (deux premières unités pour les deux dernières).",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 704,
+            "question": "Quel est le minimum requis pour la récitation à voix basse ?",
+            "options": [
+                "Se faire entendre par son voisin",
+                "Réciter dans son cœur seulement",
+                "Remuer la langue",
+                "Murmurer fort"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 2,
+            "explication": "Le minimum est de remuer la langue, le maximum est de s'entendre soi-même.",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 705,
+            "question": "Quelle femme prie en présence d'hommes non-mahrams : comment récite-t-elle à haute voix ?",
+            "options": [
+                "Aussi fort que l'imam",
+                "Elle ne fait entendre que sa propre personne",
+                "Elle ne récite pas",
+                "Elle récite à voix basse sans remuer la langue"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "explication": "En présence d'hommes non-mahrams, elle ne fait entendre que sa propre personne.",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 706,
+            "question": "Quel est le seul tekbir qui ne fait pas partie des Sunnas ?",
+            "options": [
+                "Le tekbir de l'inclinaison",
+                "Le tekbir de la prosternation",
+                "Le 1er tekbir d'entrée en prière (takbiratou-lihram)",
+                "Le tekbir après le 1er tachahod"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 2,
+            "explication": "Tous les tekbirs sont Sunna sauf le 1er tekbir d'entrée en prière, qui est un pilier.",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 707,
+            "question": "Qui dit « Sami'Allahou liman Hamidah » en se redressant de l'inclinaison ?",
+            "options": [
+                "Tout le monde",
+                "L'imam et celui qui prie seul",
+                "Seulement celui qui prie derrière l'imam",
+                "Personne"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "explication": "C'est pour l'imam et la personne qui prie seule. Il est détestable (makrouh) de le dire derrière l'imam.",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 708,
+            "question": "Qui a prononcé la formule du tachahod recommandée, rapportée par Malik dans al-Mowatta, sur le minbar ?",
+            "options": [
+                "Abou Bakr",
+                "Omar",
+                "Ali",
+                "Ibn Abbas"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "explication": "Omar -qu'Allah l'agrée- l'a dite sur le minbar devant de nombreux Compagnons.",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 709,
+            "question": "Que dit-on pendant l'inclinaison (roukou') ?",
+            "options": [
+                "Des invocations personnelles",
+                "Des versets du Coran",
+                "On glorifie Allah, sans invocations ni récitation",
+                "Rien"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 2,
+            "explication": "Selon le hadith d'Ibn Abbas (Moslim), on évoque la grandeur d'Allah pendant l'inclinaison et on multiplie les invocations pendant la prosternation.",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 710,
+            "question": "Entre quelles sourates se trouvent les « longues sourates du mofassal » ?",
+            "options": [
+                "De la 49 (Al-Hojorat) à la 79 (An-Nazi'at)",
+                "De la 80 à la 92",
+                "De la 93 à la 114",
+                "De la 1 à la 10"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "explication": "Les longues du mofassal vont de la sourate 49 à la 79. Elles sont recommandées pour la prière de l'aube.",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 711,
+            "question": "Quelles sourates du mofassal est-il recommandé de lire pour les prières de Asr et du Maghreb ?",
+            "options": [
+                "Les longues (49 à 79)",
+                "Les moyennes (80 à 92)",
+                "Les courtes (93 à 114)",
+                "Aucune sourate"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 2,
+            "explication": "Les courtes sourates (qisaar), de Ad-Doha (93) à An-Nas (114).",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 712,
+            "question": "Les sourates moyennes du mofassal (80 à 92) sont recommandées pour quelle prière en plus du Dhor ?",
+            "options": [
+                "L'aube",
+                "Le Maghreb",
+                "L'Icha",
+                "Asr"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 2,
+            "explication": "Pour l'Icha, on lit des sourates moyennes du mofassal, selon le hadith d'An-Nasaï.",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 713,
+            "question": "Quand fait-on l'invocation du qounout dans le rite malikite ?",
+            "options": [
+                "Après le salam du Dhor",
+                "Pendant la prosternation du Maghreb",
+                "À la fin de la 2e unité de l'aube, avant de s'incliner, à voix basse",
+                "Avant le tekbir d'entrée en prière"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 2,
+            "explication": "Il est recommandé à voix basse, dans la prière de l'aube, avant l'inclinaison de la 2e unité.",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 714,
+            "question": "Quel est l'avis connu du rite malikite sur le fait de placer la main droite sur la gauche (qabd) en prière obligatoire ?",
+            "options": [
+                "Obligatoire",
+                "Recommandé",
+                "Déconseillé (makrouh)",
+                "Interdit et annule la prière"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 2,
+            "explication": "Il est permis en surérogatoire, mais déconseillé en obligatoire selon l'avis connu.",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 715,
+            "question": "Comment est-il recommandé de bouger l'index dans le tachahod selon l'avis majoritaire malikite ?",
+            "options": [
+                "De haut en bas, rapidement",
+                "De droite à gauche, à vitesse moyenne, du début à la fin",
+                "Ne pas le bouger du tout",
+                "Seulement au moment de la shahada"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "explication": "Le mouvement est latéral (pas de haut en bas), à vitesse moyenne, pendant tout le tachahod.",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 716,
+            "question": "Quelle est la position recommandée des pieds pendant la prosternation selon le madhab malikite ?",
+            "options": [
+                "Les coller l'un à l'autre",
+                "Les écarter légèrement",
+                "Les écarter au maximum",
+                "Les croiser"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "explication": "Les séparer de façon inhabituelle manque de dignité, les coller est un excès de zèle : on les écarte légèrement.",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 717,
+            "question": "Quelle hauteur approximative doit avoir une sotra (obstacle devant le prieur) ?",
+            "options": [
+                "Une main",
+                "Une coudée (dzira')",
+                "Deux mètres",
+                "Peu importe"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "explication": "Elle a la solidité d'une lance et la hauteur d'une coudée (du coude au bout des doigts).",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 718,
+            "question": "Que dit celui qui prie derrière l'imam après le redressement de l'inclinaison ?",
+            "options": [
+                "« Sami'Allahou liman Hamidah »",
+                "« Rabbana wa laka-lHamd »",
+                "Les deux formules",
+                "Aucune des deux"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "explication": "Derrière l'imam on dit « Rabbana wa laka-lHamd » et on ne dit pas « Sami'Allahou liman Hamidah ».",
+            "source": "Fiqh malikite • Sunnas et actes recommandés (rite malikite)"
+        },
+        {
+            "id": 719,
+            "question": "Dans le hadith de Jabir (Al-Boukhari et Moslim), de quelle bataille s'agit-il et qui a dit au Prophète ﷺ qu'il n'avait pas pu prier Asr avant le coucher du soleil ?",
+            "options": [
+                "Badr, Abou Bakr",
+                "Le Fossé (Al-Khandaq), Omar",
+                "Ouhoud, Ali",
+                "Honayn, Omar"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "explication": "C'est Omar qui est venu après le coucher du soleil le jour de la bataille du Fossé. Le Prophète ﷺ lui a répondu qu'il n'avait pas pu prier non plus.",
+            "source": "Fiqh malikite • Rattrapage des prières manquées : compléments"
+        },
+        {
+            "id": 720,
+            "question": "Dans la version d'Ahmed du hadith du Fossé, comment le Prophète ﷺ a-t-il rattrapé les prières ?",
+            "options": [
+                "Toutes ensemble sans iqama",
+                "Dans l'ordre (Dhor, Asr, Maghreb, Icha), avec une iqama pour chacune, de la meilleure façon comme à leur temps",
+                "Seulement Asr et Maghreb",
+                "En les raccourcissant"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "explication": "Il a ordonné à Bilal de faire l'iqama avant chaque prière et les a priées de la meilleure façon, comme à leur temps, avant que la prière de la peur ne soit légiférée.",
+            "source": "Fiqh malikite • Rattrapage des prières manquées : compléments"
+        },
+        {
+            "id": 721,
+            "question": "Selon Al-Ajhouri, une personne qui travaille et dit avoir des prières à rattraper :",
+            "options": [
+                "Peut abandonner son travail",
+                "N'a pas d'excuse : elle doit terminer le travail dont elle s'est engagée",
+                "Doit être remplacée",
+                "Peut prier à n'importe quel moment sans conséquence"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "explication": "Cela ne sera pas une excuse et il devra terminer le travail qu'il s'est engagé à accomplir.",
+            "source": "Fiqh malikite • Rattrapage des prières manquées : compléments"
+        },
+        {
+            "id": 722,
+            "question": "Selon Abou Abdillah Al-Qawri, que vaut-il mieux faire si une personne ne prie ni de surérogatoires ni ne rattrape ses prières manquées ?",
+            "options": [
+                "Ne rien changer",
+                "Prier des surérogatoires plutôt que ne rien prier du tout",
+                "Jeûner",
+                "Attendre"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "explication": "L'interdiction concerne celui qui rattrapera ses obligations à la place. S'il ne fait ni l'un ni l'autre, il vaut mieux qu'il prie des surérogatoires plutôt que rien.",
+            "source": "Fiqh malikite • Rattrapage des prières manquées : compléments"
+        },
+        {
+            "id": 723,
+            "question": "Pendant les temps d'interdiction des surérogatoires (lever, coucher du soleil, discours du vendredi), quelles prières manquées ne rattrape-t-on PAS ?",
+            "options": [
+                "Toutes les prières manquées",
+                "Celles dont on doute de les avoir manquées",
+                "Celles manquées volontairement",
+                "Celles du Fajr uniquement"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "explication": "On ne retarde pas le rattrapage des prières manquées, même durant ces temps, sauf pour celles dont on doute : on ne les rattrape pas dans les temps d'interdiction.",
+            "source": "Fiqh malikite • Rattrapage des prières manquées : compléments"
+        },
+        {
+            "id": 724,
+            "question": "Une personne se rappelle avoir manqué des prières (5 ou moins) alors qu'elle est en train de prier la 3e unité, pas encore terminée. Que fait-elle ?",
+            "options": [
+                "Elle revient au 1er tachahod et salue, sauf pour le Maghreb",
+                "Elle complète toujours la prière",
+                "Elle coupe sans saluer",
+                "Elle recommence au 1er tekbir"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Elle revient au 1er tachahod et salue. Le Maghreb est une exception, car il est détestable de prier des surérogatoires avant le Maghreb.",
+            "source": "Fiqh malikite • Rattrapage des prières manquées : compléments"
+        },
+        {
+            "id": 725,
+            "question": "Pourquoi complète-t-on la 4e unité de Dhor, Asr ou Icha quand on a déjà prié 3 unités ?",
+            "options": [
+                "Parce que c'est obligatoire dans tous les cas",
+                "Parce que la règle dit qu'une chose proche prend le statut de ce qui lui est proche",
+                "Parce qu'on ne peut pas couper une prière",
+                "Parce que l'imam l'ordonne"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "explication": "On le fait car la prière est presque terminée. La règle : « Ce qui est proche d'une chose prend son statut. » Il est ensuite recommandé de recommencer la prière.",
+            "source": "Fiqh malikite • Rattrapage des prières manquées : compléments"
+        },
+        {
+            "id": 726,
+            "question": "Une personne prie derrière l'imam (même moins d'une unité) et se rappelle avoir manqué des prières (5 ou moins). Que fait-elle ?",
+            "options": [
+                "Elle quitte l'imam aussitôt",
+                "Elle complète avec l'imam, puis il lui est recommandé de recommencer après avoir rattrapé les manquées",
+                "Elle se prosterne en expiation",
+                "Elle coupe en saluant"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "explication": "Elle doit compléter avec l'imam, et il lui est recommandé de refaire la prière après avoir rattrapé les manquées.",
+            "source": "Fiqh malikite • Rattrapage des prières manquées : compléments"
+        },
+        {
+            "id": 727,
+            "question": "Que dit la règle si on accomplit volontairement la prière en cours avant les prières manquées (en petite quantité) ?",
+            "options": [
+                "Aucune conséquence",
+                "C'est un péché et il est recommandé de la recommencer après les manquées",
+                "La prière est invalide sans appel",
+                "Il faut se prosterner en expiation"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "explication": "Le péché est acquis si c'est volontaire. Il est recommandé de la recommencer (même par oubli) après les manquées, même dans le temps de nécessité, s'il peut faire au moins une unité complète.",
+            "source": "Fiqh malikite • Rattrapage des prières manquées : compléments"
+        },
+        {
+            "id": 728,
+            "question": "Un imam se rappelle en pleine prière qu'il n'a pas respecté l'ordre de ses prières manquées et coupe sa prière. Que se passe-t-il pour ceux derrière lui ?",
+            "options": [
+                "Ils continuent seuls",
+                "Leur prière se coupe aussi, et on ne peut pas avancer quelqu'un à sa place",
+                "Ils avancent un remplaçant",
+                "Leur prière reste valide jusqu'au bout"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "explication": "La prière des fidèles se coupe aussi. Il n'est pas valide de compléter ni d'avancer quelqu'un à la place de l'imam.",
+            "source": "Fiqh malikite • Rattrapage des prières manquées : compléments"
+        },
+        {
+            "id": 729,
+            "question": "Quel est l'avis d'Al-Bonani et d'autres juristes sur quelqu'un qui se rappelle avant de prier Asr qu'il n'a pas prié Dhor ?",
+            "options": [
+                "Sa prière de Asr est valide",
+                "Sa prière de Asr n'est pas valide",
+                "Il doit se prosterner en expiation",
+                "Il ne fait rien"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "explication": "Selon Al-Bonani, la prière de Asr n'est pas valide dans ce cas. S'il se rappelle pendant la prière, elle reste valide mais il est un péché de la continuer.",
+            "source": "Fiqh malikite • Rattrapage des prières manquées : compléments"
+        },
+        {
+            "id": 730,
+            "question": "Une personne ne sait plus si la prière manquée était en résidence ou en voyage. Si elle la rattrape en résident (3 ou four unités), que lui est-il recommandé ?",
+            "options": [
+                "Rien",
+                "De la refaire en voyageur (2 unités, sauf Maghreb)",
+                "De la refaire en résident",
+                "De se prosterner en expiation"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "explication": "Il est recommandé de la refaire en voyageur après chaque prière de résident. S'il l'a priée en voyageur, il est obligatoire de la refaire en résident.",
+            "source": "Fiqh malikite • Rattrapage des prières manquées : compléments"
+        },
+        {
+            "id": 731,
+            "question": "Pourquoi est-il recommandé de commencer par Dhor quand on ne sait plus laquelle des 5 prières on a manquée ?",
+            "options": [
+                "C'est la plus courte",
+                "C'est la première prière légiférée en Islam",
+                "C'est la plus méritante",
+                "C'est la plus facile"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 1,
+            "explication": "Il est recommandé de commencer par Dhor car c'est la première prière qui a été légiférée en Islam.",
+            "source": "Fiqh malikite • Rattrapage des prières manquées : compléments"
+        }
+    ],
+    "fiqh_funerailles": [
+        {
+            "id": 732,
+            "question": "Selon le hadith rapporté par Ahmed, pourquoi ferme-t-on les yeux du défunt, et que dit-on en sa présence ?",
+            "options": [
+                "Car le regard suit l'âme, et on ne dit que de bonnes choses car les anges disent « amin »",
+                "Pour le préserver des regards, et on garde le silence",
+                "Pour le calmer, et on récite le Coran",
+                "Par coutume, sans règle précise"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ a dit de fermer les yeux, car le regard suit l'âme, et de ne dire que de bonnes choses car les anges disent « amin » à ce que disent les gens de la maison. On les ferme une fois l'âme sortie, pas avant.",
+            "source": "Fiqh malikite • Assister le mourant"
+        },
+        {
+            "id": 733,
+            "question": "Laquelle de ces choses ne fait PAS partie des cinq devoirs du musulman envers son frère (Al-Boukhari et Moslim) ?",
+            "options": [
+                "Rendre le salam",
+                "Visiter le malade",
+                "Suivre son cortège funéraire",
+                "Lui offrir un cadeau"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "explication": "Les cinq sont : rendre le salam, invoquer pour celui qui éternue et loue Allah, répondre à l'invitation, visiter le malade et suivre le cortège funéraire.",
+            "source": "Fiqh malikite • Assister le mourant"
+        },
+        {
+            "id": 734,
+            "question": "Comment fait-on dire les deux attestations au mourant ?",
+            "options": [
+                "En les lui ordonnant fermement",
+                "En les répétant à côté de lui avec douceur, sans le brusquer ni insister",
+                "En les lui faisant répéter plusieurs fois",
+                "On ne le fait pas"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "explication": "On se contente de les répéter à côté de lui avec douceur, car l'insistance peut lui ajouter de l'anxiété ou le pousser à dire de mauvaises paroles.",
+            "source": "Fiqh malikite • Assister le mourant"
+        },
+        {
+            "id": 735,
+            "question": "Si le mourant a déjà prononcé l'attestation de foi, que fait-on ?",
+            "options": [
+                "On la lui fait répéter jusqu'à sa mort",
+                "On ne la lui fait pas répéter, sauf s'il parle après cela",
+                "On la récite à voix haute",
+                "On lit la sourate Yasin"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "explication": "Le but est que ce soit la dernière chose qu'il dise. On ne la lui fait donc répéter que s'il parle après.",
+            "source": "Fiqh malikite • Assister le mourant"
+        },
+        {
+            "id": 736,
+            "question": "Comment oriente-t-on le mourant lorsque ses yeux se figent ?",
+            "options": [
+                "Sur le côté droit vers la qibla, sinon sur le côté gauche, sinon sur le dos pieds vers la qibla",
+                "Sur le dos uniquement",
+                "Sur le côté gauche uniquement",
+                "Debout, face à la qibla"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "explication": "On le met d'abord sur le côté droit si possible, sinon sur le gauche, et sinon sur le dos avec les pieds en direction de la qibla.",
+            "source": "Fiqh malikite • Assister le mourant"
+        },
+        {
+            "id": 737,
+            "question": "Lequel de ces signes n'est PAS cité parmi les signes de la sortie de l'âme ?",
+            "options": [
+                "L'arrêt de la respiration",
+                "Le regard qui reste figé",
+                "Les lèvres légèrement espacées",
+                "Les mains qui deviennent froides"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "explication": "Les 4 signes sont : l'arrêt de la respiration, le regard figé, les lèvres espacées qui ne se ferment plus, et les pieds qui ne se maintiennent plus vers le haut.",
+            "source": "Fiqh malikite • Assister le mourant"
+        },
+        {
+            "id": 738,
+            "question": "Que signifie « fard kifaya » (obligation communautaire) pour le lavage, la prière, le linceul et l'enterrement ?",
+            "options": [
+                "Chacun doit le faire personnellement",
+                "Si un nombre suffisant le fait, les autres en sont dispensés",
+                "C'est seulement une Sunna",
+                "Seuls les proches doivent le faire"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "explication": "C'est une action qui, effectuée par un nombre suffisant de personnes, n'est plus obligatoire pour les autres.",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 739,
+            "question": "Quel est le premier geste du lavage du mort ?",
+            "options": [
+                "Laver la tête",
+                "Laver les mains du mort trois fois",
+                "Faire les ablutions",
+                "Laver le côté droit"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "explication": "On lave d'abord les mains trois fois, puis les souillures, puis on fait les ablutions (une fois chaque membre), puis on lave la tête trois fois, puis les côtés droit et gauche.",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 740,
+            "question": "L'intention est-elle requise pour laver le défunt ?",
+            "options": [
+                "Oui, toujours",
+                "Non, car c'est une action effectuée sur quelqu'un d'autre",
+                "Oui, seulement pour l'homme",
+                "Oui, seulement pour la femme"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "explication": "L'intention n'est pas requise car c'est une action que l'on effectue sur quelqu'un d'autre.",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 741,
+            "question": "Dans quel cas ne fait-on PAS les ablutions sèches (tayammum) au lieu du lavage ?",
+            "options": [
+                "Il n'y a pas d'eau",
+                "On craint que le corps se déchiquette avec l'eau",
+                "On craint que la peau s'enlève",
+                "Le défunt est une personne âgée"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 3,
+            "explication": "On fait le tayammum s'il n'y a pas d'eau, si l'on risque d'en manquer pour ses besoins, ou si l'on craint que le corps se déchiquette ou que la peau s'enlève.",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 742,
+            "question": "Qui a la priorité pour laver un défunt homme en cas de désaccord ?",
+            "options": [
+                "Son fils",
+                "Son épouse musulmane (pas la divorcée en viduité)",
+                "Son père",
+                "Un étranger"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "explication": "La priorité est à l'épouse, puis aux 'asaba musulmans (fils, petit-fils, père, frère, neveu, grand-père, oncle paternel, cousin), puis aux autres proches, puis aux femmes mahrams.",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 743,
+            "question": "Qui a la priorité pour laver une défunte ?",
+            "options": [
+                "Son mari, puis la femme la plus proche de sa famille (en priorité la fille)",
+                "Son père",
+                "Un homme étranger",
+                "Son frère"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "explication": "Son mari, puis les femmes de sa famille (fille, fille du fils, mère, sœur germaine…), puis une femme étrangère, puis seulement un homme mahram.",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 744,
+            "question": "Un homme mahram lave une défunte. Que doit-il faire ?",
+            "options": [
+                "Couvrir tout le corps et utiliser un chiffon épais sans frotter avec la main",
+                "Couvrir seulement l'intimité",
+                "Laver directement avec les mains",
+                "Refuser"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "explication": "Il couvre obligatoirement tout le corps de la défunte et ne la frotte pas avec la main mais avec un chiffon (ou vêtement) épais.",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 745,
+            "question": "Un homme étranger doit faire le tayammum à une défunte, sans mahram disponible. Jusqu'où ?",
+            "options": [
+                "Jusqu'aux coudes",
+                "Jusqu'aux poignets",
+                "Jusqu'aux épaules",
+                "Il ne le fait pas"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "explication": "Il s'arrête aux poignets. Une femme qui fait le tayammum à un défunt homme va jusqu'aux coudes.",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 746,
+            "question": "Quelle zone doit obligatoirement être couverte pendant le lavage (homme lave homme, femme lave femme) ?",
+            "options": [
+                "Entre le nombril et les genoux",
+                "Les épaules",
+                "Tout le corps",
+                "Aucune zone"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "explication": "Il est obligatoire de couvrir la zone entre le nombril et les genoux. Il est recommandé de couvrir l'intimité lorsqu'un époux lave son épouse, ou l'inverse.",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 747,
+            "question": "Quel est l'ordre recommandé des trois lavages ?",
+            "options": [
+                "Eau claire, puis sidr (jujubier), puis camphre",
+                "Camphre, puis sidr, puis eau claire",
+                "Savon, puis camphre, puis eau",
+                "Sidr, camphre, eau"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "explication": "Premier lavage à l'eau claire, deuxième avec du sidr écrasé et mélangé à l'eau jusqu'à avoir de la mousse (puis rinçage), troisième avec le camphre.",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 748,
+            "question": "Quel nombre de lavages est recommandé ?",
+            "options": [
+                "Un nombre pair",
+                "Un nombre impair (3, 5 ou 7) jusqu'à ce qu'il soit propre",
+                "Toujours 7",
+                "Un seul"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 1,
+            "explication": "Il est recommandé de laver d'un nombre impair, jusqu'à ce que le corps soit propre.",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 749,
+            "question": "Une impureté sort du défunt après le lavage et les ablutions. Que fait-on ?",
+            "options": [
+                "On recommence le lavage entier",
+                "On recommence les ablutions",
+                "On nettoie seulement l'impureté",
+                "On fait le tayammum"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 2,
+            "explication": "On ne recommence ni le lavage ni les ablutions : on se contente de nettoyer l'impureté.",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 750,
+            "question": "Que lui est-il recommandé de faire, après avoir lavé un mort (hadith du Mowatta) ?",
+            "options": [
+                "Faire le grand lavage lui-même",
+                "Jeûner",
+                "Prier deux unités",
+                "Rien"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "explication": "Selon le hadith rapporté par Malik, « Que celui qui a lavé un mort se lave ».",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 751,
+            "question": "Quel est l'âge maximal d'un enfant que la femme peut laver (et pour la fillette que l'homme peut laver) ?",
+            "options": [
+                "Femme : enfant de 8 ans ou moins ; homme : bébé fille de 2 ans ou moins",
+                "Femme : 12 ans ; homme : 5 ans",
+                "Femme : 5 ans ; homme : 8 ans",
+                "Pas de limite"
+            ],
+            "niveau": "debutant",
+            "bonneReponse": 0,
+            "explication": "La femme peut laver un enfant de 8 ans ou moins (pas 9), l'homme un bébé fille de 2 ans ou moins.",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 752,
+            "question": "Que dit la règle sur une femme indisposée ou une personne en état de janaba qui lave le mort ?",
+            "options": [
+                "C'est permis pour la femme indisposée, mais détestable pour la personne en janaba",
+                "C'est interdit pour les deux",
+                "C'est obligatoire pour les deux",
+                "C'est détestable pour la femme indisposée"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "Il est permis pour la femme indisposée de laver le mort, mais cela est détestable pour la personne en état de janaba.",
+            "source": "Fiqh malikite • Le lavage du défunt"
+        },
+        {
+            "id": 753,
+            "question": "Quel est le minimum obligatoire du linceul pour l'homme et pour la femme ?",
+            "options": [
+                "Homme : nombril-genoux ; femme : tout le corps",
+                "Homme et femme : tout le corps",
+                "Homme : tout le corps ; femme : nombril-genoux",
+                "Homme et femme : nombril-genoux"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "Pour l'homme, c'est entre le nombril et les genoux (couvrir tout le corps est Sunna, certains disent obligatoire). Pour la femme, c'est tout le corps, sans divergence.",
+            "source": "Fiqh malikite • Le linceul et les frais d'obsèques"
+        },
+        {
+            "id": 754,
+            "question": "Combien de vêtements sont recommandés pour le linceul de l'homme et de la femme ?",
+            "options": [
+                "Homme : 5 ; femme : 7",
+                "Homme : 3 ; femme : 5",
+                "Homme : 7 ; femme : 9",
+                "Peu importe"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "5 pour l'homme (tunique, turban, pagne, deux draps) et 7 pour la femme, avec un khimar à la place du turban. Dépasser ces nombres est détestable.",
+            "source": "Fiqh malikite • Le linceul et les frais d'obsèques"
+        },
+        {
+            "id": 755,
+            "question": "Dans quoi le Prophète ﷺ a-t-il été enveloppé selon le hadith d'Aicha ?",
+            "options": [
+                "Trois vêtements blancs de Souhoul, sans tunique ni turban",
+                "Cinq vêtements verts",
+                "Une seule étoffe",
+                "Un vêtement de soie"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ fut enveloppé dans trois vêtements blancs de Souhoul (Yémen), sans tunique ni turban.",
+            "source": "Fiqh malikite • Le linceul et les frais d'obsèques"
+        },
+        {
+            "id": 756,
+            "question": "Lequel de ces linceuls est détestable si l'on a le choix ?",
+            "options": [
+                "Blanc en coton",
+                "En soie",
+                "En lin parfumé",
+                "Embaumé d'encens"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "explication": "Les linceuls de soie, de lin, souillés, ou teints en rouge ou en jaune sont détestables, sauf un vêtement embaumé de safran ou de wars.",
+            "source": "Fiqh malikite • Le linceul et les frais d'obsèques"
+        },
+        {
+            "id": 757,
+            "question": "Que dit la règle sur le parfum pour un défunt en état d'ihram ?",
+            "options": [
+                "Il est interdit",
+                "Il est recommandé car cela ne lui est plus interdit du fait qu'il soit mort",
+                "Il est obligatoire",
+                "Il est détestable"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 1,
+            "explication": "Il est recommandé de parfumer le mort en ihram. Mais si le laveur est lui-même en ihram, il ne touche pas au parfum, quelqu'un d'autre s'en charge.",
+            "source": "Fiqh malikite • Le linceul et les frais d'obsèques"
+        },
+        {
+            "id": 758,
+            "question": "Les frais d'obsèques sont payés avec :",
+            "options": [
+                "L'argent du défunt, en priorité sur le remboursement des dettes (sauf biens gagés)",
+                "L'argent des héritiers uniquement",
+                "Le trésor public d'abord",
+                "Les dons des voisins"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "Linceul et frais sont pris sur l'argent du défunt, prioritaires sur les dettes, sauf pour les biens laissés en gage (rahn).",
+            "source": "Fiqh malikite • Le linceul et les frais d'obsèques"
+        },
+        {
+            "id": 759,
+            "question": "Si le défunt n'a pas de biens, qui paye les frais selon l'avis connu de l'école ?",
+            "options": [
+                "Celui qui devait subvenir à ses besoins (sauf le mari), puis le baytolmaal, puis l'obligation communautaire",
+                "Le mari obligatoirement",
+                "Personne",
+                "Les voisins uniquement"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "Celui qui devait subvenir à ses besoins (le mari n'y est pas obligé selon l'avis connu), puis le trésor public musulman, puis les musulmans en obligation communautaire.",
+            "source": "Fiqh malikite • Le linceul et les frais d'obsèques"
+        },
+        {
+            "id": 760,
+            "question": "Où se tient-on par rapport au cortège funéraire ?",
+            "options": [
+                "À pied devant ; ceux à monture derrière ; les femmes en retrait",
+                "Tous derrière",
+                "Tous à côté",
+                "Sur une monture devant"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "Il est recommandé de marcher devant le cortège en pressant le pas avec calme, sans trottiner. Ceux à monture se tiennent derrière, et la femme en retrait des hommes.",
+            "source": "Fiqh malikite • Cortège et enterrement"
+        },
+        {
+            "id": 761,
+            "question": "Que dit la règle sur les pleurs à la mort du défunt ?",
+            "options": [
+                "Permis sans lever la voix ni dire de paroles vulgaires ; sinon interdit",
+                "Toujours interdit",
+                "Obligatoire",
+                "Permis à voix haute"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "Pleurer est permis à condition de ne pas lever la voix ni dire de paroles désagréables. En groupe, même silencieux, c'est détestable.",
+            "source": "Fiqh malikite • Cortège et enterrement"
+        },
+        {
+            "id": 762,
+            "question": "Comment est-il recommandé de placer le défunt dans la tombe ?",
+            "options": [
+                "Dans un laHd (cavité vers la qibla), sur le côté droit, le visage vers la qibla",
+                "Sur le dos, face au ciel",
+                "Sur le côté gauche",
+                "Sur un matelas"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "Si la terre est solide, on creuse un laHd vers la qibla et on le pose sur le côté droit, le visage vers la qibla. Mettre le corps sur un matelas ou des coussins est détestable.",
+            "source": "Fiqh malikite • Cortège et enterrement"
+        },
+        {
+            "id": 763,
+            "question": "Pourquoi le cercueil est-il détestable ?",
+            "options": [
+                "C'est une tradition des gens du Livre",
+                "Il est trop cher",
+                "Il est interdit dans le Coran",
+                "Il bloque la prière"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "Le cercueil est détestable car c'est une tradition des gens du Livre. On préfère bloquer l'accès au corps avec des briques, une planche ou de la terre mélangée à l'eau.",
+            "source": "Fiqh malikite • Cortège et enterrement"
+        },
+        {
+            "id": 764,
+            "question": "Quelle hauteur est recommandée pour la tombe ?",
+            "options": [
+                "Un empan (8 à 22 cm), en bosse de dromadaire",
+                "Un mètre",
+                "Au ras du sol",
+                "Une coudée de largeur"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "On élève la tombe d'un empan environ avec du sable ou des pierres, en forme de bosse de dromadaire.",
+            "source": "Fiqh malikite • Cortège et enterrement"
+        },
+        {
+            "id": 765,
+            "question": "Peut-on enterrer plusieurs morts dans une même tombe ?",
+            "options": [
+                "Oui, en cas de nécessité, mais pas dans le même linceul ; le meilleur près de la qibla, les hommes avant les femmes",
+                "Non, jamais",
+                "Oui, toujours",
+                "Seulement des mahrams"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "C'est permis par nécessité (manque de place, impossibilité de creuser), même de sexes différents, chacun dans son linceul.",
+            "source": "Fiqh malikite • Cortège et enterrement"
+        },
+        {
+            "id": 766,
+            "question": "Que dit la règle sur le fait de blanchir, orner, construire sur la tombe ou y graver le nom ?",
+            "options": [
+                "C'est détestable (interdit si par ostentation ou vanité)",
+                "C'est recommandé",
+                "C'est obligatoire",
+                "C'est permis sans réserve"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "Cela est détestable. Un repère (bois ou pierres) est permis, mais on ne grave ni nom, ni date, ni Coran.",
+            "source": "Fiqh malikite • Cortège et enterrement"
+        },
+        {
+            "id": 767,
+            "question": "Quand est-il permis de déterrer un défunt ?",
+            "options": [
+                "En cas de nécessité absolue (extension d'une mosquée, tombe d'autrui…)",
+                "À tout moment",
+                "Jamais",
+                "Après un an"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "Il est interdit de déterrer sauf nécessité absolue. Si le corps a été entièrement rongé par la terre, on peut enterrer une autre personne à sa place.",
+            "source": "Fiqh malikite • Cortège et enterrement"
+        },
+        {
+            "id": 768,
+            "question": "Que fait-on d'une personne qui meurt en mer si l'on craint que son corps ne se détériore avant d'atteindre la terre ?",
+            "options": [
+                "On le lave, on prie sur lui, puis on l'immerge dans la mer",
+                "On le garde sur le bateau",
+                "On l'immerge sans prière",
+                "On le brûle"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "On le lave, on prie sur lui et on l'immerge dans la mer.",
+            "source": "Fiqh malikite • Cortège et enterrement"
+        },
+        {
+            "id": 769,
+            "question": "Que dit le hadith de Boraydah sur la visite des tombes ?",
+            "options": [
+                "Elle était interdite, puis elle est permise car elle rappelle l'au-delà",
+                "Elle est toujours interdite",
+                "Elle est obligatoire chaque jour",
+                "Elle est réservée aux hommes"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ a dit : « Je vous avais interdit de visiter les tombes mais maintenant visitez-les. » Il est détestable d'y manger, boire, rire, parler beaucoup ou lire le Coran à voix haute.",
+            "source": "Fiqh malikite • Cortège et enterrement"
+        },
+        {
+            "id": 770,
+            "question": "Dans les condoléances, combien de temps est préconisé par beaucoup ?",
+            "options": [
+                "3 jours (sauf si les gens sont absents)",
+                "Un jour",
+                "Une semaine",
+                "Un mois"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "Beaucoup préconisent une limite de 3 jours pour ne pas remuer la tristesse, sauf si les gens sont absents.",
+            "source": "Fiqh malikite • Cortège et enterrement"
+        },
+        {
+            "id": 771,
+            "question": "Quel est le statut de préparer à manger pour la famille du défunt, et de les rassembler pour un repas chez eux ?",
+            "options": [
+                "Préparer à manger pour eux : recommandé ; les rassembler chez eux pour un repas : innovation détestable",
+                "Les deux sont obligatoires",
+                "Les deux sont interdits",
+                "Les deux sont recommandés"
+            ],
+            "niveau": "intermediaire",
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ a dit de préparer à manger pour la famille de Ja'far. Rassembler les gens pour un repas dans la maison du défunt est une innovation détestable, et sacrifier un animal sur la tombe est un acte de la jahiliya.",
+            "source": "Fiqh malikite • Cortège et enterrement"
+        },
+        {
+            "id": 772,
+            "question": "Quels sont les 5 piliers de la prière mortuaire ?",
+            "options": [
+                "Intention, 4 tekbirs, invocation, salam, station debout",
+                "Intention, Fatiha, inclinaison, prosternation, salam",
+                "4 tekbirs, tachahod, salam, intention, ablutions",
+                "Intention, 3 tekbirs, Fatiha, salam, qiyam"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Les 5 piliers : l'intention, les 4 tekbirs, l'invocation en faveur du mort entre les tekbirs, le salam, et la station debout pour celui qui en est capable.",
+            "source": "Fiqh malikite • La prière mortuaire"
+        },
+        {
+            "id": 773,
+            "question": "L'imam fait un 5e tekbir (volontairement ou par oubli). Que font les fidèles selon Ibn Al-Qassim ?",
+            "options": [
+                "Ils ne l'attendent pas et saluent avant lui",
+                "Ils refont la prière",
+                "Ils font aussi un 5e tekbir",
+                "Ils s'arrêtent sans saluer"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Leur prière et celle de l'imam restent valides. Ils peuvent aussi l'attendre et saluer après lui.",
+            "source": "Fiqh malikite • La prière mortuaire"
+        },
+        {
+            "id": 774,
+            "question": "L'imam fait moins de 4 tekbirs. Que font les fidèles ?",
+            "options": [
+                "Ils disent « SubHanAllah » ; s'il ne se reprend pas, ils font le 4e tekbir sans lui puis saluent",
+                "Ils refont la prière",
+                "Ils saluent aussitôt",
+                "Ils ne font rien"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "S'il se reprend, ils font le 4e tekbir avec lui. Sinon ils l'accomplissent sans lui, puis saluent, et leur prière est valide.",
+            "source": "Fiqh malikite • La prière mortuaire"
+        },
+        {
+            "id": 775,
+            "question": "Que se passe-t-il si l'on salue volontairement après 3 tekbirs ?",
+            "options": [
+                "La prière est à refaire",
+                "La prière est valide",
+                "On se prosterne en expiation",
+                "On ajoute un 4e tekbir"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Volontairement, la prière est à refaire. Par oubli, on recommence tant qu'un long laps de temps ne s'est pas écoulé et que le corps n'est pas en terre.",
+            "source": "Fiqh malikite • La prière mortuaire"
+        },
+        {
+            "id": 776,
+            "question": "Comment fait-on le salam dans la prière mortuaire ?",
+            "options": [
+                "Un seul salam, à voix haute pour l'imam, à voix basse pour les fidèles",
+                "Deux salams",
+                "Pas de salam",
+                "Un salam silencieux pour tous"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "On salue une fois. Les fidèles ne font pas d'autre salam pour répondre à l'imam ou aux fidèles à leur gauche.",
+            "source": "Fiqh malikite • La prière mortuaire"
+        },
+        {
+            "id": 777,
+            "question": "Un retardataire rate le 1er tekbir et les invocations ont commencé. Que fait-il ?",
+            "options": [
+                "Il attend le 2e tekbir pour entrer, puis rattrape le tekbir manqué après le salam de l'imam tant que le corps est présent",
+                "Il entre aussitôt",
+                "Il ne prie pas",
+                "Il refait la prière complète"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Chaque tekbir équivaut à une unité. Si le corps est emmené, il salue directement car cela ressemble à prier sur un absent.",
+            "source": "Fiqh malikite • La prière mortuaire"
+        },
+        {
+            "id": 778,
+            "question": "Où l'imam se positionne-t-il par rapport au défunt ?",
+            "options": [
+                "Au milieu du corps pour un homme, au niveau des épaules pour une femme",
+                "Au niveau de la tête pour tous",
+                "Au niveau des pieds",
+                "Au niveau des épaules pour un homme"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Il met la tête du défunt à sa droite, à une distance d'un empan (8-22 cm) ou d'une coudée (environ 48 cm).",
+            "source": "Fiqh malikite • La prière mortuaire"
+        },
+        {
+            "id": 779,
+            "question": "Qui dirige la prière mortuaire en priorité ?",
+            "options": [
+                "Celui que le défunt a désigné (wasiy) et dont on espère le bien, puis le calife, puis le parent le plus proche",
+                "Le plus âgé",
+                "N'importe qui",
+                "L'imam de la mosquée uniquement"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Ensuite, parmi les parents : le fils, le petit-fils, le père, le frère, etc. À égalité, le meilleur en jurisprudence puis en hadith.",
+            "source": "Fiqh malikite • La prière mortuaire"
+        },
+        {
+            "id": 780,
+            "question": "Que dit la règle sur la prière mortuaire dans la mosquée ?",
+            "options": [
+                "Détestable, de même que d'y faire entrer le corps",
+                "Obligatoire",
+                "Recommandée",
+                "Interdite et invalide"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Il est détestable d'y faire entrer le corps et de prier sur le mort dans la mosquée, même si le corps est à l'extérieur.",
+            "source": "Fiqh malikite • La prière mortuaire"
+        },
+        {
+            "id": 781,
+            "question": "Peut-on prier sur un mort dont le corps est absent, comme le Prophète ﷺ l'a fait pour le Négus ?",
+            "options": [
+                "C'est détestable ; la prière sur le Négus lui est spécifique",
+                "Oui, c'est recommandé",
+                "C'est obligatoire",
+                "Oui, uniquement pour un roi"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ ne l'a pas faite pour d'autres, et il avait été informé de la mort du Négus par la révélation.",
+            "source": "Fiqh malikite • La prière mortuaire"
+        },
+        {
+            "id": 782,
+            "question": "Peut-on laver ou prier sur une personne non musulmane, même proche ?",
+            "options": [
+                "Non, c'est interdit",
+                "Oui, si c'est un parent",
+                "Oui, avec intention",
+                "Seulement la prière"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "C'est interdit. Si des corps musulmans et non-musulmans sont mélangés et indistinguables, on lave et prie sur l'ensemble par nécessité, avec l'intention pour les musulmans.",
+            "source": "Fiqh malikite • Cas particuliers"
+        },
+        {
+            "id": 783,
+            "question": "Pour qui est-il détestable qu'une personne de mérite prie, selon le texte ?",
+            "options": [
+                "Un innovateur musulman, un grand pécheur public (comme l'ivrogne) ou un mort suite à une sentence pénale",
+                "Un enfant",
+                "Une femme",
+                "Un voyageur"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Le hadith de Moslim rapporte que le Prophète ﷺ n'a pas prié sur celui qui s'était donné la mort avec des fers de flèches.",
+            "source": "Fiqh malikite • Cas particuliers"
+        },
+        {
+            "id": 784,
+            "question": "Que fait-on d'un enfant né sans vie (dont la vie n'a pas été confirmée par un cri, par exemple) ?",
+            "options": [
+                "On ne le lave pas, on ne prie pas sur lui, mais on l'enveloppe et on l'enterre obligatoirement",
+                "On le lave et on prie sur lui",
+                "On ne l'enterre pas",
+                "On lui donne un prénom et on l'embaume"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Il est détestable de le laver, de prier sur lui, de l'embaumer, de lui donner un prénom et de l'enterrer dans une maison. On nettoie le sang, on l'enveloppe et on le met en terre.",
+            "source": "Fiqh malikite • Cas particuliers"
+        },
+        {
+            "id": 785,
+            "question": "Que dit la règle sur le martyr tombé sur le champ de bataille ?",
+            "options": [
+                "Il est interdit de le laver et de prier sur lui",
+                "On le lave et on prie sur lui",
+                "On le lave seulement",
+                "On prie sur lui seulement"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Le Prophète ﷺ a dit, pour les martyrs d'Ohod, de ne pas les laver, car de chaque blessure se dégagera l'odeur du musc le Jour du Jugement.",
+            "source": "Fiqh malikite • Cas particuliers"
+        },
+        {
+            "id": 786,
+            "question": "Un blessé est évacué du champ de bataille puis succombe. Que fait-on, selon l'avis connu d'Ibn Al-Qassim ?",
+            "options": [
+                "On le lave et on prie sur lui, sauf s'il a perdu connaissance sans reprendre ses esprits",
+                "On ne le lave jamais",
+                "On le traite comme un martyr dans tous les cas",
+                "On prie sur lui sans le laver"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "SoHnoun est d'un avis différent : s'il est blessé à des points vitaux, on ne le lave pas et on ne prie pas sur lui.",
+            "source": "Fiqh malikite • Cas particuliers"
+        },
+        {
+            "id": 787,
+            "question": "Comment enterre-t-on le martyr ?",
+            "options": [
+                "Dans ses vêtements licites (pas de soie), avec ses chaussons de cuir, sa ceinture et sa bague, sans armure ni armement",
+                "Dans un linceul blanc de 5 vêtements",
+                "Avec ses armes",
+                "Nu"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "On ajoute de quoi le couvrir entièrement si ses vêtements ne suffisent pas. L'armure et les armes ne sont pas enterrées avec lui, car c'est du gaspillage.",
+            "source": "Fiqh malikite • Cas particuliers"
+        },
+        {
+            "id": 788,
+            "question": "Laquelle de ces choses est interdite lors d'un deuil ?",
+            "options": [
+                "Se lamenter, se frapper le visage, déchirer ses vêtements, faire des youyous",
+                "Pleurer discrètement",
+                "Invoquer pour le mort",
+                "Faire une aumône"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Sont interdits la lamentation, se frapper le visage ou la poitrine, déchirer ses vêtements, les paroles désagréables (« malheur à moi »), les youyous, et noircir le visage ou les vêtements. Raser la tête est aussi interdit.",
+            "source": "Fiqh malikite • Cas particuliers"
+        },
+        {
+            "id": 789,
+            "question": "Que profite au mort selon le texte ?",
+            "options": [
+                "Les invocations de pardon et de miséricorde, ainsi que les aumônes en son nom",
+                "La prière faite en son nom",
+                "Le jeûne en son nom",
+                "La lecture du Coran en son nom"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Les actions corporelles (prier, jeûner, lire le Coran, même la Fatiha) ne lui profitent pas selon le texte, bien que certains disent le contraire.",
+            "source": "Fiqh malikite • Cas particuliers"
+        },
+        {
+            "id": 790,
+            "question": "Quel est le statut de la récitation du Coran à la mort et auprès de la tombe ?",
+            "options": [
+                "Détestable, car les prédécesseurs se contentaient d'invoquer le pardon et la miséricorde",
+                "Obligatoire",
+                "Recommandée",
+                "Interdite et invalide"
+            ],
+            "niveau": "avance",
+            "bonneReponse": 0,
+            "explication": "Si ce n'est pas une habitude et qu'on cherche la bénédiction, certains le tolèrent.",
+            "source": "Fiqh malikite • Cas particuliers"
         }
     ]
 }

@@ -56,6 +56,21 @@ const Map<String, Map<String, String>> _strings = {
   'language': {'fr': 'Langue', 'en': 'Language', 'ar': 'اللغة'},
   'back': {'fr': 'Retour', 'en': 'Back', 'ar': 'رجوع'},
   'retry': {'fr': 'Réessayer', 'en': 'Retry', 'ar': 'إعادة المحاولة'},
+  'notif_reminder_title': {
+    'fr': 'Rappel de révision (2 heures)',
+    'en': 'Review reminder (2 hours)',
+    'ar': 'تذكير بالمراجعة (ساعتان)',
+  },
+  'notif_reminder_desc': {
+    'fr': 'Rappel automatique après 2h d\'inactivité pour faire un quiz',
+    'en': 'Automatic reminder after 2h of inactivity to take a quiz',
+    'ar': 'تذكير تلقائي بعد ساعتين من عدم النشاط لأداء الاختبار',
+  },
+  'notif_reminder_disabled': {
+    'fr': 'Rappels désactivés',
+    'en': 'Reminders disabled',
+    'ar': 'التذكيرات معطلة',
+  },
 
   // ---- Quiz ----
   'quit_title': {
@@ -145,9 +160,9 @@ const Map<String, Map<String, String>> _strings = {
     'ar': 'اختر فئة للبدء.',
   },
   'badge_counts': {
-    'fr': '360 QUESTIONS • 4 CATÉGORIES',
-    'en': '360 QUESTIONS • 4 CATEGORIES',
-    'ar': '360 سؤال • 4 فئات',
+    'fr': '750 QUESTIONS • 4 CATÉGORIES',
+    'en': '750 QUESTIONS • 4 CATEGORIES',
+    'ar': '750 سؤال • 4 فئات',
   },
   'home_progress': {
     'fr': 'Votre progression',
@@ -355,6 +370,73 @@ const Map<String, Map<String, String>> _strings = {
     'ar': 'تعذر الاتصال بالخادم. تحقق من الاتصال وعنوان الخادم في الإعدادات.',
   },
 
+  // ---- Écran de bienvenue / Choix de connexion ----
+  'welcome_title': {
+    'fr': 'Quiz Islamique',
+    'en': 'Islamic Quiz',
+    'ar': 'مسابقة إسلامية',
+  },
+  'welcome_tagline': {
+    'fr': 'Votre compagnon pour apprendre, méditer et tester vos connaissances.',
+    'en': 'Your companion to learn, reflect and test your knowledge.',
+    'ar': 'رفيقك للتعلّم والتدبّر واختبار معلوماتك.',
+  },
+  'welcome_feat_cloud_title': {
+    'fr': 'Sauvegarde Cloud',
+    'en': 'Cloud Backup',
+    'ar': 'حفظ سحابي',
+  },
+  'welcome_feat_cloud_desc': {
+    'fr': 'Retrouvez vos scores, séries et étoiles sur tous vos appareils.',
+    'en': 'Keep your scores, streaks and stars across all your devices.',
+    'ar': 'استعد نتائجك وسلسلتك ونجومك على جميع أجهزتك.',
+  },
+  'welcome_feat_cert_title': {
+    'fr': 'Certificats Officiels',
+    'en': 'Official Certificates',
+    'ar': 'شهادات رسمية',
+  },
+  'welcome_feat_cert_desc': {
+    'fr': 'Débloquez des attestations de réussite uniques après chaque parcours.',
+    'en': 'Unlock unique certificates of achievement after each journey.',
+    'ar': 'احصل على شهادات نجاح مميزة بعد كل مسار.',
+  },
+  'welcome_feat_offline_title': {
+    'fr': '100% Accessible',
+    'en': '100% Accessible',
+    'ar': 'متاح للجميع',
+  },
+  'welcome_feat_offline_desc': {
+    'fr': 'Apprenez à votre rythme, même sans connexion Internet.',
+    'en': 'Learn at your own pace, even without an internet connection.',
+    'ar': 'تعلّم بالسرعة التي تناسبك حتى بدون اتصال بالإنترنت.',
+  },
+  'welcome_login_btn': {
+    'fr': 'Se connecter à mon compte',
+    'en': 'Sign in to my account',
+    'ar': 'تسجيل الدخول إلى حسابي',
+  },
+  'welcome_login_desc': {
+    'fr': 'Synchronisez vos progrès et vos attestations',
+    'en': 'Sync your progress and certificates',
+    'ar': 'مزامنة تقدمك وشهاداتك',
+  },
+  'welcome_guest_btn': {
+    'fr': 'Continuer sans compte',
+    'en': 'Continue without account',
+    'ar': 'المتابعة بدون حساب',
+  },
+  'welcome_guest_desc': {
+    'fr': 'Accédez immédiatement aux quiz (sauvegarde locale)',
+    'en': 'Access quizzes immediately (local storage)',
+    'ar': 'الدخول المباشر إلى الاختبارات (حفظ محلي)',
+  },
+  'welcome_hint': {
+    'fr': 'Vous pourrez créer ou lier un compte à tout moment depuis votre profil.',
+    'en': 'You can create or link an account anytime from your profile.',
+    'ar': 'يمكنك إنشاء حساب أو ربطه في أي وقت من ملفك الشخصي.',
+  },
+
   // ---- Catégories ----
   'cat_coran_title': {'fr': 'Coran', 'en': 'Quran', 'ar': 'القرآن'},
   'cat_coran_desc': {
@@ -395,9 +477,39 @@ const Map<String, Map<String, String>> _strings = {
     'ar': 'اختبار الحديث',
   },
   'cat_hadith_desc': {
-    'fr': 'Découvrez les enseignements des hadiths',
-    'en': 'Discover the teachings of the hadiths',
-    'ar': 'اكتشف تعاليم الأحاديث النبوية',
+    'fr': 'Enseignements, éthique et sciences du hadith',
+    'en': 'Teachings, ethics and hadith sciences',
+    'ar': 'التعاليم والأخلاق وعلوم الحديث',
+  },
+  'cat_hadith_fondements_title': {
+    'fr': 'Grands Enseignements',
+    'en': 'Key Teachings',
+    'ar': 'التعاليم الكبرى',
+  },
+  'cat_hadith_fondements_desc': {
+    'fr': 'Foi, intentions, piliers et 40 Hadiths Nawawi',
+    'en': 'Faith, intentions, pillars and the 40 Nawawi Hadiths',
+    'ar': 'الإيمان والنيات والأركان والأربعون النووية',
+  },
+  'cat_hadith_comportement_title': {
+    'fr': 'Comportement & Adab',
+    'en': 'Conduct & Manners (Adab)',
+    'ar': 'الأخلاق والآداب',
+  },
+  'cat_hadith_comportement_desc': {
+    'fr': 'Éthique, fraternité, sincérité et noble caractère',
+    'en': 'Ethics, brotherhood, sincerity and noble character',
+    'ar': 'الأخلاق والأخوّة والإخلاص ومكارم الأخلاق',
+  },
+  'cat_hadith_sciences_title': {
+    'fr': 'Sciences du Hadith',
+    'en': 'Hadith Sciences',
+    'ar': 'علوم الحديث',
+  },
+  'cat_hadith_sciences_desc': {
+    'fr': 'Terminologie, chaîne de transmission et grands imams',
+    'en': 'Terminology, chain of transmission and great scholars',
+    'ar': 'المصطلح والإسناد وأئمة الحديث الكبار',
   },
   'cat_fiqh_title': {
     'fr': 'Quiz Fiqh',
@@ -405,9 +517,39 @@ const Map<String, Map<String, String>> _strings = {
     'ar': 'اختبار الفقه',
   },
   'cat_fiqh_desc': {
-    'fr': 'Testez vos connaissances en jurisprudence islamique',
-    'en': 'Test your knowledge of Islamic jurisprudence',
-    'ar': 'اختبر معلوماتك في الفقه الإسلامي',
+    'fr': 'Bases, prière malikite et funérailles',
+    'en': 'Foundations, prayer and funerals',
+    'ar': 'الأساسيات والصلاة والجنائز',
+  },
+  'cat_fiqh_general_title': {
+    'fr': 'Fiqh Général',
+    'en': 'General Fiqh',
+    'ar': 'الفقه العام',
+  },
+  'cat_fiqh_general_desc': {
+    'fr': 'Purification, piliers, jeûne et bases',
+    'en': 'Purification, pillars, fasting and basics',
+    'ar': 'الطهارة والأركان والصيام والأساسيات',
+  },
+  'cat_fiqh_priere_title': {
+    'fr': 'La Prière',
+    'en': 'The Prayer',
+    'ar': 'الصلاة',
+  },
+  'cat_fiqh_priere_desc': {
+    'fr': 'Sunnas, mérites et rattrapage (rite malikite)',
+    'en': 'Sunnahs, merits and make-up (Maliki rite)',
+    'ar': 'السنن والفضائل والقضاء (المذهب المالكي)',
+  },
+  'cat_fiqh_funerailles_title': {
+    'fr': 'Les Funérailles',
+    'en': 'The Funerals',
+    'ar': 'الجنائز',
+  },
+  'cat_fiqh_funerailles_desc': {
+    'fr': 'Assistance, lavage, linceul et enterrement',
+    'en': 'Assisting the dying, washing, shroud and burial',
+    'ar': 'الاحتضار والغسل والكفن والدفن',
   },
   'cat_sira_title': {
     'fr': 'Sira du Prophète ﷺ',
@@ -415,9 +557,39 @@ const Map<String, Map<String, String>> _strings = {
     'ar': 'سيرة النبي ﷺ',
   },
   'cat_sira_desc': {
-    'fr': 'Découvrez la vie du Prophète ﷺ',
-    'en': 'Discover the life of the Prophet ﷺ',
-    'ar': 'اكتشف حياة النبي ﷺ',
+    'fr': 'Période mecquoise, médinoise et grandes étapes',
+    'en': 'Meccan period, Medinan period and major milestones',
+    'ar': 'العهد المكي والعهد المدني وأبرز المحطات',
+  },
+  'cat_sira_mecquoise_title': {
+    'fr': 'Période Mecquoise',
+    'en': 'Meccan Period',
+    'ar': 'العهد المكي',
+  },
+  'cat_sira_mecquoise_desc': {
+    'fr': 'De la naissance à l\'Hégire',
+    'en': 'From birth to the Hijra',
+    'ar': 'من المولد الشريف إلى الهجرة النبوية',
+  },
+  'cat_sira_medinoise_title': {
+    'fr': 'Période Médinoise',
+    'en': 'Medinan Period',
+    'ar': 'العهد المدني',
+  },
+  'cat_sira_medinoise_desc': {
+    'fr': 'Fondation de l\'État musulman et communauté',
+    'en': 'Establishment of the Muslim state and community',
+    'ar': 'بناء المجتمع والدولة الإسلامية في المدينة',
+  },
+  'cat_sira_evenements_title': {
+    'fr': 'Grandes Étapes & Victoires',
+    'en': 'Major Milestones & Victories',
+    'ar': 'المحطات الكبرى والفتوحات',
+  },
+  'cat_sira_evenements_desc': {
+    'fr': 'Batailles, traités et accomplissement de la mission',
+    'en': 'Battles, treaties and fulfillment of the mission',
+    'ar': 'الغزوات والمعاهدات وتمام البلاغ',
   },
 
   // ---- Niveaux ----
@@ -745,8 +917,15 @@ const Map<String, Map<String, String>> _strings = {
 
 /// Titres et descriptions traduits des catégories et des niveaux.
 extension QuizCategoryL10n on QuizCategory {
-  String titleOf(BuildContext c) => c.tr('cat_${id}_title');
-  String descriptionOf(BuildContext c) => c.tr('cat_${id}_desc');
+  String titleOf(BuildContext c) {
+    final t = c.tr('cat_${id}_title');
+    return t == 'cat_${id}_title' ? title : t;
+  }
+
+  String descriptionOf(BuildContext c) {
+    final d = c.tr('cat_${id}_desc');
+    return d == 'cat_${id}_desc' ? description : d;
+  }
 }
 
 extension QuizLevelL10n on QuizLevel {

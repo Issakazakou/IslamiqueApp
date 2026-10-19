@@ -25,12 +25,21 @@ class UserProgress extends ChangeNotifier {
 
   // ── Scores par catégorie : { 'coran_tajwid': {'done': 5, 'correct': 40} } ──
   final Map<String, Map<String, int>> _categoryStats = {
-    'coran_mediter': {'done': 0, 'correct': 0, 'total': 0},
-    'coran_tajwid':  {'done': 0, 'correct': 0, 'total': 0},
-    'coran_culture': {'done': 0, 'correct': 0, 'total': 0},
-    'hadith': {'done': 0, 'correct': 0, 'total': 0},
-    'fiqh':   {'done': 0, 'correct': 0, 'total': 0},
-    'sira':   {'done': 0, 'correct': 0, 'total': 0},
+    'coran_mediter':        {'done': 0, 'correct': 0, 'total': 0},
+    'coran_tajwid':         {'done': 0, 'correct': 0, 'total': 0},
+    'coran_culture':        {'done': 0, 'correct': 0, 'total': 0},
+    'hadith_fondements':    {'done': 0, 'correct': 0, 'total': 0},
+    'hadith_comportement':  {'done': 0, 'correct': 0, 'total': 0},
+    'hadith_sciences':      {'done': 0, 'correct': 0, 'total': 0},
+    'hadith':               {'done': 0, 'correct': 0, 'total': 0},
+    'fiqh_general':         {'done': 0, 'correct': 0, 'total': 0},
+    'fiqh_priere':          {'done': 0, 'correct': 0, 'total': 0},
+    'fiqh_funerailles':     {'done': 0, 'correct': 0, 'total': 0},
+    'fiqh':                 {'done': 0, 'correct': 0, 'total': 0},
+    'sira_mecquoise':       {'done': 0, 'correct': 0, 'total': 0},
+    'sira_medinoise':       {'done': 0, 'correct': 0, 'total': 0},
+    'sira_evenements':      {'done': 0, 'correct': 0, 'total': 0},
+    'sira':                 {'done': 0, 'correct': 0, 'total': 0},
   };
 
   // ── Badges débloqués ──────────────────────────────────────────
@@ -63,12 +72,13 @@ class UserProgress extends ChangeNotifier {
     _totalQuestions += total;
     _totalCorrect   += correct;
 
-    final cat = _categoryStats[categoryId];
-    if (cat != null) {
-      cat['done']    = (cat['done'] ?? 0) + 1;
-      cat['correct'] = (cat['correct'] ?? 0) + correct;
-      cat['total']   = (cat['total'] ?? 0) + total;
-    }
+    final cat = _categoryStats.putIfAbsent(
+      categoryId,
+      () => {'done': 0, 'correct': 0, 'total': 0},
+    );
+    cat['done']    = (cat['done'] ?? 0) + 1;
+    cat['correct'] = (cat['correct'] ?? 0) + correct;
+    cat['total']   = (cat['total'] ?? 0) + total;
 
     // Mise à jour de la série de jours (comparaison par jour calendaire).
     final today = _dayOf(DateTime.now());
@@ -272,13 +282,23 @@ class PremiumManager extends ChangeNotifier {
   static final PremiumManager instance = PremiumManager._();
   PremiumManager._();
 
+  static const String _prefKey = 'app_user_is_premium';
   bool _isPremium = false;
 
   bool get isPremium => _isPremium;
 
   // Limites pour les utilisateurs Free
   static const int freeQuizzesPerDay = 5;
-  static const int freeLevelsUnlocked = 1; // seulement Débutant
+  static const int freeLevelsUnlocked = 1; // seulement Débutant (index 0)
+
+  /// Charge le statut Premium sauvegardé
+  Future<void> load() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      _isPremium = prefs.getBool(_prefKey) ?? false;
+      notifyListeners();
+    } catch (_) {}
+  }
 
   bool get canPlayToday {
     if (_isPremium) return true;
@@ -296,14 +316,23 @@ class PremiumManager extends ChangeNotifier {
     return levelIndex < freeLevelsUnlocked;
   }
 
-  /// Simule un achat (en prod : in_app_purchase)
-  void unlockPremium() {
+  /// Active l'accès Premium (simulé ou via achat in-app)
+  Future<void> unlockPremium() async {
     _isPremium = true;
     notifyListeners();
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setBool(_prefKey, true);
+    } catch (_) {}
   }
 
-  void revokePremium() {
+  /// Révoque le statut Premium (ex: test ou fin d'abonnement)
+  Future<void> revokePremium() async {
     _isPremium = false;
     notifyListeners();
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setBool(_prefKey, false);
+    } catch (_) {}
   }
 }

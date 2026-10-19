@@ -10,7 +10,7 @@ class ThemeController extends ChangeNotifier {
   static final ThemeController instance = ThemeController._();
 
   static const String _prefKey = 'app_theme_mode';
-  ThemeMode _themeMode = ThemeMode.light;
+  ThemeMode _themeMode = ThemeMode.dark;
 
   ThemeMode get themeMode => _themeMode;
 
@@ -26,12 +26,12 @@ class ThemeController extends ChangeNotifier {
     try {
       final prefs = await SharedPreferences.getInstance();
       final saved = prefs.getString(_prefKey);
-      if (saved == 'dark') {
-        _themeMode = ThemeMode.dark;
+      if (saved == 'light') {
+        _themeMode = ThemeMode.light;
       } else if (saved == 'system') {
         _themeMode = ThemeMode.system;
       } else {
-        _themeMode = ThemeMode.light;
+        _themeMode = ThemeMode.dark;
       }
       notifyListeners();
     } catch (_) {}

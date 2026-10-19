@@ -14,12 +14,21 @@ final class QuestionRepository
 {
     /** Métadonnées d'affichage des catégories. */
     private const META = [
-        'coran_mediter' => ['title' => 'Méditer',            'description' => 'Réfléchir au sens des versets (tadabbur)', 'parent' => 'coran'],
-        'coran_tajwid'  => ['title' => 'Tajwid',             'description' => 'Les règles de la récitation',              'parent' => 'coran'],
-        'coran_culture' => ['title' => 'Culture coranique',  'description' => 'Sourates, versets, prophètes et histoire',  'parent' => 'coran'],
-        'hadith' => ['title' => 'Quiz Hadith',        'description' => 'Découvrez les enseignements des hadiths'],
-        'fiqh'   => ['title' => 'Quiz Fiqh',          'description' => 'Testez vos connaissances en jurisprudence islamique'],
-        'sira'   => ['title' => 'Sira du Prophète ﷺ', 'description' => 'Découvrez la vie du Prophète ﷺ'],
+        'coran_mediter'       => ['title' => 'Méditer',            'description' => 'Réfléchir au sens des versets (tadabbur)', 'parent' => 'coran'],
+        'coran_tajwid'        => ['title' => 'Tajwid',             'description' => 'Les règles de la récitation',              'parent' => 'coran'],
+        'coran_culture'       => ['title' => 'Culture coranique',  'description' => 'Sourates, versets, prophètes et histoire',  'parent' => 'coran'],
+        'hadith_fondements'   => ['title' => 'Grands Enseignements', 'description' => 'Foi, intentions, piliers et 40 Hadiths Nawawi', 'parent' => 'hadith'],
+        'hadith_comportement' => ['title' => 'Comportement & Adab', 'description' => 'Éthique, fraternité, sincérité et noble caractère', 'parent' => 'hadith'],
+        'hadith_sciences'     => ['title' => 'Sciences du Hadith',  'description' => 'Terminologie, chaîne de transmission et grands imams', 'parent' => 'hadith'],
+        'fiqh_general'        => ['title' => 'Fiqh Général',       'description' => 'Purification, piliers, jeûne et bases',    'parent' => 'fiqh'],
+        'fiqh_priere'         => ['title' => 'La Prière',          'description' => 'Sunnas, mérites et rattrapage (rite malikite)', 'parent' => 'fiqh'],
+        'fiqh_funerailles'    => ['title' => 'Les Funérailles',    'description' => 'Assistance, lavage, linceul et enterrement',    'parent' => 'fiqh'],
+        'sira_mecquoise'      => ['title' => 'Période Mecquoise',  'description' => 'De la naissance à l\'Hégire',             'parent' => 'sira'],
+        'sira_medinoise'      => ['title' => 'Période Médinoise',  'description' => 'Fondation de l\'État musulman et communauté', 'parent' => 'sira'],
+        'sira_evenements'     => ['title' => 'Grandes Étapes & Victoires', 'description' => 'Batailles, traités et accomplissement de la mission', 'parent' => 'sira'],
+        'hadith'              => ['title' => 'Quiz Hadith',        'description' => 'Découvrez les enseignements des hadiths'],
+        'fiqh'                => ['title' => 'Quiz Fiqh',          'description' => 'Bases, prière malikite et funérailles'],
+        'sira'                => ['title' => 'Sira du Prophète ﷺ', 'description' => 'Découvrez la vie du Prophète ﷺ'],
     ];
 
     /** Niveaux : position de la tranche (1/3 des questions de la catégorie). */
@@ -132,12 +141,30 @@ final class QuestionRepository
 
     public function hasCategory(string $category): bool
     {
+        if ($category === 'fiqh' && isset($this->data['fiqh_general'])) {
+            return true;
+        }
+        if ($category === 'hadith' && isset($this->data['hadith_fondements'])) {
+            return true;
+        }
+        if ($category === 'sira' && isset($this->data['sira_mecquoise'])) {
+            return true;
+        }
         return isset($this->data[$category]);
     }
 
     /** @return list<array<string, mixed>> */
     public function all(string $category): array
     {
+        if ($category === 'fiqh' && !isset($this->data['fiqh']) && isset($this->data['fiqh_general'])) {
+            return $this->data['fiqh_general'];
+        }
+        if ($category === 'hadith' && !isset($this->data['hadith']) && isset($this->data['hadith_fondements'])) {
+            return $this->data['hadith_fondements'];
+        }
+        if ($category === 'sira' && !isset($this->data['sira']) && isset($this->data['sira_mecquoise'])) {
+            return $this->data['sira_mecquoise'];
+        }
         return $this->data[$category] ?? [];
     }
 

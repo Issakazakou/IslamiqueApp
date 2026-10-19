@@ -54,11 +54,11 @@ void main() {
 
     test('export puis effacement', () async {
       await manager.mergeProgress([
-        {'cat': 'sira', 'lvl': 'avance', 'stage': 3, 'stars': 2, 'score': 4, 'total': 5},
+        {'cat': 'sira_mecquoise', 'lvl': 'avance', 'stage': 3, 'stars': 2, 'score': 4, 'total': 5},
       ]);
       final exported = manager.exportProgress();
       expect(exported, hasLength(1));
-      expect(exported.first['cat'], 'sira');
+      expect(exported.first['cat'], 'sira_mecquoise');
       expect(exported.first['stage'], 3);
 
       await manager.clearProgress();
@@ -67,8 +67,8 @@ void main() {
 
     test('ignore les entrées invalides', () async {
       await manager.mergeProgress([
-        {'cat': 'sira', 'lvl': 'avance', 'stage': 9, 'stars': 2, 'score': 4, 'total': 5},
-        {'cat': 'sira', 'lvl': 'avance', 'stage': 1, 'stars': 'x', 'score': 4, 'total': 5},
+        {'cat': 'sira_mecquoise', 'lvl': 'avance', 'stage': 9, 'stars': 2, 'score': 4, 'total': 5},
+        {'cat': 'sira_mecquoise', 'lvl': 'avance', 'stage': 1, 'stars': 'x', 'score': 4, 'total': 5},
         'pas une entrée',
       ]);
       expect(manager.exportProgress(), isEmpty);
@@ -101,7 +101,7 @@ void main() {
             expect(req.headers['Authorization'], 'Bearer $token');
             return _json({
               'progress': [
-                {'cat': 'sira', 'lvl': 'debutant', 'stage': 1, 'stars': 2, 'score': 4, 'total': 5},
+                {'cat': 'sira_mecquoise', 'lvl': 'debutant', 'stage': 1, 'stars': 2, 'score': 4, 'total': 5},
               ],
             });
           case '/api/auth/logout':
@@ -116,7 +116,7 @@ void main() {
       expect(requests.first, 'POST /api/auth/login');
       expect(requests, contains('PUT /api/progress'));
       // La progression du compte est appliquée sur l'appareil.
-      expect(manager.getStageStars('sira', 'debutant', 1), 2);
+      expect(manager.getStageStars('sira_mecquoise', 'debutant', 1), 2);
 
       await AuthService.instance.logout();
       expect(AuthService.instance.isLoggedIn, isFalse);

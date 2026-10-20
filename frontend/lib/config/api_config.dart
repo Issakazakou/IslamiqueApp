@@ -1,38 +1,49 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// Configuration de l'accès au backend PHP.
+/// Configuration de l'accès au backend.
 ///
-/// L'URL est déterminée automatiquement selon la plateforme :
-/// - Web / Windows / macOS / Linux : `http://127.0.0.1:8000`
-/// - Émulateur Android             : `http://10.0.2.2:8000`
+/// Priorité de résolution : URL saisie dans les réglages, puis
+/// `--dart-define=API_BASE_URL=...`, puis URL locale adaptée à la plateforme.
 ///
-/// Pour un **téléphone physique**, l'utilisateur renseigne l'IP du PC
-/// (ex. `http://192.168.1.20:8000`) dans les réglages. Cette valeur est
-/// mémorisée via [save] et rechargée au démarrage par [load].
+/// Exemples :
+/// `flutter run --dart-define=API_BASE_URL=https://api.exemple.com`
+/// `flutter build web --dart-define=API_BASE_URL=https://api.exemple.com`
 class ApiConfig {
   ApiConfig._();
 
   /// Clé SharedPreferences où est stockée l'URL personnalisée.
   static const String _prefsKey = 'server_base_url';
 
-  /// Adresse IPv4 du serveur (PC hôte ou réseau)
-  static const String targetIp = '100.109.88.197';
-
-  /// URL par défaut configurée pour accès direct PC et réseau
-  static const String defaultServerUrl = 'http://100.109.88.197:8000';
+  /// URL injectée au moment de la compilation ou du lancement.
+  static const String _compileTimeBaseUrl =
+      String.fromEnvironment('API_BASE_URL');
 
   /// URL personnalisée saisie dans les réglages.
   ///
   /// `null` (valeur par défaut) → on utilise [defaultBaseUrl].
   static String? customBaseUrl;
 
-  /// URL par défaut selon la plateforme.
-  /// L'IP `100.109.88.197` est utilisée en priorité pour permettre l'accès
-  /// direct depuis le PC, le Web, l'émulateur et les smartphones sur le réseau.
-  static String get defaultBaseUrl => defaultServerUrl;
+  /// URL locale par défaut selon la plateforme.
+  ///
+  /// Sur le Web, l'API est servie depuis la même origine. Sur Android,
+  /// `10.0.2.2` désigne la machine hôte depuis l'émulateur. Les autres
+  /// plateformes utilisent localhost.
+  static String get defaultBaseUrl {
+    if (_compileTimeBaseUrl.trim().isNotEmpty) {
+      return _normalize(_compileTimeBaseUrl);
+    }
+    if (kIsWeb) {
+      return Uri.base.origin;
+    }
+    if (defaultTargetPlatform == TargetPlatform.android) {
+      return 'http://10.0.2.2:8000';
+    }
+    return 'http://127.0.0.1:8000';
+  }
 
   /// URL actuellement utilisée (personnalisée si définie, sinon par défaut).
   static String get baseUrl {

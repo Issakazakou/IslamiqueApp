@@ -131,7 +131,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         ),
                         const SizedBox(height: 4),
                         const Text(
-                          '• Adresse IP directe : http://100.109.88.197:8000\n'
                           '• PC / Localhost : http://127.0.0.1:8000\n'
                           '• Émulateur Android : http://10.0.2.2:8000',
                           style: TextStyle(fontSize: 11, color: TwColors.slate600, height: 1.5),
@@ -142,7 +141,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                           decoration: InputDecoration(
                             filled: true,
                             fillColor: TwColors.slate50,
-                            hintText: 'http://100.109.88.197:8000',
+                            hintText: 'https://api.exemple.com',
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(12),
                               borderSide: const BorderSide(color: TwColors.slate200),

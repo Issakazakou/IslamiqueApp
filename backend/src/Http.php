@@ -15,8 +15,13 @@ final class Http
         if ($origin !== '*') {
             header('Vary: Origin');
         }
-        header('Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS');
+        header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
         header('Access-Control-Allow-Headers: Content-Type, Authorization');
+
+        // En-têtes de sécurité standard
+        header('X-Content-Type-Options: nosniff');
+        header('X-Frame-Options: DENY');
+        header('Referrer-Policy: no-referrer');
     }
 
     public static function json(mixed $data, int $status = 200): never
@@ -39,6 +44,12 @@ final class Http
         if ($raw === '') {
             return [];
         }
+
+        $contentType = $_SERVER['CONTENT_TYPE'] ?? '';
+        if ($contentType !== '' && !str_contains(strtolower($contentType), 'application/json')) {
+            self::error('Type de contenu non supporte : application/json attendu.', 415);
+        }
+
         $data = json_decode($raw, true);
         if (!is_array($data)) {
             self::error('Corps JSON invalide.', 400);
@@ -57,7 +68,7 @@ final class Http
                 }
             }
         }
-        return preg_match('/^Bearer\s+([A-Za-z0-9]+)$/', (string) $h, $m) ? $m[1] : null;
+        return preg_match('/^Bearer\s+([a-f0-9]{64})$/i', (string) $h, $m) ? strtolower($m[1]) : null;
     }
 
     /** Chemin de la requête, sans le préfixe du dossier de déploiement. */

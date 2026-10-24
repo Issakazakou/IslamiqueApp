@@ -1,0 +1,1482 @@
+{
+  "app_metadata": {
+    "title": "100 Questions sur le Tawhid (Le Livre du Tawhid)",
+    "author": "Cheikh Sheikh Mohammed Ibn 'Abd Al-Wahâb / Explication & Directives théologiques",
+    "publisher": "Kitâb At-Tawhîd",
+    "total_questions": 100,
+    "language": "fr",
+    "description": "Base de données complète de 100 questions-réponses au format QCM avec explications et preuves textuelles pour application islamique."
+  },
+  "levels": [
+    {
+      "level_number": 1,
+      "level_name": "Niveau 1 - Les Fondements du Tawhid et la Raison de la Création",
+      "description": "Comprendre le but essentiel de l'existence, le sens de l'adoration et la priorité absolue du monothéisme.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Quel est le but premier pour lequel Allah a créé les djinns et les êtres humains ?",
+          "options": [
+            "Pour qu'ils peuplent la Terre et l'aménagent",
+            "Pour qu'ils l'adorent de manière exclusive sans rien Lui associer",
+            "Pour qu'ils recherchent la subsistance et le savoir",
+            "Pour qu'ils observent les signes de la nature"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Pour qu'ils l'adorent de manière exclusive sans rien Lui associer",
+          "explanation": "Allah dit dans la sourate Adh-Dhâriyât (v. 56) : 'Je n'ai créé les Djinns et les humains que pour qu'ils M'adorent.' L'adoration signifie ici le Tawhid (l'unicité exclusive).",
+          "references": "Sourate Adh-Dhâriyât, v. 56; Kitâb At-Tawhîd, Chapitre 1"
+        },
+        {
+          "id": 2,
+          "question": "Quelle est la mission commune confiée par Allah à tous Ses messagers envoyés aux communautés ?",
+          "options": [
+            "Enseigner les règles des transactions financières",
+            "Ordonner d'adorer Allah Seul et de s'écarter du Tâghût",
+            "Etablir des états et des gouvernements",
+            "Lutter uniquement contre l'injustice sociale"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Ordonner d'adorer Allah Seul et de s'écarter du Tâghût",
+          "explanation": "Allah dit : 'Nous avons certes envoyé à chaque communauté un messager qui leur disait : Adorez Allah et écartez-vous du Tâghût' (Sourate An-Nahl, v. 36).",
+          "references": "Sourate An-Nahl, v. 36; Kitâb At-Tawhîd, Chapitre 1"
+        },
+        {
+          "id": 3,
+          "question": "Que désigne le terme 'Tâghût' dans la théologie du Tawhid ?",
+          "options": [
+            "Uniquement les idoles taillées dans la pierre",
+            "Tout ce qui est adoré en dehors d'Allah avec son consentement, ainsi que le diable et les guides de l'égarerment",
+            "Les rois et dirigeants uniquement",
+            "Les passions humaines personnelles"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Tout ce qui est adoré en dehors d'Allah avec son consentement, ainsi que le diable et les guides de l'égarerment",
+          "explanation": "Le Tâghût englobe le Diable, les devins, ainsi que toute entité adorée en dehors d'Allah qui l'accepte ou incite à la mécréance.",
+          "references": "Sourate An-Nahl, v. 36; Al-Baqara, v. 256"
+        },
+        {
+          "id": 4,
+          "question": "D'après le hadith de Mu'âdh ibn Jabal, quel est le droit absolu d'Allah sur Ses serviteurs ?",
+          "options": [
+            "Qu'ils accomplissent 50 prières quotidiennes",
+            "Qu'ils l'adorent sans rien Lui associer",
+            "Qu'ils jeûnent tous les mois de l'année",
+            "Qu'ils fassent le pèlerinage chaque année"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Qu'ils l'adorent sans rien Lui associer",
+          "explanation": "Le Prophète ﷺ a dit à Mu'âdh : 'Le droit d'Allah sur Ses serviteurs est qu'ils l'adorent sans rien Lui associer.'",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith de Mu'âdh ibn Jabal"
+        },
+        {
+          "id": 5,
+          "question": "Quel est le droit des serviteurs sur Allah s'ils s'acquittent de Son droit (le Tawhid) ?",
+          "options": [
+            "Qu'Il leur accorde la richesse dans le bas-monde",
+            "Qu'Il ne châtie pas celui qui ne Lui associe rien",
+            "Qu'Il les préserve de toutes les épreuves terrestres",
+            "Qu'Il réalise tous leurs souhaits immédiatement"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Qu'Il ne châtie pas celui qui ne Lui associe rien",
+          "explanation": "Le Prophète ﷺ a dit dans le même hadith : 'Le droit des serviteurs sur Allah est qu'Il ne châtie pas ceux qui ne Lui associent rien.'",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith de Mu'âdh ibn Jabal"
+        },
+        {
+          "id": 6,
+          "question": "Quelle condition fondamentale est indispensable pour que la croyance en Allah soit valide ?",
+          "options": [
+            "Prononcer des formules de dhikr à voix haute",
+            "Renier le Tâghût et désavouer l'associationnisme (Shirk)",
+            "Connaître l'arabe littéraire couramment",
+            "Avoir effectué le pèlerinage à La Mecque"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Renier le Tâghût et désavouer l'associationnisme (Shirk)",
+          "explanation": "Allah dit : 'Quiconque mécroit au Tâghût tandis qu'il croit en Allah saisit l'anse la plus solide' (Sourate Al-Baqara, v. 256). La foi exige la négation du Shirk puis l'affirmation du Tawhid.",
+          "references": "Sourate Al-Baqara, v. 256; Kitâb At-Tawhîd, Chapitre 1"
+        },
+        {
+          "id": 7,
+          "question": "Pourquoi le Prophète ﷺ a-t-il demandé à Mu'âdh de ne pas annoncer immédiatement cette bonne nouvelle aux gens ?",
+          "options": [
+            "Parce que c'était un secret réservé aux érudits",
+            "De peur que les gens ne se reposent dessus et négligent les œuvres obligatoires",
+            "Parce que la révélation n'était pas encore complète",
+            "Pour éviter la jalousie entre les Compagnons"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "De peur que les gens ne se reposent dessus et négligent les œuvres obligatoires",
+          "explanation": "Le Prophète ﷺ a dit : 'Ne leur annonce pas, car ils se reposeraient alors sur cela', montrant la permission de retenir un savoir par crainte d'une mauvaise compréhension.",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith de Mu'âdh"
+        },
+        {
+          "id": 8,
+          "question": "Par quoi commence le verset des 'dix droits' dans la sourate An-Nisâ' (v. 36) ?",
+          "options": [
+            "Par l'obligation de la bonté envers les parents",
+            "Par l'ordre d'adorer Allah Seul et de ne rien Lui associer",
+            "Par l'obligation d'acquitter la Zakât",
+            "Par l'interdiction du vol et du meurtre"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Par l'ordre d'adorer Allah Seul et de ne rien Lui associer",
+          "explanation": "Allah commence par : 'Adorez Allah et ne Lui associez rien' (An-Nisâ', v. 36), plaçant le Tawhid avant tous les autres devoirs envers les créatures.",
+          "references": "Sourate An-Nisâ', v. 36; Kitâb At-Tawhîd, Chapitre 1"
+        },
+        {
+          "id": 9,
+          "question": "Dans la sourate Al-An'âm (v. 151-153), quel est le premier des dix commandements cités ?",
+          "options": [
+            "Ne pas tuer vos enfants par crainte de la pauvreté",
+            "Ne pas associer quoi que ce soit à Allah",
+            "Etre bon envers vos père et mère",
+            "Ne pas vous approcher des turpitudes"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Ne pas associer quoi que ce soit à Allah",
+          "explanation": "Allah dit : 'Dis : Venez, je vais réciter ce que votre Seigneur vous a interdit : Ne Lui associez rien...' (Sourate Al-An'âm, v. 151).",
+          "references": "Sourate Al-An'âm, v. 151-153; Kitâb At-Tawhîd, Chapitre 1"
+        },
+        {
+          "id": 10,
+          "question": "Quelle est la recommandation majeure mentionnée par Ibn Mas'ûd concernant le testament spirituel du Prophète ﷺ ?",
+          "options": [
+            "L'ordre d'écrire des livres de jurisprudence",
+            "Les versets de la sourate Al-An'âm ordonnant le Tawhid et l'interdiction du Shirk",
+            "L'obligation de construire des mosquées",
+            "L'organisation des armées"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Les versets de la sourate Al-An'âm ordonnant le Tawhid et l'interdiction du Shirk",
+          "explanation": "Ibn Mas'ûd a dit : 'Quiconque veut voir le testament du Messager d'Allah ﷺ sur lequel se trouve son sceau, qu'il récite la parole d'Allah : Dis : Venez, je vais réciter...'",
+          "references": "Rapporté par At-Tirmidhî; Kitâb At-Tawhîd, Chapitre 1"
+        }
+      ]
+    },
+    {
+      "level_number": 2,
+      "level_name": "Niveau 2 - Les Mérites du Tawhid et le Pardon des Péchés",
+      "description": "Découvrir la valeur immense de l'attestation de foi et comment le monothéisme pur efface les péchés.",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Comment le Coran (Sourate Al-An'âm, v. 82) qualifie-t-il l'associationnisme (Shirk) ?",
+          "options": [
+            "Une simple erreur d'interprétation",
+            "Une grande injustice (Thulm 'Athîm)",
+            "Un manquement mineur aux règles de politesse",
+            "Une faiblesse passagère de la foi"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Une grande injustice (Thulm 'Athîm)",
+          "explanation": "Dans le verset : 'Ceux qui ont cru et n'ont pas entaché leur foi d'injustice...', le Prophète ﷺ a expliqué que l'injustice désigne ici le Shirk, comme dans la parole de Luqmân.",
+          "references": "Sourate Al-An'âm, v. 82; Sahîh Al-Bukhârî"
+        },
+        {
+          "id": 12,
+          "question": "D'après le hadith d'Ubâda ibn As-Sâmit, quelle est la récompense de celui qui témoigne sincèrement de la vérité du Tawhid et de la prophétie ?",
+          "options": [
+            "Allah lui donne la richesse matérielle",
+            "Allah le fera entrer au Paradis quelles que soient ses œuvres",
+            "Il sera dispensé des épreuves de la tombe",
+            "Il aura la vision d'Allah dans le bas-monde"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Allah le fera entrer au Paradis quelles que soient ses œuvres",
+          "explanation": "Le Prophète ﷺ a garanti l'entrée au Paradis à quiconque atteste qu'il n'y a de divinité digne d'adoration qu'Allah, que Muhammad est Son serviteur et messager, et que Jésus est Son serviteur.",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith d'Ubâda ibn As-Sâmit"
+        },
+        {
+          "id": 13,
+          "question": "Que nous apprend le hadith d'Itbân ibn Mâlik sur l'Enfer et le Tawhid ?",
+          "options": [
+            "L'Enfer est éternel pour tous les pécheurs",
+            "Allah a interdit à l'Enfer toute personne qui dit 'Lâ ilâha illâ Allâh' en recherchant la Face d'Allah",
+            "Ceux qui disent la formule du Tawhid n'auront aucun compte à rendre",
+            "La formule du Tawhid suffit sans accomplir la prière"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Allah a interdit à l'Enfer toute personne qui dit 'Lâ ilâha illâ Allâh' en recherchant la Face d'Allah",
+          "explanation": "La promesse de préserver de l'Enfer nécessite la sincérité absolue ('en recherchant la Face d'Allah'), et non une simple prononciation verbale sans conviction.",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith d'Itbân ibn Mâlik"
+        },
+        {
+          "id": 14,
+          "question": "Dans le hadith d'Abu Sa'îd Al-Khudrî, quelle comparaison illustre la lourdeur et la valeur de la formule 'Lâ ilâha illâ Allâh' ?",
+          "options": [
+            "Elle pèse plus lourd que les montagnes de la Terre",
+            "Si les sept cieux et les sept terres étaient sur un plateau et 'Lâ ilâha illâ Allâh' sur l'autre, cette formule l'emporterait",
+            "Elle est plus précieuse que tout l'or de l'univers",
+            "Elle équivaut au poids du Trône d'Allah"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Si les sept cieux et les sept terres étaient sur un plateau et 'Lâ ilâha illâ Allâh' sur l'autre, cette formule l'emporterait",
+          "explanation": "Mûsâ (Moïse) a demandé à Allah une invocation spécifique, et Allah lui a révélé la puissance inégalée du Tawhid posé sur la balance divine.",
+          "references": "Rapporté par Ibn Hibbân et Al-Hâkim; Hadith d'Abu Sa'îd"
+        },
+        {
+          "id": 15,
+          "question": "D'après le hadith Qudsî rapporté par Anas, que promet Allah à celui qui se présente devant Lui avec la Terre remplie de péchés sans Lui avoir rien associé ?",
+          "options": [
+            "Il lui pardonnera la moitié de ses péchés",
+            "Il viendra à lui avec autant de pardon",
+            "Il le punira d'abord puis le graciera",
+            "Il lui demandera de reconstruire la Terre"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Il viendra à lui avec autant de pardon",
+          "explanation": "Allah dit : 'Ô fils d'Adam ! Si tu venais à Moi avec l'équivalent de la Terre remplie de péchés, puis tu Me rencontrais sans rien M'associer, Je viendrais à toi avec autant de pardon.'",
+          "references": "Rapporté par At-Tirmidhî; Hadith de Anas ibn Mâlik"
+        },
+        {
+          "id": 16,
+          "question": "Quelle est la condition indispensable énoncée dans tous ces hadiths pour bénéficier du pardon total des péchés ?",
+          "options": [
+            "S'isoler complètement du monde",
+            "Mourir sur l'unicité absolue (Tawhid) sans commettre de Shirk",
+            "Avoir accompli des œuvres surérogatoires continues",
+            "Faire partie d'une lignée noble"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Mourir sur l'unicité absolue (Tawhid) sans commettre de Shirk",
+          "explanation": "L'absence d'associationnisme (Shirk) est la clé ultime du pardon divin et de la sauvegarde contre le châtiment éternel.",
+          "references": "Kitâb At-Tawhîd, Chapitre 2"
+        },
+        {
+          "id": 17,
+          "question": "Quelle vérité théologique concernant Jésus ('Îsâ) fait partie du témoignage de foi mentionné dans le hadith d'Ubâda ?",
+          "options": [
+            "Qu'il est le fils de Dieu",
+            "Qu'il est le serviteur d'Allah, Son messager, Sa parole transmise à Marie et un esprit venant de Lui",
+            "Qu'il a été crucifié pour les péchés des hommes",
+            "Qu'il est un ange sous forme humaine"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Qu'il est le serviteur d'Allah, Son messager, Sa parole transmise à Marie et un esprit venant de Lui",
+          "explanation": "Le Tawhid exige de récuser l'exagération chrétienne (divinisation) et l'injustice juive (dénigrement), en professant que Jésus est un noble serviteur et prophète.",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith d'Ubâda"
+        },
+        {
+          "id": 18,
+          "question": "Que signifie l'expression 'Sa parole qu'Il a jetée en Maryam' au sujet du prophète Jésus ?",
+          "options": [
+            "Que Jésus est une partie de la parole divine",
+            "Qu'Allah l'a créé par Sa parole 'Sois' (Kun)",
+            "Que la parole d'Allah s'est incarnée en lui",
+            "Qu'il n'a parlé qu'en lisant les écritures"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Qu'Allah l'a créé par Sa parole 'Sois' (Kun)",
+          "explanation": "Jésus est appelé 'Parole d'Allah' car il fut créé directement par l'ordre 'Sois' (Kun) sans père humain, et non parce qu'il serait lui-même divin.",
+          "references": "Sourate Âl 'Imrân, v. 59; Kitâb At-Tawhîd, Chapitre 2"
+        },
+        {
+          "id": 19,
+          "question": "Pourquoi la parole 'Lâ ilâha illâ Allâh' n'est-elle pas suffisante si elle est prononcée par un hypocrite ?",
+          "options": [
+            "Parce qu'elle doit être dite en public seulement",
+            "Parce qu'elle exige la croyance du cœur et la sincérité (Ikhlâs)",
+            "Parce qu'elle doit être répétée 1000 fois par jour",
+            "Parce qu'il faut l'écrire sur un papier"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Parce qu'elle exige la croyance du cœur et la sincérité (Ikhlâs)",
+          "explanation": "Les hypocrites la disaient de leur langue mais leur cœur rejetait le Tawhid, c'est pourquoi Allah a dit qu'ils seront au plus profond de l'Enfer.",
+          "references": "Sourate An-Nisâ', v. 145; Kitâb At-Tawhîd, Chapitre 2"
+        },
+        {
+          "id": 20,
+          "question": "Quel est le sens de 'Ceux qui ont cru et n'ont pas entaché leur foi d'injustice' ?",
+          "options": [
+            "Ceux qui ne commettent aucun péché mineur",
+            "Ceux qui n'ont pas mélangé leur foi avec le Shirk",
+            "Ceux qui n'ont jamais été injustes envers leurs voisins",
+            "Ceux qui pratiquent le jugement équitable"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Ceux qui n'ont pas mélangé leur foi avec le Shirk",
+          "explanation": "Lorsque les Compagnons se sont inquiétés de ce verset, le Prophète ﷺ leur a expliqué que l'injustice visée ici est le Shirk, citant la sourate Luqmân (v. 13).",
+          "references": "Sourate Al-An'âm, v. 82; Sahîh Al-Bukhârî"
+        }
+      ]
+    },
+    {
+      "level_number": 3,
+      "level_name": "Niveau 3 - La Réalisation du Tawhid et la Crainte du Shirk",
+      "description": "Apprendre comment atteindre le degré le plus élevé du monothéisme et se préserver de l'associationnisme.",
+      "questions": [
+        {
+          "id": 21,
+          "question": "Quelle est la récompense attribuée à ceux qui réalisent parfaitement le Tawhid ?",
+          "options": [
+            "Ils vivront plus de cent ans sur Terre",
+            "Ils entreront au Paradis sans jugement ni châtiment préalable",
+            "Ils recevront le pouvoir politique sur Terre",
+            "Ils connaîtront la date exacte du Jour Dernier"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Ils entreront au Paradis sans jugement ni châtiment préalable",
+          "explanation": "Réaliser le Tawhid consiste à le purifier de toute trace de Shirk majeur, Shirk mineur, d'innovations et de désobéissances persistantes.",
+          "references": "Sourate An-Nahl, v. 120; Kitâb At-Tawhîd, Chapitre 3"
+        },
+        {
+          "id": 22,
+          "question": "Quelles sont les qualités exceptionnelles attribuées au Prophète Ibrâhîm (Abraham) dans la sourate An-Nahl (v. 120) ?",
+          "options": [
+            "Un roi puissant et un riche commerçant",
+            "Un guide parfait (Ummah), soumis à Allah (Qânit), monothéiste pur (Hanîf) et n'étant pas du nombre des polythéistes",
+            "Un poète éloquent et un grand voyageur",
+            "Un juge séculier et un stratège militaire"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Un guide parfait (Ummah), soumis à Allah (Qânit), monothéiste pur (Hanîf) et n'étant pas du nombre des polythéistes",
+          "explanation": "Ibrâhîm est le modèle absolu de la réalisation du Tawhid, ayant rejeté toute forme d'idolâtrie et d'associationnisme.",
+          "references": "Sourate An-Nahl, v. 120; Kitâb At-Tawhîd, Chapitre 3"
+        },
+        {
+          "id": 23,
+          "question": "Dans le hadith d'Ibn 'Abbâs sur les 70 000 personnes entrant au Paradis sans compte, quelles sont leurs caractéristiques principales ?",
+          "options": [
+            "Ceux qui ne demandent pas de Ruqyah, ne pratiquent pas la cautérisation, ne croient pas aux augures et s'en remettent à leur Seigneur",
+            "Ceux qui ont accompli 100 pèlerinages",
+            "Ceux qui se sont isolés dans les montagnes pour prier",
+            "Ceux qui ont écrit des livres de théologie"
+          ],
+          "correct_option_index": 0,
+          "correct_answer": "Ceux qui ne demandent pas de Ruqyah, ne pratiquent pas la cautérisation, ne croient pas aux augures et s'en remettent à leur Seigneur",
+          "explanation": "Le Prophète ﷺ a décrit l'élite des monothéistes qui s'en remettent totalement à Allah (Tawakkul) sans chercher de recours superstitieux ou de demandes déplacées.",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith d'Ibn 'Abbâs"
+        },
+        {
+          "id": 24,
+          "question": "Quel noble Compagnon s'est levé pour demander au Prophète ﷺ de prier Allah afin qu'il fasse partie de ces 70 000 privilégiés ?",
+          "options": [
+            "Abu Bakr As-Siddîq",
+            "'Ukâshah ibn Mihsan",
+            "'Umar ibn Al-Khattâb",
+            "Khâlid ibn Al-Walîd"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "'Ukâshah ibn Mihsan",
+          "explanation": "Le Prophète ﷺ lui a dit : 'Tu en fais partie.' Lorsqu'un autre homme s'est levé, le Prophète a répondu : ''Ukâshah t'a devancé.'",
+          "references": "Sahîh Al-Bukhârî et Muslim"
+        },
+        {
+          "id": 25,
+          "question": "Quelle est la règle coranique concernant le pardon du Shirk (Sourate An-Nisâ', v. 48) si la personne meurt sans repentir ?",
+          "options": [
+            "Allah le pardonne après un certain temps en Enfer",
+            "Allah ne pardonne pas qu'on Lui associe quoi que ce soit, mais Il pardonne ce qui est en deçà à qui Il veut",
+            "Allah pardonne le Shirk majeur mais pas le Shirk mineur",
+            "Le Shirk est un péché comme les autres péchés majeurs"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Allah ne pardonne pas qu'on Lui associe quoi que ce soit, mais Il pardonne ce qui est en deçà à qui Il veut",
+          "explanation": "Le Shirk est le seul péché qu'Allah refuse catégoriquement de pardonner si l'individu meurt sans s'en être repenti de son vivant.",
+          "references": "Sourate An-Nisâ', v. 48 et 116; Kitâb At-Tawhîd, Chapitre 4"
+        },
+        {
+          "id": 26,
+          "question": "Quelle invocation le prophète Ibrâhîm (Abraham) a-t-il formulée dans la sourate Ibrâhîm (v. 35) ?",
+          "options": [
+            "Seigneur, donne-moi le royaume de la Terre",
+            "Écarte-moi ainsi que mes fils de l'adoration des idoles",
+            "Accorde-moi une descendance exempte de toute maladie",
+            "Fais que tous les hommes deviennent riches"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Écarte-moi ainsi que mes fils de l'adoration des idoles",
+          "explanation": "Si Ibrâhîm, l'Ami intime d'Allah qui a brisé les idoles de ses mains, craignait le Shirk pour lui-même, a fortiori tout croyant doit éprouver cette crainte.",
+          "references": "Sourate Ibrâhîm, v. 35; Kitâb At-Tawhîd, Chapitre 4"
+        },
+        {
+          "id": 27,
+          "question": "Quelle est la chose que le Prophète ﷺ craignait le plus pour sa communauté vertueuse ?",
+          "options": [
+            "La pauvreté et la famine",
+            "Le Shirk mineur, à savoir l'ostentation (Riyâ')",
+            "Les invasions des nations étrangères",
+            "La baisse des récoltes agricoles"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Le Shirk mineur, à savoir l'ostentation (Riyâ')",
+          "explanation": "Le Prophète ﷺ a dit : 'La chose que je crains le plus pour vous est le Shirk mineur.' On l'interrogea et il répondit : 'L'ostentation (Riyâ')'.",
+          "references": "Rapporté par Ahmad dans le Musnad; Kitâb At-Tawhîd, Chapitre 4"
+        },
+        {
+          "id": 28,
+          "question": "D'après le hadith rapporté par Ibn Mas'ûd dans le Sahîh Al-Bukhârî, quel est le sort de celui qui meurt en invoquant un égal (Nidd) en dehors d'Allah ?",
+          "options": [
+            "Il sera jugé avec indulgence",
+            "Il entrera en Enfer",
+            "Ses bonnes œuvres effaceront son erreur",
+            "Il restera au Purgatoire (Al-A'râf)"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Il entrera en Enfer",
+          "explanation": "Invoquer un égal en dehors d'Allah est un Shirk majeur qui annule les œuvres et conduit à l'immersion éternelle en Enfer si la personne meurt dans cet état.",
+          "references": "Sahîh Al-Bukhârî; Hadith d'Ibn Mas'ûd"
+        },
+        {
+          "id": 29,
+          "question": "D'après le hadith de Jâbir ibn 'Abdillâh rapporté par Muslim, quelle est la condition pour entrer au Paradis ?",
+          "options": [
+            "Rencontrer Allah sans rien Lui associer",
+            "Avoir accompli le pèlerinage au moins dix fois",
+            "Être issu de la tribu des Quraysh",
+            "Ne jamais avoir commis d'erreur dans sa vie"
+          ],
+          "correct_option_index": 0,
+          "correct_answer": "Rencontrer Allah sans rien Lui associer",
+          "explanation": "Le Prophète ﷺ a dit : 'Quiconque rencontre Allah sans Lui associer quoi que ce soit entrera au Paradis, et quiconque Le rencontre en Lui associant quelque chose entrera en Enfer.'",
+          "references": "Sahîh Muslim; Hadith de Jâbir"
+        },
+        {
+          "id": 30,
+          "question": "Pourquoi la demande de Ruqyah (exorcisme/incantation) est-elle délaissée par ceux qui atteignent la perfection du Tawhid ?",
+          "options": [
+            "Parce que la Ruqyah est strictement interdite dans tous les cas",
+            "Parce qu'ils préfèrent la dépendance directe et exclusive envers Allah sans solliciter de médiateur humain",
+            "Parce qu'ils ne tombent jamais malades",
+            "Parce qu'ils ne connaissent pas les versets coraniques"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Parce qu'ils préfèrent la dépendance directe et exclusive envers Allah sans solliciter de médiateur humain",
+          "explanation": "Demander la Ruqyah à autrui est permis mais traduit un besoin envers une créature. Ne pas la demander par confiance absolue en Allah est un degré supérieur de Tawakkul.",
+          "references": "Kitâb At-Tawhîd, Chapitre 3"
+        }
+      ]
+    },
+    {
+      "level_number": 4,
+      "level_name": "Niveau 4 - L'Appel au Tawhid et l'Explication de 'Lâ ilâha illâ Allâh'",
+      "description": "Comprendre les règles de la prédication islamique et le sens profond du témoignage de foi.",
+      "questions": [
+        {
+          "id": 31,
+          "question": "Selon la sourate Yûsuf (v. 108), quelle est la voie du Prophète ﷺ et de ceux qui le suivent ?",
+          "options": [
+            "Appeler à Allah avec clairvoyance et science (Basîrah)",
+            "Chercher le pouvoir politique avant tout",
+            "Débattre sans méthode ni preuve",
+            "Imposer la foi par la contrainte verbale"
+          ],
+          "correct_option_index": 0,
+          "correct_answer": "Appeler à Allah avec clairvoyance et science (Basîrah)",
+          "explanation": "Allah dit : 'Dis : Voici ma voie, j'appelle à Allah avec clairvoyance, moi et ceux qui me suivent.' L'appel au Tawhid nécessite la certitude et la science religieuse.",
+          "references": "Sourate Yûsuf, v. 108; Kitâb At-Tawhîd, Chapitre 5"
+        },
+        {
+          "id": 32,
+          "question": "Lorsque le Prophète ﷺ a envoyé Mu'âdh ibn Jabal au Yémen, par quoi lui a-t-il ordonné de commencer la prédication ?",
+          "options": [
+            "Par l'explication des règles de la Zakât et de l'aumône",
+            "Par l'appel à l'attestation qu'aucune divinité n'est digne d'adoration en dehors d'Allah (Tawhid)",
+            "Par l'enseignement des peines légales",
+            "Par la mise en place des tribunaux"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Par l'appel à l'attestation qu'aucune divinité n'est digne d'adoration en dehors d'Allah (Tawhid)",
+          "explanation": "Le Prophète ﷺ a dit : 'Que la première chose à laquelle tu les appelles soit de témoigner que nulle divinité ne mérite d'être adorée en dehors d'Allah (ou qu'ils adorent Allah Seul).'",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith de Mu'âdh au Yémen"
+        },
+        {
+          "id": 33,
+          "question": "Dans quel ordre pédagogique les obligations religieuses doivent-elles être présentées selon ce même hadith de Mu'âdh ?",
+          "options": [
+            "Prière -> Zakât -> Tawhid",
+            "Tawhid -> Prière -> Zakât",
+            "Zakât -> Tawhid -> Jeûne",
+            "Pèlerinage -> Prière -> Tawhid"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Tawhid -> Prière -> Zakât",
+          "explanation": "Le Prophète ﷺ a enseigné d'établir d'abord le Tawhid. S'ils obéissent, alors leur enseigner les 5 prières quotidiennes, puis la Zakât prélevée sur les riches pour les pauvres.",
+          "references": "Sahîh Al-Bukhârî et Muslim; Kitâb At-Tawhîd, Chapitre 5"
+        },
+        {
+          "id": 34,
+          "question": "Le jour de la bataille de Khaybar, à qui le Prophète ﷺ a-t-il confié l'étendard en annonçant qu'Allah accorderait la victoire par ses mains ?",
+          "options": [
+            "Abu Bakr As-Siddîq",
+            "'Ali ibn Abî Tâlib",
+            "'Umar ibn Al-Khattâb",
+            "Sa'd ibn Abî Waqqâs"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "'Ali ibn Abî Tâlib",
+          "explanation": "Le Prophète ﷺ a dit : 'Je donnerai demain l'étendard à un homme qui aime Allah et Son Messager, et qui est aimé d'Allah et de Son Messager.' C'était 'Ali.",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith de Sahl ibn Sa'd"
+        },
+        {
+          "id": 35,
+          "question": "Quelle recommandation le Prophète ﷺ a-t-il donnée à 'Ali avant d'engager le combat à Khaybar ?",
+          "options": [
+            "D'attaquer immédiatement par surprise",
+            "D'avancer paisiblement, de les appeler à l'Islam et de leur faire connaître les droits d'Allah",
+            "De détruire leurs récoltes",
+            "De ne pas leur parler et de commencer la bataille"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "D'avancer paisiblement, de les appeler à l'Islam et de leur faire connaître les droits d'Allah",
+          "explanation": "Il lui a dit : 'Avance doucement jusqu'à descendre sur leur territoire, puis appelle-les à l'Islam et informe-les de ce qui leur est obligatoire concernant le droit d'Allah.'",
+          "references": "Sahîh Al-Bukhârî et Muslim"
+        },
+        {
+          "id": 36,
+          "question": "Quelle est la valeur immense énoncée par le Prophète ﷺ si une seule personne est guidée par notre intermédiaire ?",
+          "options": [
+            "Cela vaut mieux que d'avoir des chameaux rouges (les biens terrestres les plus précieux)",
+            "Cela garantit la royauté sur Terre",
+            "Cela équivaut à 100 ans de prière surérogatoire",
+            "Cela efface les dettes financières"
+          ],
+          "correct_option_index": 0,
+          "correct_answer": "Cela vaut mieux que d'avoir des chameaux rouges (les biens terrestres les plus précieux)",
+          "explanation": "Le Prophète ﷺ a dit : 'Par Allah, qu'Allah guide par ton intermédiaire un seul homme vaut mieux pour toi que de posséder des chameaux rouges.'",
+          "references": "Sahîh Al-Bukhârî et Muslim"
+        },
+        {
+          "id": 37,
+          "question": "Que dénonce la sourate At-Tawba (v. 31) dans la parole : 'Ils ont pris leurs savants et leurs moines comme des seigneurs en dehors d'Allah' ?",
+          "options": [
+            "Le fait de demander des conseils médicaux aux savants",
+            "Le fait de leur obéir dans la modification du licite et de l'illicite en désobéissance aux ordres d'Allah",
+            "Le fait de leur offrir des cadeaux",
+            "Le fait de respecter leur savoir jurisprudentiel"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Le fait de leur obéir dans la modification du licite et de l'illicite en désobéissance aux ordres d'Allah",
+          "explanation": "Comme l'a expliqué le Prophète ﷺ à 'Adi ibn Hâtim : l'adoration des savants consistait à déclarer licite ce qu'ils autorisaient et interdit ce qu'ils interdisaient à l'encontre du Texte sacré.",
+          "references": "Sourate At-Tawba, v. 31; Rapporté par At-Tirmidhî"
+        },
+        {
+          "id": 38,
+          "question": "Que révèle la parole du prophète Ibrâhîm à son père et son peuple : 'Je désavoue ce que vous adorez, à l'exception de Celui qui m'a créé' (Az-Zukhruf, v. 26-27) ?",
+          "options": [
+            "Que 'Lâ ilâha illâ Allâh' comporte deux piliers : le désaveu (An-Nafy) de toute idole et l'affirmation (Al-Ithbât) pour Allah Seul",
+            "Qu'Ibrâhîm adorait les étoiles avant de créer la terre",
+            "Que les idoles avaient une certaine utilité temporaire",
+            "Qu'il est permis de prier vers les tombes des ancêtres"
+          ],
+          "correct_option_index": 0,
+          "correct_answer": "Que 'Lâ ilâha illâ Allâh' comporte deux piliers : le désaveu (An-Nafy) de toute idole et l'affirmation (Al-Ithbât) pour Allah Seul",
+          "explanation": "Le désaveu des fausses divinités est l'équivalent de 'Lâ ilâha' et l'exception de Celui qui l'a créé est l'équivalent de 'illâ Allâh'.",
+          "references": "Sourate Az-Zukhruf, v. 26-27; Kitâb At-Tawhîd, Chapitre 6"
+        },
+        {
+          "id": 39,
+          "question": "D'après la sourate Al-Baqara (v. 165), quel est le grand Shirk commis par certains hommes dans le domaine de l'amour ?",
+          "options": [
+            "Aimer leur patrie d'origine",
+            "Donner à Allah des égaux qu'ils aiment d'un amour égal ou supérieur à celui qu'ils vouent à Allah",
+            "Aimer leurs enfants et leurs épouses",
+            "Préférer la nourriture fine"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Donner à Allah des égaux qu'ils aiment d'un amour égal ou supérieur à celui qu'ils vouent à Allah",
+          "explanation": "L'amour d'adoration (Mahabbah 'Ibâdiyyah) est un droit exclusif d'Allah. Vouer un amour absolu et une soumission égale à une créature est du Shirk majeur.",
+          "references": "Sourate Al-Baqara, v. 165; Kitâb At-Tawhîd, Chapitre 6"
+        },
+        {
+          "id": 40,
+          "question": "Quel principe fondamental garantit la protection du sang et des biens d'un individu selon le hadith rapporté par Muslim ?",
+          "options": [
+            "La simple appartenance géographique",
+            "Dire 'Lâ ilâha illâ Allâh' ET renier tout ce qui est adoré en dehors d'Allah",
+            "S'engager dans le commerce international",
+            "Payer des taxes à l'État"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Dire 'Lâ ilâha illâ Allâh' ET renier tout ce qui est adoré en dehors d'Allah",
+          "explanation": "Le Prophète ﷺ a dit : 'Quiconque dit : Nulle divinité ne mérite d'être adorée en dehors d'Allah ET renie tout ce qui est adoré en dehors d'Allah, ses biens et son sang deviennent sacrés.'",
+          "references": "Sahîh Muslim; Hadith de Târiq ibn Ashyam"
+        }
+      ]
+    },
+    {
+      "level_number": 5,
+      "level_name": "Niveau 5 - La Protection contre les Amulettes, Incantations et Superstitions",
+      "description": "Identifier et s'interdire les pratiques superstitieuses qui altèrent la pureté de la foi.",
+      "questions": [
+        {
+          "id": 41,
+          "question": "Quel est le statut de porter un anneau, un fil ou un bracelet de cuivre dans le but de repousser ou de guérir une maladie ?",
+          "options": [
+            "Une pratique médicale recommandée",
+            "Une forme de Shirk (associationnisme)",
+            "Une tradition culturelle neutre",
+            "Une Sunna délaissée"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Une forme de Shirk (associationnisme)",
+          "explanation": "Le Prophète ﷺ a vu un homme portant un anneau de cuivre contre la faiblesse du bras et lui a dit : 'Enlève-le, il ne fait qu'augmenter ta faiblesse. Si tu meurs en le portant, tu ne réussiras jamais.'",
+          "references": "Rapporté par Ahmad; Kitâb At-Tawhîd, Chapitre 7"
+        },
+        {
+          "id": 42,
+          "question": "Que dit le hadith rapporté par 'Uqba ibn 'Âmir concernant celui qui accroche une amulette (Tamîmah) ?",
+          "options": [
+            "Qu'Allah guérira son mal rapidement",
+            "Qu'Allah n'accomplisse pas ses souhaits et qu'il a commis un acte d'association (Shirk)",
+            "Qu'il doit payer une expiation en deuil",
+            "Qu'il est excusé s'il est ignorant"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Qu'Allah n'accomplisse pas ses souhaits et qu'il a commis un acte d'association (Shirk)",
+          "explanation": "Le Prophète ﷺ a dit : 'Celui qui accroche une amulette, qu'Allah n'accomplisse pas son dessein... Et celui qui accroche une amulette a certes commis du Shirk.'",
+          "references": "Rapporté par Ahmad et Al-Hâkim"
+        },
+        {
+          "id": 43,
+          "question": "Quelle fut la réaction du noble Compagnon Hudhayfa en voyant un homme porter un fil à la main contre la fièvre ?",
+          "options": [
+            "Il lui a dit de le cacher sous la manche",
+            "Il l'a coupé et a récité le verset : 'Et la plupart d'entre eux ne croient en Allah qu'en Lui associant des égaux'",
+            "Il lui a demandé où il l'avait acheté",
+            "Il n'a rien dit pour ne pas le blesser"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Il l'a coupé et a récité le verset : 'Et la plupart d'entre eux ne croient en Allah qu'en Lui associant des égaux'",
+          "explanation": "Hudhayfa a appliqué le verset de la sourate Yûsuf (v. 106) pour démontrer que l'usage de fils ou gri-gri relève du Shirk.",
+          "references": "Rapporté par Ibn Abî Hâtim; Sourate Yûsuf, v. 106"
+        },
+        {
+          "id": 44,
+          "question": "Que désigne le terme 'Tamâ'im' (amulettes) dans les traditions prophétiques ?",
+          "options": [
+            "Des remèdes à base d'herbes naturelles",
+            "Des objets, coquillages ou tissus accrochés aux enfants ou animaux pour repousser le mauvais œil",
+            "Des vêtements en laine brute",
+            "Des pièces de monnaie anciennes"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Des objets, coquillages ou tissus accrochés aux enfants ou animaux pour repousser le mauvais œil",
+          "explanation": "Les amulettes (Tamâ'im) étaient accrochées par les Arabes de la Jâhiliyya en pensant qu'elles repoussaient d'elles-mêmes le mauvais œil, ce qui est du Shirk.",
+          "references": "Kitâb At-Tawhîd, Chapitre 8"
+        },
+        {
+          "id": 45,
+          "question": "Quelle est la règle concernant les incantations (Ruqâ) d'après le hadith 'Les Ruqâ, les amulettes et la Tiwala sont du Shirk' ?",
+          "options": [
+            "Toutes les incantations sont absolument interdites sans exception",
+            "Seules les incantations contenant du Shirk ou des formules incompréhensibles sont interdites ; la Ruqyah par le Coran et les invocations licites est permise",
+            "Les Ruqâ sont autorisées uniquement pendant le Ramadan",
+            "La Tiwala est autorisée pour réconcilier les époux"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Seules les incantations contenant du Shirk ou des formules incompréhensibles sont interdites ; la Ruqyah par le Coran et les invocations licites est permise",
+          "explanation": "Le Prophète ﷺ a autorisé la Ruqyah à condition qu'elle ne contienne aucun Shirk, qu'elle soit en langue connue et qu'on ne croie pas qu'elle agit par elle-même.",
+          "references": "Sahîh Muslim; Rapporté par Abu Dâwûd"
+        },
+        {
+          "id": 46,
+          "question": "Qu'est-ce que la 'Tiwala' mentionnée dans les hadiths prophétiques ?",
+          "options": [
+            "Un type de prière nocturne",
+            "Une magie ou talisman prétendant faire aimer artificiellement un homme à sa femme et vice-versa",
+            "Un plat traditionnel consommé le jour de la fête",
+            "Une transaction commerciale avec intérêt"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Une magie ou talisman prétendant faire aimer artificiellement un homme à sa femme et vice-versa",
+          "explanation": "La Tiwala est une forme de sorcellerie d'envoûtement affectif (Sihr Al-'Atf) qui relève du Shirk.",
+          "references": "Rapporté par Ahmad et Abu Dâwûd; Kitâb At-Tawhîd, Chapitre 8"
+        },
+        {
+          "id": 47,
+          "question": "Quelle action le Prophète ﷺ a-t-il ordonnée lors d'un voyage concernant les colliers en corde d'arc pendus au cou des chameaux ?",
+          "options": [
+            "De les remplacer par des colliers en cuir",
+            "De couper tous les colliers en corde d'arc sans en laisser un seul",
+            "De les bénir par des invocations",
+            "De les vendre au marché"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "De couper tous les colliers en corde d'arc sans en laisser un seul",
+          "explanation": "Les gens de la Jâhiliyya mettaient ces cordes d'arc pour protéger les bêtes du mauvais œil. Le Prophète ﷺ a ordonné leur destruction totale.",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith d'Abu Bashîr Al-Ansârî"
+        },
+        {
+          "id": 48,
+          "question": "Quelle récompense est équivalente à celle de couper une amulette portée par une personne selon Sa'îd ibn Jubayr ?",
+          "options": [
+            "L'équivalent d'un jeûne d'un mois",
+            "L'équivalent de l'affranchissement d'un esclave",
+            "L'équivalent d'une aumône de 1000 dinars",
+            "L'équivalent d'un pèlerinage surérogatoire"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "L'équivalent de l'affranchissement d'un esclave",
+          "explanation": "Sa'îd ibn Jubayr a dit : 'Celui qui coupe une amulette portée par une personne est comme celui qui affranchit un esclave', car il délivre son monothéisme de l'esclavage du Shirk.",
+          "references": "Rapporté par Wakî'; Kitâb At-Tawhîd, Chapitre 8"
+        },
+        {
+          "id": 49,
+          "question": "Quelle fut la demande formulée par certains nouveaux musulmans lors de la bataille de Hunayn concernant l'arbre nommé 'Dhâtu Anwât' ?",
+          "options": [
+            "De couper cet arbre pour en faire du bois de chauffage",
+            "De leur désigner un arbre semblable pour y accrocher leurs armes et en chercher la bénédiction (Tabarruk)",
+            "De prier sous cet arbre à l'ombre",
+            "D'en faire le point de rassemblement de l'armée"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "De leur désigner un arbre semblable pour y accrocher leurs armes et en chercher la bénédiction (Tabarruk)",
+          "explanation": "Les polythéistes avaient un arbre sacré (Dhâtu Anwât). Les nouveaux musulmans ignorants ont demandé d'avoir un arbre similaire pour chercher la bénédiction.",
+          "references": "Rapporté par At-Tirmidhî; Hadith d'Abu Wâqid Al-Laythî"
+        },
+        {
+          "id": 50,
+          "question": "Quelle fut la réaction véhémente du Prophète ﷺ à cette demande de 'Dhâtu Anwât' ?",
+          "options": [
+            "Il a souri et a accepté leur demande",
+            "Il a dit : 'Allâhu Akbar ! Ce sont les voies du passé ! Vous avez dit comme les enfants d'Israël ont dit à Moïse : Désigne-nous une divinité comme leurs dieux'",
+            "Il leur a infligé une amende financière",
+            "Il leur a ordonné de retourner à Médine"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Il a dit : 'Allâhu Akbar ! Ce sont les voies du passé ! Vous avez dit comme les enfants d'Israël ont dit à Moïse : Désigne-nous une divinité comme leurs dieux'",
+          "explanation": "Le Prophète ﷺ a assimilé la recherche de bénédiction auprès d'arbres ou de pierres à l'imitation des pratiques polythéistes d'autrefois.",
+          "references": "Rapporté par At-Tirmidhî; Sourate Al-A'râf, v. 138"
+        }
+      ]
+    },
+    {
+      "level_number": 6,
+      "level_name": "Niveau 6 - L'Exclusivité des Actes d'Adoration (Sacrifices, Vœux et Invocations)",
+      "description": "Apprendre que le sacrifice, le vœu et l'appel au secours sont des actes réservés exclusivement à Allah.",
+      "questions": [
+        {
+          "id": 51,
+          "question": "Quel est le statut religieux d'immoler un animal en sacrifice pour un saint, un djin ou un ancêtre défunt ?",
+          "options": [
+            "Une tradition culturelle permise",
+            "Un Shirk majeur qui fait sortir de l'Islam",
+            "Un acte recommandé si l'intention est bonne",
+            "Une simple désobéissance mineure"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Un Shirk majeur qui fait sortir de l'Islam",
+          "explanation": "Allah dit : 'Dis : En vérité, ma prière, mon sacrifice, ma vie et ma mort sont pour Allah, Seigneur des mondes. Il n'a aucun associé' (Sourate Al-An'âm, v. 162-163).",
+          "references": "Sourate Al-An'âm, v. 162-163; Kitâb At-Tawhîd, Chapitre 10"
+        },
+        {
+          "id": 52,
+          "question": "Quelle malédiction est rapportée par 'Ali ibn Abî Tâlib dans le Sahîh Muslim concernant le sacrifice ?",
+          "options": [
+            "Qu'Allah maudisse celui qui ne mange pas de viande",
+            "Qu'Allah maudisse celui qui sacrifie un animal pour un autre qu'Allah",
+            "Qu'Allah maudisse celui qui vend de la viande avariée",
+            "Qu'Allah maudisse celui qui oublie de dire Bismillah"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Qu'Allah maudisse celui qui sacrifie un animal pour un autre qu'Allah",
+          "explanation": "Le Prophète ﷺ a prononcé quatre malédictions dont la première est : 'Qu'Allah maudisse celui qui sacrifie pour autre qu'Allah.'",
+          "references": "Sahîh Muslim; Hadith de 'Ali"
+        },
+        {
+          "id": 53,
+          "question": "Dans le récit emblématique des deux hommes et de la mouche, pourquoi le premier homme est-il entré en Enfer ?",
+          "options": [
+            "Parce qu'il a tué une mouche volontairement",
+            "Parce qu'il a accepté de sacrifier une simple mouche à une idole pour pouvoir passer",
+            "Parce qu'il a refusé de donner une aumône",
+            "Parce qu'il a menti aux gardes"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Parce qu'il a accepté de sacrifier une simple mouche à une idole pour pouvoir passer",
+          "explanation": "Sacrifier pour une idole, même un objet dérisoire comme une mouche, constitue un acte de Shirk majeur commis pour satisfaire les associateurs.",
+          "references": "Rapporté par Târiq ibn Shihâb; Kitâb At-Tawhîd, Chapitre 10"
+        },
+        {
+          "id": 54,
+          "question": "Pourquoi le second homme du même récit est-il entré au Paradis ?",
+          "options": [
+            "Parce qu'il a réussi à s'enfuir par la ruse",
+            "Parce qu'il a catégoriquement refusé de sacrifier quoi que ce soit pour un autre qu'Allah et a été exécuté",
+            "Parce qu'il a détruit l'idole avec son épée",
+            "Parce qu'il a offert de l'or aux pauvres"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Parce qu'il a catégoriquement refusé de sacrifier quoi que ce soit pour un autre qu'Allah et a été exécuté",
+          "explanation": "Il a dit : 'Je ne sacrifie rien à qui que ce soit en dehors d'Allah.' Ils l'ont alors tué et il est entré au Paradis en martyr du Tawhid.",
+          "references": "Kitâb At-Tawhîd, Chapitre 10"
+        },
+        {
+          "id": 55,
+          "question": "Un homme ayant fait le vœu d'immoler un chameau à un endroit nommé 'Buwâna' est venu interroger le Prophète ﷺ. Quelle condition le Prophète a-t-il vérifiée avant d'autoriser le vœu ?",
+          "options": [
+            "Si le chameau était de couleur blanche",
+            "Si le lieu contenait une idole de la Jâhiliyya ou si les idolâtres y célébraient une de leurs fêtes",
+            "Si l'homme était marié ou célibataire",
+            "Si la viande allait être distribuée aux riches"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Si le lieu contenait une idole de la Jâhiliyya ou si les idolâtres y célébraient une de leurs fêtes",
+          "explanation": "Le Prophète ﷺ a interdit de sacrifier pour Allah dans un lieu associé aux pratiques polythéistes pour éviter toute ressemblance ou vénération illicite.",
+          "references": "Rapporté par Abu Dâwûd; Hadith de Thâbit ibn Ad-Dahhâk"
+        },
+        {
+          "id": 56,
+          "question": "Quel est le jugement religieux de vouer un vœu pieux (Nathr) à une créature (saint, tombeau, djin) ?",
+          "options": [
+            "C'est un acte recommandé pour obtenir la guérison",
+            "C'est un acte de Shirk majeur car le vœu est une adoration exclusive d'Allah",
+            "C'est une tradition acceptable si on donne aussi de l'argent aux pauvres",
+            "C'est un vœu qui doit être accompli obligatoirement"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "C'est un acte de Shirk majeur car le vœu est une adoration exclusive d'Allah",
+          "explanation": "Allah fait l'éloge des croyants en disant : 'Ils accomplissent leurs vœux' (Sourate Al-Insân, v. 7). Vouer une adoration à autrui est donc du Shirk.",
+          "references": "Sourate Al-Insân, v. 7; Kitâb At-Tawhîd, Chapitre 12"
+        },
+        {
+          "id": 57,
+          "question": "Que doit faire une personne qui a fait le vœu de désobéir à Allah (par exemple rompre les liens familiaux ou commettre un péché) ?",
+          "options": [
+            "Elle doit accomplir son vœu sans hésiter",
+            "Il lui est strictement interdit d'accomplir ce vœu de désobéissance",
+            "Elle doit demander la permission à son imam",
+            "Elle doit jeûner trois ans"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Il lui est strictement interdit d'accomplir ce vœu de désobéissance",
+          "explanation": "Le Prophète ﷺ a dit dans le Sahîh Al-Bukhârî : 'Quiconque fait le vœu d'obéir à Allah, qu'il Lui obéisse ; et quiconque fait le vœu de Lui désobéir, qu'il ne Lui désobéisse pas.'",
+          "references": "Sahîh Al-Bukhârî; Hadith d'Aïcha"
+        },
+        {
+          "id": 58,
+          "question": "Quelle est la règle concernant le fait de chercher refuge (Isti'âdhah) auprès des djinns ou des esprits dans les lieux déserts ?",
+          "options": [
+            "C'est une protection efficace sans danger",
+            "C'est du Shirk car chercher refuge est une adoration réservée à Allah Seul",
+            "C'est permis si on dit aussi Bismillah",
+            "C'est une recommandation des voyageurs anciens"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "C'est du Shirk car chercher refuge est une adoration réservée à Allah Seul",
+          "explanation": "Allah dit : 'Or, il y avait parmi les humains des mâles qui cherchaient protection auprès des mâles parmi les djinns, mais cela ne fit qu'accroître leur détresse' (Sourate Al-Djinn, v. 6).",
+          "references": "Sourate Al-Djinn, v. 6; Kitâb At-Tawhîd, Chapitre 13"
+        },
+        {
+          "id": 59,
+          "question": "Quelle est la formule prophétique enseignée par Khawla bint Hakîm pour se protéger lorsqu'on fait escale dans un lieu ?",
+          "options": [
+            "Je demande la protection aux maîtres de cette vallée",
+            "Je cherche refuge auprès des paroles parfaites d'Allah contre le mal de ce qu'Il a créé",
+            "Je salue les esprits de cette terre",
+            "Je jette du sel sur le sol"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Je cherche refuge auprès des paroles parfaites d'Allah contre le mal de ce qu'Il a créé",
+          "explanation": "Le Prophète ﷺ a garanti que quiconque prononce cette invocation : 'A'ûdhu bi-kalimâtillâhi at-tâmmâti min sharri mâ khalaq' ne subira aucun mal jusqu'à son départ.",
+          "references": "Sahîh Muslim; Hadith de Khawla bint Hakîm"
+        },
+        {
+          "id": 60,
+          "question": "Quelle est la différence entre demander de l'aide à une créature vivante et capable, et l'imploration du secours (Istighâthah) auprès d'un mort ou d'un absent ?",
+          "options": [
+            "Il n'y a aucune différence",
+            "Demander l'aide d'un vivant capable pour une chose terrestre est permis ; implorer un mort ou un absent est une adoration exclusive (Shirk majeur)",
+            "Demander à un mort est préférable car il est plus proche d'Allah",
+            "Les deux sont interdits"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Demander l'aide d'un vivant capable pour une chose terrestre est permis ; implorer un mort ou un absent est une adoration exclusive (Shirk majeur)",
+          "explanation": "L'Istighâthah dans les choses hors de portée des créatures (guérison, secours invisible, pardon) est une adoration pure qui ne revient qu'à Allah.",
+          "references": "Sourate Yûnus, v. 106; An-Naml, v. 62; Kitâb At-Tawhîd, Chapitre 14"
+        }
+      ]
+    },
+    {
+      "level_number": 7,
+      "level_name": "Niveau 7 - L'Intercession, l'Exagération et le Culte des Tombes",
+      "description": "Comprendre les conditions de l'intercession auprès d'Allah et les dangers de la vénération excessive des êtres pieux.",
+      "questions": [
+        {
+          "id": 61,
+          "question": "A qui appartient la totalité de l'intercession (Al-Shafâ'ah) selon le verset de la sourate Az-Zumar (v. 44) ?",
+          "options": [
+            "Aux anges et aux prophètes uniquement",
+            "À Allah Seul dans sa totalité",
+            "Aux saints pieux dans leurs tombeaux",
+            "À la communauté des croyants"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "À Allah Seul dans sa totalité",
+          "explanation": "Allah dit : 'Dis : À Allah appartient l'intercession tout entière.' Nul ne peut intercéder auprès de Lui sans Sa permission préalable.",
+          "references": "Sourate Az-Zumar, v. 44; Kitâb At-Tawhîd, Chapitre 15"
+        },
+        {
+          "id": 62,
+          "question": "Quelles sont les deux conditions obligatoires pour que l'intercession acceptée (Al-Shafâ'ah Al-Muthbatah) ait lieu au Jour Dernier ?",
+          "options": [
+            "Que l'intercesseur soit riche et noble",
+            "La permission accordée par Allah à l'intercesseur ET Son agrément pour celui en faveur de qui on intercède",
+            "L'accord des savants et de la famille",
+            "La récitation de poèmes de louange"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "La permission accordée par Allah à l'intercesseur ET Son agrément pour celui en faveur de qui on intercède",
+          "explanation": "Allah dit : 'Qui donc peut intercéder auprès de Lui sans Sa permission ?' (Al-Baqara: 255) et 'Et ils n'intercèdent que pour ceux qu'Il a agréés' (Al-Anbiya: 28).",
+          "references": "Sourate Al-Baqara, v. 255; Al-Anbiya, v. 28"
+        },
+        {
+          "id": 63,
+          "question": "Quelle fut l'origine historique du tout premier Shirk apparu sur Terre au temps du peuple du prophète Nûh (Noé) ?",
+          "options": [
+            "L'amour de l'argent et du commerce",
+            "L'exagération (Ghuluww) dans la vénération des hommes pieux (Wadd, Suwâ', Yaghûth, Ya'ûq, Nasr) et la réalisation de leurs statues",
+            "L'étude de la philosophie grecque",
+            "L'abandon de l'agriculture"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "L'exagération (Ghuluww) dans la vénération des hommes pieux (Wadd, Suwâ', Yaghûth, Ya'ûq, Nasr) et la réalisation de leurs statues",
+          "explanation": "Comme l'a rapporté Ibn 'Abbâs : c'étaient des hommes pieux. À leur mort, Satan a insufflé au peuple d'ériger leurs statues pour se rappeler d'eux. Avec le temps et l'oubli de la science, ils ont fini par les adorer.",
+          "references": "Sahîh Al-Bukhârî; Sourate Nûh, v. 23"
+        },
+        {
+          "id": 64,
+          "question": "Quel avertissement sévère le Prophète ﷺ a-t-il donné concernant sa propre personne dans le Sahîh Al-Bukhârî ?",
+          "options": [
+            "Ne me délaissez pas pendant vos voyages",
+            "N'exagérez pas à mon sujet comme les chrétiens ont exagéré au sujet du fils de Marie. Je ne suis qu'un serviteur, dites : Le serviteur d'Allah et Son Messager",
+            "Ne construisez pas de maisons élevées à Médine",
+            "Ne donnez pas mon prénom à vos enfants"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "N'exagérez pas à mon sujet comme les chrétiens ont exagéré au sujet du fils de Marie. Je ne suis qu'un serviteur, dites : Le serviteur d'Allah et Son Messager",
+          "explanation": "Le Prophète ﷺ a fermé toutes les portes menant à l'élévation d'une créature au rang de la divinité.",
+          "references": "Sahîh Al-Bukhârî; Hadith de 'Umar ibn Al-Khattâb"
+        },
+        {
+          "id": 65,
+          "question": "Qu'ont fait les juifs et les chrétiens à l'égard des tombes de leurs prophètes, ce qui leur a valu la malédiction divine ?",
+          "options": [
+            "Ils ont oublié l'emplacement de leurs tombes",
+            "Ils ont pris les tombes de leurs prophètes comme des lieux de prière et de culte",
+            "Ils les ont recouvertes de pierre noire",
+            "Ils ont refusé de les enterrer dans la terre"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Ils ont pris les tombes de leurs prophètes comme des lieux de prière et de culte",
+          "explanation": "Sur son lit de mort, le Prophète ﷺ s'est écrié : 'Que la malédiction d'Allah soit sur les juifs et les chrétiens, ils ont pris les tombes de leurs prophètes comme lieux de prière.'",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith d'Aïcha"
+        },
+        {
+          "id": 66,
+          "question": "Comment le Prophète ﷺ qualifie-t-il ceux qui construisent des édifices de prière sur la tombe d'un homme pieux et y dessinent des images ?",
+          "options": [
+            "Des croyants zélés et respectueux",
+            "Les pires des créatures auprès d'Allah le Jour de la Résurrection",
+            "Des architectes habiles",
+            "Des serviteurs excusables"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Les pires des créatures auprès d'Allah le Jour de la Résurrection",
+          "explanation": "Lorsque Um Habîba et Um Salama ont décrit une église en Abyssinie contenant des images, le Prophète ﷺ a expliqué qu'ils associaient deux tentations : celle des tombes et celle des représentations.",
+          "references": "Sahîh Al-Bukhârî et Muslim"
+        },
+        {
+          "id": 67,
+          "question": "Quelle décision fut prise concernant la tombe du Prophète ﷺ pour éviter qu'elle ne devienne une idole adorée ?",
+          "options": [
+            "Elle a été cachée dans le désert",
+            "Elle a été entourée d'un mur sans porte dans la chambre d'Aïcha pour empêcher l'accès direct",
+            "Elle a été élevée au-dessus du toit de la mosquée",
+            "Elle a été verrouillée avec sept clés d'or"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Elle a été entourée d'un mur sans porte dans la chambre d'Aïcha pour empêcher l'accès direct",
+          "explanation": "Aïcha a dit : 'Si ce n'était cela, sa tombe aurait été laissée en évidence, mais on a craint qu'on en fasse un lieu de prière.'",
+          "references": "Sahîh Al-Bukhârî et Muslim; Kitâb At-Tawhîd, Chapitre 18"
+        },
+        {
+          "id": 68,
+          "question": "Quelle invocation le Prophète ﷺ répétait-il pour préserver sa tombe après son décès ?",
+          "options": [
+            "Seigneur, augmente le nombre de visiteurs de ma tombe",
+            "Ô Seigneur ! Ne fais pas de ma tombe une idole (Wathan) qui soit adorée",
+            "Seigneur, fais que ma tombe soit couverte d'or",
+            "Seigneur, accorde la richesse à ceux qui me rendent visite"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Ô Seigneur ! Ne fais pas de ma tombe une idole (Wathan) qui soit adorée",
+          "explanation": "Allah a exaucé l'invocation de Son Messager ﷺ en le préservant des pratiques d'idolâtrie directe autour de sa tombe.",
+          "references": "Rapporté par Mâlik dans Al-Muwatta'; Hadith de Zayd ibn Aslam"
+        },
+        {
+          "id": 69,
+          "question": "Qu'a répondu Ali ibn Al-Husayn (Zayn Al-'Âbidîn) à l'homme qu'il a vu s'introduire vers une ouverture près de la tombe du Prophète ﷺ pour y faire des invocations ?",
+          "options": [
+            "Il l'a encouragé à continuer",
+            "Il lui a interdit cela en citant le hadith : 'Ne faites pas de ma tombe un lieu de fête habituel et priez sur moi où que vous soyez'",
+            "Il lui a demandé de prier pour lui aussi",
+            "Il lui a donné de l'argent"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Il lui a interdit cela en citant le hadith : 'Ne faites pas de ma tombe un lieu de fête habituel et priez sur moi où que vous soyez'",
+          "explanation": "Les salutations et prières adressées au Prophète ﷺ lui parviennent de n'importe quel endroit de la Terre sans avoir besoin de se déplacer spécifiquement auprès de sa tombe.",
+          "references": "Rapporté dans Al-Mukhtârah et Abu Dâwûd"
+        },
+        {
+          "id": 70,
+          "question": "Quel est le statut d'éclairer les tombes avec des lampes/projecteurs ou d'y sacrifier des animaux ?",
+          "options": [
+            "Une tradition recommandée le vendredi",
+            "Un acte strictement interdit et maudit par le Prophète ﷺ",
+            "Un acte toléré si la mosquée est sombre",
+            "Une coutume sans importance"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Un acte strictement interdit et maudit par le Prophète ﷺ",
+          "explanation": "Ibn 'Abbâs a rapporté : 'Le Messager d'Allah ﷺ a maudit les femmes qui visitent fréquemment les tombes ainsi que ceux qui prennent les tombes comme mosquées et y mettent des lumières.'",
+          "references": "Rapporté par les auteurs des Sunan; Kitâb At-Tawhîd, Chapitre 19"
+        }
+      ]
+    },
+    {
+      "level_number": 8,
+      "level_name": "Niveau 8 - La Sorcellerie, la Voyance et l'Astrologie",
+      "description": "Mettre en garde contre la magie, la divination et la prédiction de l'avenir par les astres.",
+      "questions": [
+        {
+          "id": 71,
+          "question": "Quel est le statut jurisprudentiel de la sorcellerie (Sihr) en Islam ?",
+          "options": [
+            "Une science occulte neutre",
+            "De la mécréance (Kufr) majeure qui fait sortir de l'Islam",
+            "Un art de spectacle toléré",
+            "Un péché mineur effacé par les ablutions"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "De la mécréance (Kufr) majeure qui fait sortir de l'Islam",
+          "explanation": "Allah dit : 'Alors qu'ils savaient que quiconque la pratique n'aura aucune part dans l'au-delà' (Sourate Al-Baqara, v. 102). La sorcellerie implique obligatoirement l'alliance avec les djinns et le Shirk.",
+          "references": "Sourate Al-Baqara, v. 102; Kitâb At-Tawhîd, Chapitre 20"
+        },
+        {
+          "id": 72,
+          "question": "Où figure la sorcellerie parmi la liste des grands péchés décrits par le Prophète ﷺ ?",
+          "options": [
+            "Elle ne fait pas partie des grands péchés",
+            "Elle est le deuxième des sept péchés capitaux (Al-Mûbiqât) juste après le Shirk",
+            "Elle est classée après le vol et l'usure",
+            "Elle est le dernier des grands péchés"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Elle est le deuxième des sept péchés capitaux (Al-Mûbiqât) juste après le Shirk",
+          "explanation": "Le Prophète ﷺ a dit : 'Éloignez-vous des sept péchés capitaux... Associer à Allah et la sorcellerie...'",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith d'Abu Hurayra"
+        },
+        {
+          "id": 73,
+          "question": "Quelle est la peine légale prescrite contre le sorcier prouvé selon les jugements des Compagnons ('Umar, Hafsa, Jundub) ?",
+          "options": [
+            "Une amende financière",
+            "La peine de mort par le sabre sans demande de repentir",
+            "L'exil hors de la ville pendant un an",
+            "L'emprisonnement à perpétuité"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "La peine de mort par le sabre sans demande de repentir",
+          "explanation": "'Umar ibn Al-Khattâb a écrit à ses gouverneurs : 'Tuez tout sorcier et toute sorcière.' C'est la sentence appliquée par la justice islamique pour protéger la société.",
+          "references": "Sahîh Al-Bukhârî; Rapporté par At-Tirmidhî"
+        },
+        {
+          "id": 74,
+          "question": "Quelles pratiques superstitieuses sont assimilées à la sorcellerie dans le hadith de Qatan ibn Qabîsa ?",
+          "options": [
+            "Le calcul mental et l'écriture",
+            "La 'Iyâfa (effrayer les oiseaux pour lire l'avenir), le Tarq (tracer des traits sur le sable) et l'augure",
+            "L'observation des nuages pour la pluie",
+            "La mesure du temps par l'ombre"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "La 'Iyâfa (effrayer les oiseaux pour lire l'avenir), le Tarq (tracer des traits sur le sable) et l'augure",
+          "explanation": "Le Prophète ﷺ a expliqué que ces pratiques géomantiques ou d'ornithomancie relèvent du Jibt (l'œuvre du démon).",
+          "references": "Rapporté par Ahmad et Abu Dâwûd"
+        },
+        {
+          "id": 75,
+          "question": "Quel est le jugement sur l'apprentissage de l'astrologie judiciaire (prétendre lire l'avenir d'un individu selon sa date de naissance et les constellations) ?",
+          "options": [
+            "C'est une branche de la science astronomique",
+            "C'est l'apprentissage d'une branche de la sorcellerie",
+            "C'est un divertissement sans conséquence",
+            "C'est un moyen de connaître la subsistance"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "C'est l'apprentissage d'une branche de la sorcellerie",
+          "explanation": "Le Prophète ﷺ a dit : 'Quiconque apprend une branche de l'astrologie a certes appris une branche de la sorcellerie, plus il en apprend, plus il s'enfonce dans le péché.'",
+          "references": "Rapporté par Abu Dâwûd; Hadith d'Ibn 'Abbâs"
+        },
+        {
+          "id": 76,
+          "question": "Quelle est la punition spirituelle formulée à l'encontre de celui qui se rend chez un devin ou un voyant ('Kâhin' ou 'Arrâf) et l'interroge sur l'invisible ?",
+          "options": [
+            "Il doit refaire son pèlerinage",
+            "Sa prière n'est pas acceptée pendant quarante jours",
+            "Il doit donner l'équivalent de son salaire en aumône",
+            "Il est privé de dormir une semaine"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Sa prière n'est pas acceptée pendant quarante jours",
+          "explanation": "Le Prophète ﷺ a dit dans le Sahîh Muslim : 'Quiconque va voir un devin, l'interroge sur quoi que ce soit, sa prière ne sera pas acceptée pendant quarante nuits.'",
+          "references": "Sahîh Muslim; Hadith d'une des épouses du Prophète"
+        },
+        {
+          "id": 77,
+          "question": "Que se passe-t-il si la personne va voir le devin/voyant ET croit en ses prétentions de connaître l'invisible ?",
+          "options": [
+            "Elle commet un péché mineur",
+            "Elle a mécru en ce qui a été révélé à Muhammad ﷺ",
+            "Elle doit réciter la sourate Al-Baqara",
+            "Sa prière n'est pas acceptée pendant un an"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Elle a mécru en ce qui a été révélé à Muhammad ﷺ",
+          "explanation": "Le Prophète ﷺ a dit : 'Quiconque va voir un devin et croit en ce qu'il dit a certes mécru en ce qui a été révélé à Muhammad.' Car Seul Allah connaît l'Inconnaissable (Al-Ghayb).",
+          "references": "Rapporté par Abu Dâwûd, At-Tirmidhî et Al-Hâkim"
+        },
+        {
+          "id": 78,
+          "question": "Comment les devins obtiennent-ils parfois des parcelles d'informations réelles mélangées à cent mensonges ?",
+          "options": [
+            "Par le calcul mathématique",
+            "Par les djinns qui interceptent furtivement une parole prononcée dans le ciel avant d'être frappés par les météores",
+            "Par la lecture dans les pensées de l'interlocuteur",
+            "Par l'analyse des rêves"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Par les djinns qui interceptent furtivement une parole prononcée dans le ciel avant d'être frappés par les météores",
+          "explanation": "Les démons se chevauchent pour intercepter une parole décrétée dans le ciel, puis la transmettent au sorcier en y ajoutant cent mensonges.",
+          "references": "Sahîh Al-Bukhârî; Hadith d'Abu Hurayra"
+        },
+        {
+          "id": 79,
+          "question": "Qu'est-ce que la 'Nuchra' (défaire un sortilège) et quelle forme est interdite en Islam ?",
+          "options": [
+            "Utiliser des plantes médicinales est interdit",
+            "Défaire la sorcellerie par une autre sorcellerie semblable (travail des démons) est interdit ; la guérir par le Coran (Ruqyah) est permis",
+            "La Nuchra est permise dans tous les cas",
+            "La Nuchra est l'excision des enfants"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Défaire la sorcellerie par une autre sorcellerie semblable (travail des démons) est interdit ; la guérir par le Coran (Ruqyah) est permis",
+          "explanation": "Interrogé sur la Nuchra magique, le Prophète ﷺ a dit : 'Elle relève de l'œuvre du démon.' Al-Hasan Al-Basrî a dit : 'Seul un sorcier défait le sort d'un sorcier.'",
+          "references": "Rapporté par Ahmad et Abu Dâwûd; Kitâb At-Tawhîd, Chapitre 23"
+        },
+        {
+          "id": 80,
+          "question": "Quelles sont les trois seules raisons légitimes pour lesquelles Allah a créé les étoiles selon le grand savant Qatâda ?",
+          "options": [
+            "Déterminer le destin des hommes, faire pleuvoir et décorer la terre",
+            "Embellir le ciel, lapider les démons et servir de repères de direction pour les voyageurs",
+            "Créer la chaleur, équilibrer la terre et prédire les guerres",
+            "Calculer l'âge de l'univers, parler aux esprits et guider les rois"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Embellir le ciel, lapider les démons et servir de repères de direction pour les voyageurs",
+          "explanation": "Qatâda a dit dans le Sahîh Al-Bukhârî : 'Quiconque cherche dans les étoiles autre chose que ces trois motifs se trompe, gâche sa part et s'épuise dans ce qu'il ne connaît pas.'",
+          "references": "Sahîh Al-Bukhârî; Kitâb At-Tawhîd, Chapitre 25"
+        }
+      ]
+    },
+    {
+      "level_number": 9,
+      "level_name": "Niveau 9 - Les Presages, l'Augure et les Péchés du Cœur",
+      "description": "Examiner le rejet du pessimisme superstitieux, la confiance en Allah et les devoirs du cœur.",
+      "questions": [
+        {
+          "id": 81,
+          "question": "Qu'est-ce que la 'Tiyarah' ou l'augure dénoncé dans les versets et hadiths ?",
+          "options": [
+            "Le fait de voyager de nuit",
+            "Le pessimisme superstitieux tiré de la vue d'un animal, d'un chiffre, d'une personne ou d'un événement",
+            "Le calcul de la trajectoire des oiseaux migrateurs",
+            "L'anticipation des tempêtes en mer"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Le pessimisme superstitieux tiré de la vue d'un animal, d'un chiffre, d'une personne ou d'un événement",
+          "explanation": "La Tiyarah consiste à abandonner son projet ou à craindre le malheur en raison d'un mauvais présage visuel ou auditif.",
+          "references": "Sourate Al-A'râf, v. 131; Kitâb At-Tawhîd, Chapitre 24"
+        },
+        {
+          "id": 82,
+          "question": "Que signifie la parole prophétique : 'Il n'y a ni contagion (autonome), ni augure, ni hibou, ni mois de Safar' ?",
+          "options": [
+            "Que les maladies n'existent pas",
+            "Négation des croyances païennes attribuant une puissance néfaste ou un mauvais sort au hibou, au mois de Safar ou à la contagion sans la volonté d'Allah",
+            "Qu'il faut éviter de sortir en mois de Safar",
+            "Qu'il faut tuer les hiboux"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Négation des croyances païennes attribuant une puissance néfaste ou un mauvais sort au hibou, au mois de Safar ou à la contagion sans la volonté d'Allah",
+          "explanation": "Les Arabes considéraient le mois de Safar ou le cri du hibou comme annonciateurs de mort. L'Islam a anéanti ces croyances superstitieuses.",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith d'Abu Hurayra"
+        },
+        {
+          "id": 83,
+          "question": "Quel est le comportement apprécié par le Prophète ﷺ par opposition au mauvais présage superstitieux ?",
+          "options": [
+            "L'isolement complet",
+            "Le Fâ'l (l'optimisme et la bonne parole qui réjouit le cœur)",
+            "L'insouciance absolue",
+            "La méfiance envers autrui"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Le Fâ'l (l'optimisme et la bonne parole qui réjouit le cœur)",
+          "explanation": "Le Prophète ﷺ a dit : 'Il n'y a pas d'augure et j'aime le Fâ'l.' On demanda : Qu'est-ce que le Fâ'l ? Il répondit : 'La bonne parole.'",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith d'Anas"
+        },
+        {
+          "id": 84,
+          "question": "Quelle est l'expiation enseignée par le Prophète ﷺ si une pensée d'augure superstitieux survient dans l'esprit d'un musulman ?",
+          "options": [
+            "Rentrer chez soi et renoncer à son voyage",
+            "Dire : 'Ô Allah ! Nul n'apporte le bien si ce n'est Toi, nul ne repousse le mal si ce n'est Toi, et il n'y a de force ni de puissance que par Toi'",
+            "Donner dix pièces d'argent aux pauvres",
+            "Jeûner deux jours consécutifs"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Dire : 'Ô Allah ! Nul n'apporte le bien si ce n'est Toi, nul ne repousse le mal si ce n'est Toi, et il n'y a de force ni de puissance que par Toi'",
+          "explanation": "Cette invocation rétablit la confiance exclusive en Allah (Tawakkul) et dissipe les tentations du diable.",
+          "references": "Rapporté par Abu Dâwûd; Hadith d'Urwa ibn 'Âmir"
+        },
+        {
+          "id": 85,
+          "question": "Quel est le jugement religieux attribué à la demande de pluie par les phases lunaires ou les astres ('An-Naw') ?",
+          "options": [
+            "Une prévision météorologique scientifiquement exacte",
+            "De la mécréance (Kufr) si l'on croit que l'étoile crée la pluie, ou du Shirk mineur si on la croit cause autonome",
+            "Une coutume arabe louable",
+            "Une prière de rogation"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "De la mécréance (Kufr) si l'on croit que l'étoile crée la pluie, ou du Shirk mineur si on la croit cause autonome",
+          "explanation": "Après une nuit pluvieuse à Hudaybiya, le Prophète ﷺ a rapporté la parole d'Allah : 'Ce matin, certains de Mes serviteurs ont cru en Moi et d'autres M'ont renié... Celui qui a dit : Il a plu grâce à telle étoile est mécréant en Moi.'",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith de Zayd ibn Khâlid"
+        },
+        {
+          "id": 86,
+          "question": "Quel est le statut de placer sa confiance totale (Tawakkul) en une créature ou en un moyen matériel en oubliant Allah ?",
+          "options": [
+            "C'est de l'organisation intelligente",
+            "C'est une altération grave du Tawhid (Shirk dans le Tawakkul)",
+            "C'est une obligation professionnelle",
+            "C'est une faiblesse sans gravité"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "C'est une altération grave du Tawhid (Shirk dans le Tawakkul)",
+          "explanation": "Allah dit : 'Et c'est en Allah que vous devez placer votre confiance si vous êtes croyants' (Sourate Al-Mâ'ida, v. 23). Le Tawakkul est une adoration du cœur réservée à Allah.",
+          "references": "Sourate Al-Mâ'ida, v. 23; Kitâb At-Tawhîd, Chapitre 28"
+        },
+        {
+          "id": 87,
+          "question": "Quels sont les deux péchés destructeurs du cœur cités dans les sourates Al-A'râf (v. 99) et Al-Hijr (v. 56) ?",
+          "options": [
+            "La gourmandise et la paresse",
+            "Se sentir à l'abri de la ruse/châtiment d'Allah (Al-Amn min makrillâh) ET désespérer de Sa miséricorde (Al-Qunût min rahmatillâh)",
+            "L'amour de la musique et de la poésie",
+            "L'ignorance de la géographie et de l'histoire"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Se sentir à l'abri de la ruse/châtiment d'Allah (Al-Amn min makrillâh) ET désespérer de Sa miséricorde (Al-Qunût min rahmatillâh)",
+          "explanation": "Le croyant doit cheminer vers Allah entre la crainte respectueuse et l'espoir confiant. Perdre l'un des deux mène à la perdition.",
+          "references": "Sourate Al-A'râf, v. 99; Al-Hijr, v. 56; Hadith d'Ibn Mas'ûd"
+        },
+        {
+          "id": 88,
+          "question": "Que dit le verset de la sourate At-Taghâbun (v. 11) au sujet de celui qui patiente face aux épreuves du destin ?",
+          "options": [
+            "Et quiconque croit en Allah, Il guide son cœur",
+            "Il obtiendra une compensation financière immédiate",
+            "Il ne connaîtra plus jamais la maladie",
+            "Ses proches seront tous préservés"
+          ],
+          "correct_option_index": 0,
+          "correct_answer": "Et quiconque croit en Allah, Il guide son cœur",
+          "explanation": "'Alqama a dit : 'C'est l'homme qui est frappé par un malheur, sait qu'il provient d'Allah, s'en satisfait et s'y soumet.'",
+          "references": "Sourate At-Taghâbun, v. 11; Kitâb At-Tawhîd, Chapitre 30"
+        },
+        {
+          "id": 89,
+          "question": "Quelle parole prophétique dénonce la recherche de la satisfaction des gens au prix du courroux d'Allah ?",
+          "options": [
+            "Quiconque recherche l'agrément d'Allah en suscitant la colère des gens, Allah le suffira contre les gens ; et quiconque recherche l'agrément des gens en suscitant la colère d'Allah, Allah le laissera à la merci des gens",
+            "Rechercher la popularité est une vertu religieuse",
+            "Il faut satisfaire tout le monde à n'importe quel prix",
+            "Les éloges des gens sont la preuve du Paradis"
+          ],
+          "correct_option_index": 0,
+          "correct_answer": "Quiconque recherche l'agrément d'Allah en suscitant la colère des gens, Allah le suffira contre les gens ; et quiconque recherche l'agrément des gens en suscitant la colère d'Allah, Allah le laissera à la merci des gens",
+          "explanation": "Ce hadith majeur d'Aïcha établit que la valeur de la foi réside dans le désir unique de plaire à Allah sans sycophanie envers les créatures.",
+          "references": "Rapporté par At-Tirmidhî et Ibn Hibbân; Hadith d'Aïcha"
+        },
+        {
+          "id": 90,
+          "question": "Comment le Prophète ﷺ qualifie-t-il celui qui accomplit ses œuvres religieuses (prière, aumône, combat) dans le seul but d'obtenir des richesses matérielles de ce bas-monde ?",
+          "options": [
+            "Un commerçant avisé",
+            "L'esclave du dinar, l'esclave du dirham, l'esclave des beaux vêtements (Ta'isa 'Abd ad-dînâr)",
+            "Un serviteur ordinaire",
+            "Un croyant malchanceux"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "L'esclave du dinar, l'esclave du dirham, l'esclave des beaux vêtements (Ta'isa 'Abd ad-dînâr)",
+          "explanation": "Le Prophète ﷺ a dit : 'Qu'il périsse et soit maudit, l'esclave du dinar... Si on lui donne, il est satisfait, et si on le prive, il est mécontent.'",
+          "references": "Sahîh Al-Bukhârî; Hadith d'Abu Hurayra"
+        }
+      ]
+    },
+    {
+      "level_number": 10,
+      "level_name": "Niveau 10 - La Vénération des Noms Divins, du Langage et des Serments",
+      "description": "Apprendre le respect du langage religieux, la gravité des serments et la vénération suprême des Noms d'Allah.",
+      "questions": [
+        {
+          "id": 91,
+          "question": "Quel est le statut de jurer par un autre qu'Allah (par la Ka'bah, par son père, sur la tête de ses enfants, par l'honneur) ?",
+          "options": [
+            "Un serment solennel recommandé",
+            "Du Shirk mineur (ou Kufr) qui altère la vénération due à Allah Seul",
+            "Une marque de politesse traditionnelle",
+            "Une promesse juridiquement contraignante"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Du Shirk mineur (ou Kufr) qui altère la vénération due à Allah Seul",
+          "explanation": "Le Prophète ﷺ a dit : 'Quiconque jure par un autre qu'Allah a certes commis un acte de mécréance ou de Shirk.'",
+          "references": "Rapporté par At-Tirmidhî et Al-Hâkim; Hadith d'Umar ibn Al-Khattâb"
+        },
+        {
+          "id": 92,
+          "question": "Quelle fut la déclaration mémorable d'Ibn Mas'ûd comparant le faux serment par Allah et le serment véridique par un autre ?",
+          "options": [
+            "Les deux sont identiques",
+            "Je préfère jurer mensongèrement par Allah que de jurer véridiquement par un autre que Lui",
+            "Il vaut mieux jurer par la Ka'bah en disant la vérité",
+            "Le faux serment est plus grave dans tous les cas"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Je préfère jurer mensongèrement par Allah que de jurer véridiquement par un autre que Lui",
+          "explanation": "Car la laideur du Shirk (jurer par autrui) surpasse la gravité du grand péché (le mensonge), montrant la priorité absolue du Tawhid chez les Compagnons.",
+          "references": "Rapporté par 'Abd Ar-Razzâq; Kitâb At-Tawhîd, Chapitre 36"
+        },
+        {
+          "id": 93,
+          "question": "Pourquoi est-il interdit de dire : 'C'est ce qu'Allah a voulu ET ce que tu as voulu' ?",
+          "options": [
+            "Parce que c'est une phrase trop longue",
+            "Parce que la conjonction 'ET' ('Wa') associe la volonté de la créature au même niveau que celle d'Allah ; il faut dire 'Puis ce que tu as voulu' ('Thumma')",
+            "Parce qu'il ne faut jamais parler de la volonté divine",
+            "Parce que la créature n'a aucune volonté"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Parce que la conjonction 'ET' ('Wa') associe la volonté de la créature au même niveau que celle d'Allah ; il faut dire 'Puis ce que tu as voulu' ('Thumma')",
+          "explanation": "Lorsqu'un homme a dit au Prophète ﷺ : 'Ce qu'Allah a voulu et ce que tu as voulu', le Prophète a répliqué : 'M'as-tu placé comme égal à Allah ? Dis plutôt : Ce qu'Allah Seul a voulu.'",
+          "references": "Rapporté par An-Nasâ'î et Ahmad; Hadith de Qutayla"
+        },
+        {
+          "id": 94,
+          "question": "Quel est le nom le plus détesté auprès d'Allah le Jour de la Résurrection d'après le Sahîh Al-Bukhârî ?",
+          "options": [
+            "Un homme qui s'appelle 'Pharaon'",
+            "Un homme qui se fait appeler 'Le Roi des rois' (Shâhinshâh) ou 'Le Juge des juges'",
+            "Un homme qui n'a pas de nom arabe",
+            "Un homme qui change souvent de nom"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Un homme qui se fait appeler 'Le Roi des rois' (Shâhinshâh) ou 'Le Juge des juges'",
+          "explanation": "Le Prophète ﷺ a dit : 'Le nom le plus vil auprès d'Allah est celui d'un homme qui se fait appeler le roi des rois. Il n'y a de Roi qu'Allah.'",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith d'Abu Hurayra"
+        },
+        {
+          "id": 95,
+          "question": "Pourquoi le Prophète ﷺ a-t-il changé le surnom du Compagnon Abu Al-Hakam en 'Abu Churayh' ?",
+          "options": [
+            "Parce qu'il n'aimait pas la sonorité du nom",
+            "Parce qu'Al-Hakam (Le Juge Suprême) est l'un des Noms exclusifs d'Allah et que le jugement absolu Lui appartient",
+            "Parce qu'Abu Churayh était son fils le plus jeune",
+            "Parce qu'il appartenait à une autre tribu"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Parce qu'Al-Hakam (Le Juge Suprême) est l'un des Noms exclusifs d'Allah et que le jugement absolu Lui appartient",
+          "explanation": "Le Prophète ﷺ lui a dit : 'Allah est Al-Hakam et c'est à Lui qu'appartient le jugement.' Il l'a donc surnommé d'après le nom de son fils aîné Churayh.",
+          "references": "Rapporté par Abu Dâwûd et An-Nasâ'î; Hadith d'Abu Churayh"
+        },
+        {
+          "id": 96,
+          "question": "Quel est le statut de celui qui se moque d'une chose contenant la mention d'Allah, du Coran ou du Messager ﷺ ?",
+          "options": [
+            "Une simple plaisanterie sans gravité",
+            "De la mécréance (Kufr) majeure qui fait sortir de l'Islam même s'il prétendait s'amuser",
+            "Un manque de politesse qui nécessite de demander pardon aux gens",
+            "Un acte détestable mais pardonné automatiquement"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "De la mécréance (Kufr) majeure qui fait sortir de l'Islam même s'il prétendait s'amuser",
+          "explanation": "Allah dit : 'Est-ce d'Allah, de Ses versets et de Son Messager que vous vous moquiez ? Ne vous excusez pas : vous avez bel et bien mécru après avoir eu la foi' (Sourate At-Tawba, v. 65-66).",
+          "references": "Sourate At-Tawba, v. 65-66; Kitâb At-Tawhîd, Chapitre 40"
+        },
+        {
+          "id": 97,
+          "question": "Quelle est l'interdiction liée à l'usage de la conjonction 'Si' ('Law') lorsqu'un malheur frappe une personne ?",
+          "options": [
+            "Il est interdit d'utiliser le mot 'Si' dans la grammaire arabe",
+            "Il est interdit d'utiliser 'Si' pour exprimer le regret et le mécontentement face au destin, car 'Si' ouvre la porte au travail du démon",
+            "Il faut dire 'Si' au moins dix fois par jour",
+            "Le mot 'Si' annule les ablutions"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Il est interdit d'utiliser 'Si' pour exprimer le regret et le mécontentement face au destin, car 'Si' ouvre la porte au travail du démon",
+          "explanation": "Le Prophète ﷺ a dit : 'Ne dis pas : Si seulement j'avais fait ceci, il serait arrivé cela ; mais dis plutôt : C'est le destin d'Allah et Il fait ce qu'Il veut, car 'Si' ouvre le travail du démon.'",
+          "references": "Sahîh Muslim; Hadith d'Abu Hurayra"
+        },
+        {
+          "id": 98,
+          "question": "Pourquoi est-il interdit d'insulter le vent ou les phénomènes naturels ?",
+          "options": [
+            "Parce que le vent peut devenir plus violent",
+            "Parce que le vent est soumis aux ordres d'Allah ; insulter le vent revient à insulter Celui qui le dirige et le commande",
+            "Parce que le vent porte les prières",
+            "Parce que cela fatigue la voix"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Parce que le vent est soumis aux ordres d'Allah ; insulter le vent revient à insulter Celui qui le dirige et le commande",
+          "explanation": "Le Prophète ﷺ a dit : 'N'insultez pas le vent. Lorsque vous voyez ce que vous détestez, dites : Ô Allah ! Nous Te demandons le bien de ce vent...'",
+          "references": "Rapporté par At-Tirmidhî; Hadith d'Ubayy ibn Ka'b"
+        },
+        {
+          "id": 99,
+          "question": "Quel est le jugement religieux sur l'acte d'insulter le temps ou l'époque (Ad-Dahr) lorsque survient une difficulté ?",
+          "options": [
+            "C'est une façon normale d'exprimer sa tristesse",
+            "C'est une injure envers Allah car Allah est le Créateur du temps et le Gestionnaire de la nuit et du jour",
+            "C'est un poème traditionnel arabe",
+            "C'est permis pendant la guerre"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "C'est une injure envers Allah car Allah est le Créateur du temps et le Gestionnaire de la nuit et du jour",
+          "explanation": "Dans le hadith Qudsî du Sahîh Al-Bukhârî, Allah dit : 'Le fils d'Adam Me blesse en insultant le temps, alors que Je suis le Temps (Celui qui le gère), Je fais alterner la nuit et le jour.'",
+          "references": "Sahîh Al-Bukhârî et Muslim; Hadith d'Abu Hurayra"
+        },
+        {
+          "id": 100,
+          "question": "Quelle est l'interdiction de donner aux enfants des noms exprimant la servitude à un autre qu'Allah (comme 'Abd An-Nabî, 'Abd Al-Ka'bah, 'Abd 'Amr) ?",
+          "options": [
+            "Ces noms sont détestables mais autorisés",
+            "Il y a un consensus des savants (Ijmâ') sur l'interdiction absolue de tout nom exprimant la servitude à autre qu'Allah",
+            "Ces noms sont permis pour les non-arabes",
+            "Ce sont des noms bénis"
+          ],
+          "correct_option_index": 1,
+          "correct_answer": "Il y a un consensus des savants (Ijmâ') sur l'interdiction absolue de tout nom exprimant la servitude à autre qu'Allah",
+          "explanation": "Ibn Hazm a rapporté l'unanimité des savants sur l'interdiction de tout nom attribuant la servitude à un prophète, un ange ou une idole, car la servitude n'appartient qu'à Allah.",
+          "references": "Sourate Al-A'râf, v. 190; Kitâb At-Tawhîd, Chapitre 41"
+        }
+      ]
+    }
+  ]
+}

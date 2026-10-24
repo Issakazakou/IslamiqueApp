@@ -34,6 +34,8 @@ $expected = [
     'sira_mecquoise'      => 10,
     'sira_medinoise'      => 10,
     'sira_evenements'     => 10,
+    'tawhid_adoration'    => 10,
+    'tawhid_preservation' => 10,
 ];
 foreach ($expected as $cat => $perLevel) {
     $all = $repo->all($cat);
@@ -52,7 +54,7 @@ foreach ($expected as $cat => $perLevel) {
     }
     check("$cat : bonneReponse valide, choix distincts", $validAnswers);
 }
-foreach (['fiqh_priere' => 31, 'fiqh_funerailles' => 59] as $cat => $count) {
+foreach (['fiqh_priere' => 31, 'fiqh_funerailles' => 59, 'tawhid_fondements' => 40] as $cat => $count) {
     $all = $repo->all($cat);
     check("$cat : $count questions", count($all) === $count);
     $ids = array_column($all, 'id');
@@ -71,18 +73,27 @@ foreach ($repo->all('coran_mediter') as $q) {
         && is_string($q['source'] ?? null) && $q['source'] !== '';
 }
 check('coran_mediter : explication et source sur chaque question', $withSources);
+$withSourcesTawhid = true;
+foreach ($repo->all('tawhid_fondements') as $q) {
+    $withSourcesTawhid = $withSourcesTawhid && is_string($q['explication'] ?? null) && $q['explication'] !== ''
+        && is_string($q['source'] ?? null) && $q['source'] !== '';
+}
+check('tawhid_fondements : explication et source sur chaque question', $withSourcesTawhid);
 $cats = $repo->categories();
 check('catégories Coran rattachées au parent « coran »',
-    count(array_filter($cats, static fn(array $c): bool => ($c['parent'] ?? null) === 'coran')) === 3);
+    count(array_filter($cats, static fn(array $c): bool => ($c['parent'] ?? null) === 'coran')) >= 3);
 check('catégories Hadith rattachées au parent « hadith »',
     count(array_filter($cats, static fn(array $c): bool => ($c['parent'] ?? null) === 'hadith')) === 3);
 check('catégories Fiqh rattachées au parent « fiqh »',
     count(array_filter($cats, static fn(array $c): bool => ($c['parent'] ?? null) === 'fiqh')) === 3);
 check('catégories Sira rattachées au parent « sira »',
     count(array_filter($cats, static fn(array $c): bool => ($c['parent'] ?? null) === 'sira')) === 3);
+check('catégories Tawhid rattachées au parent « tawhid »',
+    count(array_filter($cats, static fn(array $c): bool => ($c['parent'] ?? null) === 'tawhid')) === 3);
 check('alias hadith redirige vers hadith_fondements', $repo->hasCategory('hadith') && count($repo->all('hadith')) === 30);
 check('alias sira redirige vers sira_mecquoise', $repo->hasCategory('sira') && count($repo->all('sira')) === 30);
 check('alias fiqh redirige vers fiqh_general', $repo->hasCategory('fiqh') && count($repo->all('fiqh')) === 75);
+check('alias tawhid redirige vers tawhid_fondements', $repo->hasCategory('tawhid') && count($repo->all('tawhid')) === 40);
 $debutant = array_column($repo->pick('coran_culture', 'debutant', 0, false), 'id');
 $avance   = array_column($repo->pick('coran_culture', 'avance', 0, false), 'id');
 check('niveaux disjoints', array_intersect($debutant, $avance) === []);
@@ -273,6 +284,36 @@ if (!extension_loaded('pdo_sqlite')) {
     check('nom de schéma invalide refusé (injection)', $thrown);
     @unlink($sqlite);
 }
+
+// --- Nouvelles fonctionnalités Premium ---
+echo "Fonctionnalités Premium\n";
+$pUser = $u->register('premium@test.com', 'motdepasse123', 'VIP User');
+check('compte initialement non premium', $pUser['isPremium'] === false);
+
+$activated = $u->setPremium($pUser['id'], 30);
+check('activation premium réussie', $activated['isPremium'] === true && $activated['premiumUntil'] > time());
+
+$u->saveBookmarks($pUser['id'], [1, 2, 5, 2]);
+check('favoris sauvegardés et dédoublonnés', $u->bookmarks($pUser['id']) === [1, 2, 5]);
+
+$leaderboard = $u->leaderboard(10);
+check('leaderboard accessible', is_array($leaderboard) && count($leaderboard) >= 1);
+
+$todayQs = $repo->dailyChallenge(gmdate('Y-m-d'), 5);
+check('défi quotidien génère le bon nombre de questions', count($todayQs) === 5);
+
+$u->changePassword($pUser['id'], 'motdepasse123', 'nouveauMdp456');
+$relogin = $u->login('premium@test.com', 'nouveauMdp456');
+check('changement de mot de passe effectif', ($relogin['id'] ?? '') === $pUser['id']);
+
+$u->deleteAccount($pUser['id']);
+$deletedOk = false;
+try {
+    $u->login('premium@test.com', 'nouveauMdp456');
+} catch (AuthException $e) {
+    $deletedOk = $e->status === 401;
+}
+check('suppression de compte réussie (RGPD)', $deletedOk);
 
 // nettoyage
 foreach (glob($dir . '/*/*.json') ?: [] as $f) { unlink($f); }

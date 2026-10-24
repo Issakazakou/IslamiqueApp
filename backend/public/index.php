@@ -130,7 +130,7 @@ if ($method === 'GET' && $path === '/api/me') {
 
 /** Catégories (et groupes) donnant droit à un certificat. */
 $certDefs = static function () use ($repo): array {
-    $groupTitles = ['coran' => 'Coran', 'hadith' => 'Hadith', 'fiqh' => 'Fiqh', 'sira' => 'Sira'];
+    $groupTitles = ['coran' => 'Coran', 'hadith' => 'Hadith', 'fiqh' => 'Fiqh', 'sira' => 'Sira', 'tawhid' => 'Tawhid'];
     $defs = [];
     $groups = [];
     foreach ($repo->categories() as $c) {
@@ -213,6 +213,9 @@ if ($path === '/api/progress' && ($method === 'GET' || $method === 'PUT')) {
     if (!is_array($list)) {
         Http::error('Champ "progress" (liste) requis.', 422);
     }
+    if (count($list) > 500) {
+        Http::error('Trop d\'entrées de progression fournies (maximum 500).', 422);
+    }
     $clean = [];
     foreach ($list as $e) {
         if (!is_array($e)) {
@@ -271,6 +274,103 @@ if ($method === 'GET' && preg_match('#^/api/certificates/([A-Za-z0-9-]{1,30})$#'
     Http::json(['valid' => true, 'name' => $cert['name'], 'title' => $cert['title'], 'date' => $cert['date']]);
 }
 
+// GET /api/leaderboard (public / top joueurs)
+if ($method === 'GET' && $path === '/api/leaderboard') {
+    $limit = max(5, min(100, (int) ($_GET['limit'] ?? 20)));
+    Http::json([
+        'leaderboard' => $users->leaderboard($limit),
+        'updatedAt'   => gmdate('c'),
+    ]);
+}
+
+// GET /api/daily-challenge?lang=fr
+// Défi quotidien (10 questions identiques générées chaque jour)
+if ($method === 'GET' && $path === '/api/daily-challenge') {
+    $today = gmdate('Y-m-d');
+    $lang = QuestionRepository::normalizeLang($_GET['lang'] ?? null);
+    $questions = $repo->dailyChallenge($today, 10);
+    $localized = array_map(static fn(array $q): array => $repo->localize($q, $lang), $questions);
+
+    // Crée une session de quiz dédiée pour le défi
+    $session = $guard(static function () use ($sessions, $rateLimit, $localized) {
+        if ($sessions->rateLimited($_SERVER['REMOTE_ADDR'] ?? 'unknown', $rateLimit)) {
+            Http::error('Trop de quiz lancés. Réessayez plus tard.', 429);
+        }
+        return $sessions->create('daily_challenge', array_map(static fn(array $q): int => (int) $q['id'], $localized));
+    });
+
+    Http::json([
+        'date'      => $today,
+        'count'     => count($localized),
+        'session'   => $session,
+        'questions' => array_map($hideAnswer, $localized),
+    ]);
+}
+
+// GET /api/bookmarks
+// PUT /api/bookmarks  { "ids": [1, 2, 3] }
+// Mode révision / questions enregistrées
+if ($path === '/api/bookmarks' && ($method === 'GET' || $method === 'PUT')) {
+    $user = $authGuard(static fn() => $users->authenticate(Http::bearerToken()));
+    if ($method === 'PUT') {
+        $body = Http::body();
+        $ids = $body['ids'] ?? null;
+        if (!is_array($ids)) {
+            Http::error('Champ "ids" (tableau d\'entiers) requis.', 422);
+        }
+        $saved = $authGuard(static fn() => $users->saveBookmarks($user['id'], $ids));
+        Http::json(['bookmarks' => $saved]);
+    }
+
+    $savedIds = $users->bookmarks($user['id']);
+    $lang = QuestionRepository::normalizeLang($_GET['lang'] ?? null);
+    $questions = $repo->findByIds($savedIds);
+    $localized = array_map(static fn(array $q): array => $repo->localize($q, $lang), $questions);
+
+    Http::json([
+        'ids'       => $savedIds,
+        'questions' => array_map($hideAnswer, $localized),
+    ]);
+}
+
+// POST /api/profile/password  { "oldPassword": "…", "newPassword": "…" }
+if ($method === 'POST' && $path === '/api/profile/password') {
+    $user = $authGuard(static fn() => $users->authenticate(Http::bearerToken()));
+    $body = Http::body();
+    $oldPass = $body['oldPassword'] ?? null;
+    $newPass = $body['newPassword'] ?? null;
+    if (!is_string($oldPass) || !is_string($newPass)) {
+        Http::error('Champs "oldPassword" et "newPassword" requis.', 422);
+    }
+    $authGuard(static function () use ($users, $user, $oldPass, $newPass) {
+        $users->changePassword($user['id'], $oldPass, $newPass);
+    });
+    Http::json(['ok' => true, 'message' => 'Mot de passe mis à jour avec succès.']);
+}
+
+// POST /api/premium/activate  { "durationDays": 30, "key": "..." }
+// Active ou prolonge le statut VIP / Premium
+if ($method === 'POST' && $path === '/api/premium/activate') {
+    $user = $authGuard(static fn() => $users->authenticate(Http::bearerToken()));
+    $body = Http::body();
+    $days = max(1, min(365, (int) ($body['durationDays'] ?? 30)));
+    $updatedUser = $authGuard(static fn() => $users->setPremium($user['id'], $days));
+    Http::json([
+        'ok'      => true,
+        'message' => "Statut Premium active pour $days jours.",
+        'user'    => $updatedUser,
+    ]);
+}
+
+// DELETE /api/account  (Conformité RGPD / App Store / Play Store)
+if ($method === 'DELETE' && $path === '/api/account') {
+    $user = $authGuard(static fn() => $users->authenticate(Http::bearerToken()));
+    $authGuard(static function () use ($users, $user) {
+        $users->deleteAccount($user['id']);
+    });
+    Http::json(['ok' => true, 'message' => 'Compte et données personnelles supprimés définitivement.']);
+}
+
 // GET /api/health
 if ($method === 'GET' && $path === '/api/health') {
     Http::json(['status' => 'ok']);
@@ -278,6 +378,7 @@ if ($method === 'GET' && $path === '/api/health') {
 
 // GET /api/categories
 if ($method === 'GET' && $path === '/api/categories') {
+    header('Cache-Control: public, max-age=3600');
     Http::json($repo->categories());
 }
 

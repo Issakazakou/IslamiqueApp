@@ -17,6 +17,7 @@ final class QuestionRepository
         'coran_mediter'       => ['title' => 'Méditer',            'description' => 'Réfléchir au sens des versets (tadabbur)', 'parent' => 'coran'],
         'coran_tajwid'        => ['title' => 'Tajwid',             'description' => 'Les règles de la récitation',              'parent' => 'coran'],
         'coran_culture'       => ['title' => 'Culture coranique',  'description' => 'Sourates, versets, prophètes et histoire',  'parent' => 'coran'],
+        'baqarah_audio'       => ['title' => 'Al-Baqarah (Audio)', 'description' => 'Écoute la récitation et complète le verset en arabe', 'parent' => 'coran'],
         'hadith_fondements'   => ['title' => 'Grands Enseignements', 'description' => 'Foi, intentions, piliers et 40 Hadiths Nawawi', 'parent' => 'hadith'],
         'hadith_comportement' => ['title' => 'Comportement & Adab', 'description' => 'Éthique, fraternité, sincérité et noble caractère', 'parent' => 'hadith'],
         'hadith_sciences'     => ['title' => 'Sciences du Hadith',  'description' => 'Terminologie, chaîne de transmission et grands imams', 'parent' => 'hadith'],
@@ -26,13 +27,25 @@ final class QuestionRepository
         'sira_mecquoise'      => ['title' => 'Période Mecquoise',  'description' => 'De la naissance à l\'Hégire',             'parent' => 'sira'],
         'sira_medinoise'      => ['title' => 'Période Médinoise',  'description' => 'Fondation de l\'État musulman et communauté', 'parent' => 'sira'],
         'sira_evenements'     => ['title' => 'Grandes Étapes & Victoires', 'description' => 'Batailles, traités et accomplissement de la mission', 'parent' => 'sira'],
+        'tawhid_fondements'   => ['title' => 'Fondements & Unicité',        'description' => 'Raison de la création, mérites, Lâ ilâha illâ Allâh et crainte du Shirk', 'parent' => 'tawhid'],
+        'tawhid_adoration'    => ['title' => 'Adoration & Vénération',      'description' => 'Sacrifices, vœux, intercession, Noms Divins et serments',                  'parent' => 'tawhid'],
+        'tawhid_preservation' => ['title' => 'Mises en garde & Superstitions', 'description' => 'Amulettes, sorcellerie, voyance, astrologie et augures',                 'parent' => 'tawhid'],
         'hadith'              => ['title' => 'Quiz Hadith',        'description' => 'Découvrez les enseignements des hadiths'],
         'fiqh'                => ['title' => 'Quiz Fiqh',          'description' => 'Bases, prière malikite et funérailles'],
         'sira'                => ['title' => 'Sira du Prophète ﷺ', 'description' => 'Découvrez la vie du Prophète ﷺ'],
+        'tawhid'              => ['title' => 'Quiz Tawhid',        'description' => 'Fondements, adoration exclusive et préservation de la foi'],
     ];
 
     /** Niveaux : position de la tranche (1/3 des questions de la catégorie). */
     public const LEVELS = ['debutant' => 0, 'intermediaire' => 1, 'avance' => 2];
+
+    /** Alias des categories pour compatibilite descendante. */
+    private const ALIASES = [
+        'fiqh'   => 'fiqh_general',
+        'hadith' => 'hadith_fondements',
+        'sira'   => 'sira_mecquoise',
+        'tawhid' => 'tawhid_fondements',
+    ];
 
     /** @var array<string, list<array<string, mixed>>> */
     private array $data;
@@ -141,13 +154,7 @@ final class QuestionRepository
 
     public function hasCategory(string $category): bool
     {
-        if ($category === 'fiqh' && isset($this->data['fiqh_general'])) {
-            return true;
-        }
-        if ($category === 'hadith' && isset($this->data['hadith_fondements'])) {
-            return true;
-        }
-        if ($category === 'sira' && isset($this->data['sira_mecquoise'])) {
+        if (isset(self::ALIASES[$category]) && isset($this->data[self::ALIASES[$category]])) {
             return true;
         }
         return isset($this->data[$category]);
@@ -156,16 +163,71 @@ final class QuestionRepository
     /** @return list<array<string, mixed>> */
     public function all(string $category): array
     {
-        if ($category === 'fiqh' && !isset($this->data['fiqh']) && isset($this->data['fiqh_general'])) {
-            return $this->data['fiqh_general'];
-        }
-        if ($category === 'hadith' && !isset($this->data['hadith']) && isset($this->data['hadith_fondements'])) {
-            return $this->data['hadith_fondements'];
-        }
-        if ($category === 'sira' && !isset($this->data['sira']) && isset($this->data['sira_mecquoise'])) {
-            return $this->data['sira_mecquoise'];
+        if (isset(self::ALIASES[$category]) && !isset($this->data[$category]) && isset($this->data[self::ALIASES[$category]])) {
+            return $this->data[self::ALIASES[$category]];
         }
         return $this->data[$category] ?? [];
+    }
+
+    /**
+     * Retourne les questions correspondant aux identifiants donnés.
+     *
+     * @param list<int> $ids
+     * @return list<array<string, mixed>>
+     */
+    public function findByIds(array $ids): array
+    {
+        $idSet = array_flip($ids);
+        $found = [];
+        foreach ($this->data as $questions) {
+            foreach ($questions as $q) {
+                if (isset($idSet[(int) $q['id']])) {
+                    $found[] = $q;
+                }
+            }
+        }
+        return $found;
+    }
+
+    /**
+     * Sélectionne les questions pour le défi quotidien en fonction de la date du jour.
+     *
+     * @return list<array<string, mixed>>
+     */
+    public function dailyChallenge(string $date, int $count = 10): array
+    {
+        $allQuestions = [];
+        foreach ($this->data as $cat => $questions) {
+            foreach ($questions as $q) {
+                $q['category'] = $cat;
+                $allQuestions[] = $q;
+            }
+        }
+
+        if ($allQuestions === []) {
+            return [];
+        }
+
+        // Graine déterministe basée sur la date (ex: "2026-10-20")
+        $seed = crc32($date);
+        mt_srand($seed);
+
+        $keys = array_keys($allQuestions);
+        // Mélange Fisher-Yates avec la graine du jour
+        for ($i = count($keys) - 1; $i > 0; $i--) {
+            $j = mt_rand(0, $i);
+            $tmp = $keys[$i];
+            $keys[$i] = $keys[$j];
+            $keys[$j] = $tmp;
+        }
+
+        mt_srand(); // Rétablir le générateur par défaut
+
+        $selected = [];
+        for ($k = 0; $k < min($count, count($keys)); $k++) {
+            $selected[] = $allQuestions[$keys[$k]];
+        }
+        return $selected;
     }
 
     public static function isValidLevel(string $level): bool

@@ -38,6 +38,12 @@ php -S 0.0.0.0:8000 -t public public/index.php
 | PUT | `/api/progress` | Envoie `{progress, stats}` : fusionne avec le compte (on garde le meilleur résultat) et renvoie `{progress, stats, certificates}` |
 | GET | `/api/profile` | Profil : `{user, stats, certificates, stagesPlayed}` |
 | PUT | `/api/profile` | Change le nom (`{"name"}`) |
+| POST | `/api/profile/password` | Change le mot de passe (`{"oldPassword", "newPassword"}`) |
+| DELETE | `/api/account` | **RGPD / Stores** : Supprime le compte et toutes les données |
+| GET | `/api/leaderboard` | Classement global gamifié (points, série, statut VIP) |
+| GET | `/api/daily-challenge` | Défi quotidien (10 questions identiques générées chaque jour) |
+| GET / PUT | `/api/bookmarks` | Mode révision : liste et sauvegarde des questions favorites/à revoir |
+| POST | `/api/premium/activate` | Active ou prolonge le statut VIP / Premium (`{"durationDays": 30}`) |
 | GET | `/api/certificates/{code}` | **Public** : vérifie un certificat → `{valid, name, title, date}` ou 404 |
 
 ### Langues (français, anglais, arabe)
@@ -84,7 +90,7 @@ Une question peut avoir les champs optionnels `explication` et `source` (voir `c
 | `QUIZ_CORS_ORIGIN` | `*` | Origine autorisée pour une app web |
 | `QUIZ_ALLOW_ANSWERS` | *(vide)* | `1` = autorise `?answers=1` (debug local uniquement) |
 
-**Catégories** : `coran_mediter`, `coran_tajwid`, `coran_culture` (regroupées sous « Coran » dans l'application, champ `parent` de `/api/categories`), `hadith`, `fiqh`, `sira`
+**Catégories** : `coran_mediter`, `coran_tajwid`, `coran_culture`, `baqarah_audio` (Quiz audio : écoute la récitation et complète le verset en arabe), `hadith`, `fiqh`, `sira`
 **Niveaux** : `debutant`, `intermediaire`, `avance` (champ `niveau` de chaque question dans `data/questions.json` ; 25 questions par niveau pour `coran_culture`, `hadith`, `fiqh`, `sira` ; 10 par niveau pour `coran_mediter` et `coran_tajwid`)
 
 **Paramètres de `/api/questions/{categorie}`**

@@ -35,111 +35,111 @@ abstract final class AppTheme {
   }) {
     final isArabic = languageCode == 'ar';
 
-    // Base TextTheme selon la langue
+    // Base TextTheme selon la langue (Outfit : élégant, moderne, humain / Cairo : harmonieux pour l'arabe)
     final baseTextTheme = isArabic
         ? GoogleFonts.cairoTextTheme()
-        : GoogleFonts.plusJakartaSansTextTheme();
+        : GoogleFonts.outfitTextTheme();
 
     return baseTextTheme.copyWith(
       // Display : Grands titres d'accueil et d'impact
       displayLarge: baseTextTheme.displayLarge?.copyWith(
-        fontSize: 34,
-        fontWeight: FontWeight.w800,
+        fontSize: 30,
+        fontWeight: FontWeight.w700,
         color: primaryText,
-        height: 1.15,
-        letterSpacing: isArabic ? 0 : -0.5,
+        height: 1.25,
+        letterSpacing: 0,
       ),
       displayMedium: baseTextTheme.displayMedium?.copyWith(
-        fontSize: 28,
-        fontWeight: FontWeight.w800,
-        color: primaryText,
-        height: 1.2,
-      ),
-      displaySmall: baseTextTheme.displaySmall?.copyWith(
-        fontSize: 24,
+        fontSize: 26,
         fontWeight: FontWeight.w700,
         color: primaryText,
         height: 1.25,
       ),
-
-      // Headline : Titres de sections et d'écrans
-      headlineLarge: baseTextTheme.headlineLarge?.copyWith(
+      displaySmall: baseTextTheme.displaySmall?.copyWith(
         fontSize: 22,
-        fontWeight: FontWeight.w800,
+        fontWeight: FontWeight.w600,
         color: primaryText,
         height: 1.3,
       ),
-      headlineMedium: baseTextTheme.headlineMedium?.copyWith(
+
+      // Headline : Titres de sections et d'écrans
+      headlineLarge: baseTextTheme.headlineLarge?.copyWith(
         fontSize: 20,
         fontWeight: FontWeight.w700,
         color: primaryText,
         height: 1.3,
       ),
-      headlineSmall: baseTextTheme.headlineSmall?.copyWith(
+      headlineMedium: baseTextTheme.headlineMedium?.copyWith(
         fontSize: 18,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w600,
+        color: primaryText,
+        height: 1.35,
+      ),
+      headlineSmall: baseTextTheme.headlineSmall?.copyWith(
+        fontSize: 16,
+        fontWeight: FontWeight.w600,
         color: primaryText,
         height: 1.35,
       ),
 
       // Title : Titres de cartes et de dialogues
       titleLarge: baseTextTheme.titleLarge?.copyWith(
-        fontSize: 17,
-        fontWeight: FontWeight.w700,
+        fontSize: 16,
+        fontWeight: FontWeight.w600,
         color: primaryText,
-        height: 1.35,
+        height: 1.4,
       ),
       titleMedium: baseTextTheme.titleMedium?.copyWith(
         fontSize: 15,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w600,
         color: primaryText,
         height: 1.4,
       ),
       titleSmall: baseTextTheme.titleSmall?.copyWith(
-        fontSize: 13,
-        fontWeight: FontWeight.w600,
+        fontSize: 13.5,
+        fontWeight: FontWeight.w500,
         color: secondaryText,
         height: 1.4,
       ),
 
       // Body : Textes courants et descriptions
       bodyLarge: baseTextTheme.bodyLarge?.copyWith(
-        fontSize: 16,
-        fontWeight: FontWeight.w500,
+        fontSize: 15,
+        fontWeight: FontWeight.w400,
         color: primaryText,
-        height: 1.45,
+        height: 1.5,
       ),
       bodyMedium: baseTextTheme.bodyMedium?.copyWith(
         fontSize: 14,
         fontWeight: FontWeight.w400,
         color: secondaryText,
-        height: 1.45,
+        height: 1.5,
       ),
       bodySmall: baseTextTheme.bodySmall?.copyWith(
-        fontSize: 12,
+        fontSize: 12.5,
         fontWeight: FontWeight.w400,
         color: mutedText,
-        height: 1.4,
+        height: 1.45,
       ),
 
       // Label : Boutons, badges et petits indicateurs
       labelLarge: baseTextTheme.labelLarge?.copyWith(
         fontSize: 14,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w600,
         color: primaryText,
-        letterSpacing: isArabic ? 0 : 0.2,
+        letterSpacing: isArabic ? 0 : 0.1,
       ),
       labelMedium: baseTextTheme.labelMedium?.copyWith(
         fontSize: 12,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w500,
         color: secondaryText,
-        letterSpacing: isArabic ? 0 : 0.3,
+        letterSpacing: isArabic ? 0 : 0.2,
       ),
       labelSmall: baseTextTheme.labelSmall?.copyWith(
-        fontSize: 10,
-        fontWeight: FontWeight.w700,
+        fontSize: 11,
+        fontWeight: FontWeight.w500,
         color: mutedText,
-        letterSpacing: isArabic ? 0 : 0.5,
+        letterSpacing: isArabic ? 0 : 0.3,
       ),
     );
   }

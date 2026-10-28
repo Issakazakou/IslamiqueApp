@@ -41,10 +41,8 @@ class ApiConfig {
     if (_envBaseUrl.trim().isNotEmpty) {
       return _normalize(_envBaseUrl);
     }
-    if (kIsWeb) return 'http://127.0.0.1:8000';
-    return defaultTargetPlatform == TargetPlatform.android
-        ? 'http://10.0.2.2:8000' // émulateur Android → PC hôte
-        : 'http://127.0.0.1:8000';
+    // URL de production par défaut sur Railway
+    return 'https://islamiqueapp-backend-production-3e0d.up.railway.app';
   }
 
   /// URL actuellement utilisée (personnalisée si définie, sinon par défaut).

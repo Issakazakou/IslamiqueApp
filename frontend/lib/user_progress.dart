@@ -28,6 +28,7 @@ class UserProgress extends ChangeNotifier {
     'coran_mediter':        {'done': 0, 'correct': 0, 'total': 0},
     'coran_tajwid':         {'done': 0, 'correct': 0, 'total': 0},
     'coran_culture':        {'done': 0, 'correct': 0, 'total': 0},
+    'coran':                {'done': 0, 'correct': 0, 'total': 0},
     'hadith_fondements':    {'done': 0, 'correct': 0, 'total': 0},
     'hadith_comportement':  {'done': 0, 'correct': 0, 'total': 0},
     'hadith_sciences':      {'done': 0, 'correct': 0, 'total': 0},
@@ -40,6 +41,10 @@ class UserProgress extends ChangeNotifier {
     'sira_medinoise':       {'done': 0, 'correct': 0, 'total': 0},
     'sira_evenements':      {'done': 0, 'correct': 0, 'total': 0},
     'sira':                 {'done': 0, 'correct': 0, 'total': 0},
+    'tawhid_fondements':    {'done': 0, 'correct': 0, 'total': 0},
+    'tawhid_adoration':     {'done': 0, 'correct': 0, 'total': 0},
+    'tawhid_preservation':  {'done': 0, 'correct': 0, 'total': 0},
+    'tawhid':               {'done': 0, 'correct': 0, 'total': 0},
   };
 
   // ── Badges débloqués ──────────────────────────────────────────
@@ -254,6 +259,11 @@ class UserProgress extends ChangeNotifier {
         (_categoryStats['coran_tajwid']?['done'] ?? 0) +
         (_categoryStats['coran_culture']?['done'] ?? 0);
     if (coranDone >= 5) _badges.add('coran_explorer');
+    // Badge Tawhid spécifique
+    final tawhidDone = (_categoryStats['tawhid_fondements']?['done'] ?? 0) +
+        (_categoryStats['tawhid_adoration']?['done'] ?? 0) +
+        (_categoryStats['tawhid_preservation']?['done'] ?? 0);
+    if (tawhidDone >= 5) _badges.add('tawhid_explorer');
   }
 
   void reset() {

@@ -97,20 +97,20 @@ class TwTheme extends ThemeExtension<TwTheme> {
   });
 
   // ── Presets clair / sombre ────────────────────────────────────────────────
-  /// Jeu de couleurs sémantiques du mode clair.
+  /// Jeu de couleurs sémantiques du mode clair (organique, chaleureux, haut contraste).
   static const TwTheme light = TwTheme(
-    background: TwColors.slate50,
+    background: Color(0xFFF7F8F5),
     surface: Colors.white,
     surfaceElevated: Colors.white,
-    surfaceSubtle: TwColors.slate100,
-    surfaceHover: TwColors.slate100,
-    border: TwColors.slate200,
-    borderStrong: TwColors.slate300,
-    textPrimary: TwColors.slate900,
-    textSecondary: TwColors.slate600,
-    textMuted: TwColors.slate500,
-    brandTint: TwColors.brand100,
-    goldTint: TwColors.gold100,
+    surfaceSubtle: Color(0xFFEFF2EE),
+    surfaceHover: Color(0xFFE5EDE7),
+    border: Color(0xFFDFE6E1),
+    borderStrong: Color(0xFFC6D3CB),
+    textPrimary: Color(0xFF0F241D),
+    textSecondary: Color(0xFF4C6057),
+    textMuted: Color(0xFF7A8F85),
+    brandTint: Color(0xFFE8F4EE),
+    goldTint: Color(0xFFFBF4E6),
     primary: TwColors.brand600,
     primaryLight: TwColors.brand500,
     accent: TwColors.gold500,
@@ -120,18 +120,18 @@ class TwTheme extends ThemeExtension<TwTheme> {
     info: TwColors.info600,
   );
 
-  /// Jeu de couleurs sémantiques du mode sombre (« nuit d'émeraude »).
+  /// Jeu de couleurs sémantiques du mode sombre (« nuit d'émeraude profonde »).
   static const TwTheme dark = TwTheme(
-    background: TwColors.ink950,
-    surface: TwColors.ink900,
-    surfaceElevated: TwColors.ink800,
-    surfaceSubtle: TwColors.ink800,
-    surfaceHover: TwColors.ink700,
-    border: TwColors.ink700,
-    borderStrong: TwColors.ink600,
-    textPrimary: Color(0xFFF0F5F2),
-    textSecondary: Color(0xFFA1B5AA),
-    textMuted: Color(0xFF6F8378),
+    background: Color(0xFF0B1612),
+    surface: Color(0xFF12231C),
+    surfaceElevated: Color(0xFF182D24),
+    surfaceSubtle: Color(0xFF182D24),
+    surfaceHover: Color(0xFF1F382E),
+    border: Color(0xFF223A30),
+    borderStrong: Color(0xFF2E4E40),
+    textPrimary: Color(0xFFF2F6F3),
+    textSecondary: Color(0xFFA6BCB0),
+    textMuted: Color(0xFF6E8579),
     brandTint: Color(0xFF19382B),
     goldTint: Color(0xFF332A17),
     primary: TwColors.brand500,

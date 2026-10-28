@@ -63,16 +63,22 @@ class QuizIslamiqueApp extends StatelessWidget {
           darkTheme: AppTheme.darkTheme(langCode),
           themeMode: ThemeController.instance.themeMode,
           // Grands écrans (tablette, web) : contenu centré, largeur limitée.
-          builder: (context, child) => ColoredBox(
-            color: Theme.of(context).scaffoldBackgroundColor,
-            child: Align(
-              alignment: Alignment.topCenter,
-              child: ConstrainedBox(
-                constraints: const BoxConstraints(maxWidth: 720),
-                child: child,
+          // Sur téléphone (< 600 px), on retire la contrainte pour un rendu natif.
+          builder: (context, child) {
+            final screenWidth = MediaQuery.of(context).size.width;
+            final isWideScreen = screenWidth >= 600;
+            if (!isWideScreen) return child!;
+            return ColoredBox(
+              color: Theme.of(context).scaffoldBackgroundColor,
+              child: Align(
+                alignment: Alignment.topCenter,
+                child: ConstrainedBox(
+                  constraints: const BoxConstraints(maxWidth: 720),
+                  child: child,
+                ),
               ),
-            ),
-          ),
+            );
+          },
           home: const AppEntryGate(),
         );
       },
@@ -288,8 +294,7 @@ class _Header extends StatelessWidget {
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                     style: TwText.h4(context).copyWith(
-                      fontWeight: TwWeight.extrabold,
-                      letterSpacing: -0.2,
+                      fontWeight: FontWeight.w600,
                     ),
                   ),
                   const SizedBox(height: 2),
@@ -304,35 +309,53 @@ class _Header extends StatelessWidget {
                 ],
               ),
             ),
-            const SizedBox(width: TwSpace.s2),
+            const SizedBox(width: TwSpace.s15),
 
-            // Badge Flamme (Série de jours)
-            _StatusPill(
-              icon: Icons.local_fire_department_rounded,
-              iconColor: TwColors.gold500,
-              label: '$streak j',
-              bgColor: isDark ? TwColors.goldTintDark : TwColors.gold50,
-              borderColor: isDark ? TwColors.gold800 : TwColors.gold200,
-              textColor: isDark ? TwColors.gold300 : TwColors.gold800,
-              tooltip: context.tr('streak_label', {'n': streak.toString()}),
+            // Bloc compact : Flamme + Étoiles (fusionnés pour économiser l'espace)
+            GestureDetector(
               onTap: () => openAccount(context),
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 5),
+                decoration: BoxDecoration(
+                  color: isDark ? TwColors.goldTintDark : TwColors.gold50,
+                  borderRadius: TwRadius.pill,
+                  border: Border.all(
+                    color: isDark ? TwColors.gold800 : TwColors.gold200,
+                    width: TwBorder.thin,
+                  ),
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(Icons.local_fire_department_rounded,
+                        size: 15, color: TwColors.gold500),
+                    const SizedBox(width: 3),
+                    Text(
+                      '$streak',
+                      style: TextStyle(
+                        fontSize: 12,
+                        fontWeight: FontWeight.w600,
+                        color: isDark ? TwColors.gold300 : TwColors.gold800,
+                      ),
+                    ),
+                    const SizedBox(width: 7),
+                    Icon(Icons.star_rounded, size: 15, color: TwColors.gold500),
+                    const SizedBox(width: 3),
+                    Text(
+                      '$stars',
+                      style: TextStyle(
+                        fontSize: 12,
+                        fontWeight: FontWeight.w600,
+                        color: isDark ? TwColors.brand300 : TwColors.brand800,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ),
             const SizedBox(width: TwSpace.s15),
 
-            // Badge Étoiles
-            _StatusPill(
-              icon: Icons.star_rounded,
-              iconColor: TwColors.gold500,
-              label: '$stars',
-              bgColor: isDark ? TwColors.brandTintDark : TwColors.brand50,
-              borderColor: isDark ? TwColors.brand800 : TwColors.brand200,
-              textColor: isDark ? TwColors.brand300 : TwColors.brand800,
-              tooltip: context.tr('profile_stars'),
-              onTap: () => openAccount(context),
-            ),
-            const SizedBox(width: TwSpace.s15),
-
-            // Bouton Réglages & Préférences (Thème, Langue, Serveur)
+            // Bouton Réglages & Préférences
             Material(
               color: Colors.transparent,
               borderRadius: TwRadius.pill,
@@ -340,26 +363,19 @@ class _Header extends StatelessWidget {
                 borderRadius: TwRadius.pill,
                 onTap: () => _openQuickPreferences(context),
                 child: Container(
-                  width: 38,
-                  height: 38,
+                  width: 34,
+                  height: 34,
                   decoration: BoxDecoration(
                     color: tw.surface,
                     shape: BoxShape.circle,
-                    border: Border.all(
-                      color: tw.border,
-                      width: TwBorder.thin,
-                    ),
+                    border: Border.all(color: tw.border, width: TwBorder.thin),
                     boxShadow: TwShadow.sm(context),
                   ),
-                  child: Icon(
-                    Icons.tune_rounded,
-                    size: 19,
-                    color: tw.textPrimary,
-                  ),
+                  child: Icon(Icons.tune_rounded, size: 17, color: tw.textPrimary),
                 ),
               ),
             ),
-            const SizedBox(width: TwSpace.s15),
+            const SizedBox(width: TwSpace.s1),
 
             // Bouton Compte / Profil
             Material(
@@ -369,8 +385,8 @@ class _Header extends StatelessWidget {
                 borderRadius: TwRadius.pill,
                 onTap: () => openAccount(context),
                 child: Container(
-                  width: 38,
-                  height: 38,
+                  width: 34,
+                  height: 34,
                   decoration: BoxDecoration(
                     color: auth.isLoggedIn ? TwColors.brand600 : tw.surface,
                     shape: BoxShape.circle,
@@ -385,7 +401,7 @@ class _Header extends StatelessWidget {
                   child: Center(
                     child: Icon(
                       auth.isLoggedIn ? Icons.person : Icons.person_outline_rounded,
-                      size: 20,
+                      size: 18,
                       color: auth.isLoggedIn ? Colors.white : tw.textPrimary,
                     ),
                   ),
@@ -547,7 +563,7 @@ class _HeroBanner extends StatelessWidget {
                                 const Icon(
                                   Icons.school_outlined,
                                   color: TwColors.gold400,
-                                  size: 13,
+                                  size: 14,
                                 ),
                                 const SizedBox(width: 5),
                                 Text(
@@ -555,9 +571,9 @@ class _HeroBanner extends StatelessWidget {
                                     'n': leafCategories.length.toString(),
                                   }),
                                   style: const TextStyle(
-                                    fontSize: 10.5,
-                                    fontWeight: TwWeight.extrabold,
-                                    letterSpacing: 0.4,
+                                    fontSize: 11.5,
+                                    fontWeight: FontWeight.w600,
+                                    letterSpacing: 0.2,
                                     color: Colors.white,
                                   ),
                                 ),
@@ -575,8 +591,8 @@ class _HeroBanner extends StatelessWidget {
                               Text(
                                 '$stars / $maxStars',
                                 style: const TextStyle(
-                                  fontSize: 12,
-                                  fontWeight: TwWeight.extrabold,
+                                  fontSize: 12.5,
+                                  fontWeight: FontWeight.w600,
                                   color: Colors.white,
                                 ),
                               ),
@@ -590,10 +606,10 @@ class _HeroBanner extends StatelessWidget {
                       Text(
                         context.tr('home_subtitle'),
                         style: const TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.w800,
+                          fontSize: 15.5,
+                          fontWeight: FontWeight.w600,
                           color: Colors.white,
-                          height: 1.3,
+                          height: 1.4,
                         ),
                       ),
                       const SizedBox(height: 14),
@@ -628,9 +644,9 @@ class _HeroBanner extends StatelessWidget {
                           Text(
                             '$percentInt%',
                             style: TextStyle(
-                              fontSize: 11,
-                              fontWeight: TwWeight.extrabold,
-                              color: Colors.white.withValues(alpha: 0.9),
+                              fontSize: 12,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.white.withValues(alpha: 0.95),
                             ),
                           ),
                         ],
@@ -814,9 +830,9 @@ class _BentoCardState extends State<_BentoCard> {
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(
-                          fontSize: 9.5,
-                          fontWeight: TwWeight.extrabold,
-                          letterSpacing: 0.5,
+                          fontSize: 11,
+                          fontWeight: FontWeight.w600,
+                          letterSpacing: 0.4,
                           color: tw.textMuted,
                         ),
                       ),
@@ -828,8 +844,9 @@ class _BentoCardState extends State<_BentoCard> {
                   widget.title,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
-                  style: TwText.bodySm(context).copyWith(
-                    fontWeight: TwWeight.extrabold,
+                  style: TwText.body(context).copyWith(
+                    fontWeight: FontWeight.w600,
+                    fontSize: 14.5,
                   ),
                 ),
                 const SizedBox(height: 2),
@@ -837,8 +854,9 @@ class _BentoCardState extends State<_BentoCard> {
                   widget.subtitle,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
-                  style: TwText.caption(context).copyWith(
+                  style: TwText.bodySm(context).copyWith(
                     color: tw.textSecondary,
+                    fontSize: 12.5,
                   ),
                 ),
                 const SizedBox(height: 10),
@@ -847,15 +865,15 @@ class _BentoCardState extends State<_BentoCard> {
                     Text(
                       widget.actionLabel,
                       style: TextStyle(
-                        fontSize: 11,
-                        fontWeight: TwWeight.bold,
+                        fontSize: 12,
+                        fontWeight: FontWeight.w600,
                         color: isDark ? TwColors.gold400 : TwColors.brand600,
                       ),
                     ),
                     const SizedBox(width: 4),
                     Icon(
                       Icons.arrow_forward_rounded,
-                      size: 12,
+                      size: 13,
                       color: isDark ? TwColors.gold400 : TwColors.brand600,
                     ),
                   ],
@@ -964,15 +982,16 @@ class _ModernCategoryCardState extends State<_ModernCategoryCard> {
                                     child: Text(
                                       cat.titleOf(context),
                                       style: TwText.h4(context).copyWith(
-                                        fontWeight: TwWeight.extrabold,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 15.5,
                                       ),
                                     ),
                                   ),
                                   if (cat.isGroup)
                                     Container(
                                       padding: const EdgeInsets.symmetric(
-                                        horizontal: 7,
-                                        vertical: 3,
+                                        horizontal: 8,
+                                        vertical: 3.5,
                                       ),
                                       decoration: BoxDecoration(
                                         color: isDark
@@ -989,8 +1008,8 @@ class _ModernCategoryCardState extends State<_ModernCategoryCard> {
                                       child: Text(
                                         '${cat.children.length} THÈMES',
                                         style: TextStyle(
-                                          fontSize: 9.5,
-                                          fontWeight: TwWeight.extrabold,
+                                          fontSize: 11,
+                                          fontWeight: FontWeight.w600,
                                           letterSpacing: 0.3,
                                           color: isDark
                                               ? TwColors.brand300
@@ -1005,6 +1024,8 @@ class _ModernCategoryCardState extends State<_ModernCategoryCard> {
                                 cat.descriptionOf(context),
                                 style: TwText.bodySm(context).copyWith(
                                   color: tw.textSecondary,
+                                  fontSize: 12.5,
+                                  height: 1.4,
                                 ),
                               ),
                             ],

@@ -254,6 +254,7 @@ const Map<String, Map<String, String>> _strings = {
   'badge_ace': {'fr': 'As (80 % de réussite)', 'en': 'Ace (80% correct)', 'ar': 'متفوق (80٪ صحيح)'},
   'badge_master': {'fr': 'Maître (90 % de réussite)', 'en': 'Master (90% correct)', 'ar': 'خبير (90٪ صحيح)'},
   'badge_coran_explorer': {'fr': 'Explorateur du Coran', 'en': 'Quran explorer', 'ar': 'مستكشف القرآن'},
+  'badge_tawhid_explorer': {'fr': 'Gardien du Tawhid', 'en': 'Guardian of Tawhid', 'ar': 'حارس التوحيد'},
 
   // ---- Certificats ----
   'app_name': {'fr': 'Quiz Islamique', 'en': 'Islamic Quiz', 'ar': 'الاختبار الإسلامي'},
@@ -591,6 +592,46 @@ const Map<String, Map<String, String>> _strings = {
     'en': 'Battles, treaties and fulfillment of the mission',
     'ar': 'الغزوات والمعاهدات وتمام البلاغ',
   },
+  'cat_tawhid_title': {
+    'fr': 'Quiz Tawhid',
+    'en': 'Tawhid Quiz',
+    'ar': 'اختبار التوحيد',
+  },
+  'cat_tawhid_desc': {
+    'fr': 'Fondements, adoration exclusive et préservation de la foi',
+    'en': 'Foundations, exclusive worship and preservation of faith',
+    'ar': 'الأصول والعبادة الخالصة وحماية العقيدة',
+  },
+  'cat_tawhid_fondements_title': {
+    'fr': 'Fondements & Unicité',
+    'en': 'Foundations & Oneness',
+    'ar': 'الأصول والتوحيد',
+  },
+  'cat_tawhid_fondements_desc': {
+    'fr': 'Raison de la création, mérites, Lâ ilâha illâ Allâh et crainte du Shirk',
+    'en': 'Purpose of creation, merits, La ilaha illa Allah and fear of Shirk',
+    'ar': 'الغاية من الخلق والفضائل ولا إله إلا الله والتحذير من الشرك',
+  },
+  'cat_tawhid_adoration_title': {
+    'fr': 'Adoration & Vénération',
+    'en': 'Worship & Veneration',
+    'ar': 'العبادة والتعظيم',
+  },
+  'cat_tawhid_adoration_desc': {
+    'fr': 'Sacrifices, vœux, intercession, Noms Divins et serments',
+    'en': 'Sacrifices, vows, intercession, Divine Names and oaths',
+    'ar': 'الذبح والنذر والشفاعة والأسماء الحسنى والأيمان',
+  },
+  'cat_tawhid_preservation_title': {
+    'fr': 'Mises en garde & Superstitions',
+    'en': 'Protection & Superstitions',
+    'ar': 'التحذيرات والتمائم',
+  },
+  'cat_tawhid_preservation_desc': {
+    'fr': 'Amulettes, sorcellerie, voyance, astrologie et augures',
+    'en': 'Amulets, sorcery, fortune-telling, astrology and omens',
+    'ar': 'التمائم والسحر والكهانة والتنجيم والتطير',
+  },
 
   // ---- Niveaux ----
   'choose_level': {
@@ -861,6 +902,7 @@ const Map<String, Map<String, String>> _strings = {
   'apply': {'fr': 'Valider', 'en': 'Apply', 'ar': 'تطبيق'},
 
   // ---- Thème ----
+  'theme_title': {'fr': 'Apparence', 'en': 'Appearance', 'ar': 'المظهر'},
   'theme_light': {'fr': 'Mode Clair', 'en': 'Light Mode', 'ar': 'الوضع الفاتح'},
   'theme_dark': {'fr': 'Mode Sombre', 'en': 'Dark Mode', 'ar': 'الوضع الداكن'},
   'theme_system': {'fr': 'Mode Système', 'en': 'System Mode', 'ar': 'وضع النظام'},

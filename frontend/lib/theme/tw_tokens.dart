@@ -230,13 +230,13 @@ abstract final class TwMotion {
 /// ---------------------------------------------------------------------------
 abstract final class TwFontSize {
   static const double xs   = 12.0; // text-xs
-  static const double sm   = 14.0; // text-sm
-  static const double base = 16.0; // text-base
-  static const double lg   = 18.0; // text-lg
+  static const double sm   = 13.5; // text-sm (plus naturel et lisible que 14/cramped)
+  static const double base = 15.0; // text-base
+  static const double lg   = 17.0; // text-lg
   static const double xl   = 20.0; // text-xl
   static const double xxl  = 24.0; // text-2xl
-  static const double xxxl = 30.0; // text-3xl
-  static const double x4l  = 36.0; // text-4xl
+  static const double xxxl = 28.0; // text-3xl
+  static const double x4l  = 34.0; // text-4xl
 }
 
 abstract final class TwWeight {
@@ -244,45 +244,45 @@ abstract final class TwWeight {
   static const FontWeight medium    = FontWeight.w500;
   static const FontWeight semibold  = FontWeight.w600;
   static const FontWeight bold      = FontWeight.w700;
-  static const FontWeight extrabold = FontWeight.w800;
-  static const FontWeight black     = FontWeight.w900;
+  static const FontWeight extrabold = FontWeight.w700; // Aligné sur bold pour éviter la rigidité w800
+  static const FontWeight black     = FontWeight.w800;
 }
 
 abstract final class TwLeading {
   static const double none    = 1.0;
   static const double tight   = 1.25;
-  static const double snug    = 1.375;
+  static const double snug    = 1.35;
   static const double normal  = 1.5;
-  static const double relaxed = 1.625;
-  static const double loose   = 2.0;
+  static const double relaxed = 1.6;
+  static const double loose   = 1.8;
 }
 
 abstract final class TwTracking {
-  static const double tighter = -0.05;
-  static const double tight   = -0.025;
+  static const double tighter = -0.02;
+  static const double tight   = -0.01;
   static const double normal  = 0.0;
-  static const double wide    = 0.025;
-  static const double wider   = 0.05;
-  static const double widest  = 0.1;
+  static const double wide    = 0.015;
+  static const double wider   = 0.03;
+  static const double widest  = 0.06;
 }
 
 /// ---------------------------------------------------------------------------
-/// TwText : Styles typographiques prêts à l'emploi (échelle Tailwind).
+/// TwText : Styles typographiques prêts à l'emploi.
 ///
-/// Ils conservent la famille de police du thème (Plus Jakarta Sans / Cairo)
+/// Ils conservent la famille de police du thème (Outfit / Cairo)
 /// car le `TextStyle` est fusionné avec le `DefaultTextStyle` ambiant.
 /// ---------------------------------------------------------------------------
 abstract final class TwText {
   // ── Titres ───────────────────────────────────────────────────────────────
-  /// Grand titre d'impact (écran d'accueil) — 30 px / w800.
+  /// Grand titre d'impact (écran d'accueil) — 28 px / w700.
   static TextStyle display(BuildContext c,
-          {Color? color, double size = TwFontSize.xxxl, FontWeight weight = TwWeight.extrabold}) =>
+          {Color? color, double size = TwFontSize.xxxl, FontWeight weight = TwWeight.bold}) =>
       TextStyle(
         fontSize: size,
         fontWeight: weight,
         color: color ?? TwSurface.textPrimary(c),
-        height: TwLeading.tight,
-        letterSpacing: TwTracking.tight,
+        height: TwLeading.snug,
+        letterSpacing: TwTracking.normal,
       );
 
   /// Titre d'écran (`text-2xl font-bold`).
@@ -293,10 +293,10 @@ abstract final class TwText {
         height: TwLeading.snug,
       );
 
-  /// Titre de section (`text-xl font-bold`).
+  /// Titre de section (`text-xl font-semibold`).
   static TextStyle h2(BuildContext c, {Color? color}) => TextStyle(
         fontSize: TwFontSize.xl,
-        fontWeight: TwWeight.bold,
+        fontWeight: TwWeight.semibold,
         color: color ?? TwSurface.textPrimary(c),
         height: TwLeading.snug,
       );
@@ -326,7 +326,7 @@ abstract final class TwText {
         height: TwLeading.normal,
       );
 
-  /// Texte secondaire (`text-sm text-slate-600`).
+  /// Texte secondaire (`text-sm`).
   static TextStyle bodySm(BuildContext c, {Color? color}) => TextStyle(
         fontSize: TwFontSize.sm,
         fontWeight: TwWeight.normal,
@@ -334,7 +334,7 @@ abstract final class TwText {
         height: TwLeading.relaxed,
       );
 
-  /// Légende (`text-xs text-slate-500`).
+  /// Légende (`text-xs`).
   static TextStyle caption(BuildContext c, {Color? color}) => TextStyle(
         fontSize: TwFontSize.xs,
         fontWeight: TwWeight.normal,
@@ -342,25 +342,25 @@ abstract final class TwText {
         height: TwLeading.normal,
       );
 
-  /// Étiquette de champ / bouton (`text-sm font-semibold`).
+  /// Étiquette de champ / bouton (`text-sm font-medium`).
   static TextStyle label(BuildContext c, {Color? color}) => TextStyle(
         fontSize: TwFontSize.sm,
-        fontWeight: TwWeight.semibold,
+        fontWeight: TwWeight.medium,
         color: color ?? TwSurface.textPrimary(c),
       );
 
-  /// Micro-titre en majuscules (`text-xs font-bold uppercase tracking-widest`).
+  /// Micro-titre (`text-xs font-semibold tracking-wide`).
   static TextStyle overline(BuildContext c, {Color? color}) => TextStyle(
-        fontSize: TwFontSize.xs - 1,
-        fontWeight: TwWeight.bold,
-        letterSpacing: 1.2,
+        fontSize: TwFontSize.xs,
+        fontWeight: TwWeight.semibold,
+        letterSpacing: 0.8,
         color: color ?? TwSurface.textMuted(c),
       );
 
-  /// Libellé de bouton (`text-sm font-bold`).
+  /// Libellé de bouton (`text-sm font-semibold`).
   static TextStyle button({Color color = Colors.white}) => TextStyle(
         fontSize: TwFontSize.sm + 1,
-        fontWeight: TwWeight.bold,
+        fontWeight: TwWeight.semibold,
         color: color,
         letterSpacing: TwTracking.wide,
       );

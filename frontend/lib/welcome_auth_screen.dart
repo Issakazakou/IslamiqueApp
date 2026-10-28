@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'app_strings.dart';
 import 'auth_screen.dart';
@@ -94,7 +95,9 @@ class _WelcomeAuthScreenState extends State<WelcomeAuthScreen> {
       body: SafeArea(
         child: Center(
           child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 540),
+            constraints: BoxConstraints(
+              maxWidth: MediaQuery.of(context).size.width >= 600 ? 540 : double.infinity,
+            ),
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
               child: Column(
@@ -103,11 +106,11 @@ class _WelcomeAuthScreenState extends State<WelcomeAuthScreen> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      // Badge décoratif subtil
+                      // Badge spirituel d'accueil
                       Container(
                         padding: const EdgeInsets.symmetric(
-                          horizontal: 10,
-                          vertical: 4,
+                          horizontal: 12,
+                          vertical: 6,
                         ),
                         decoration: BoxDecoration(
                           color: isDark ? TwColors.brandTintDark : TwColors.brand50,
@@ -121,18 +124,18 @@ class _WelcomeAuthScreenState extends State<WelcomeAuthScreen> {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             Icon(
-                              Icons.verified_outlined,
+                              Icons.auto_awesome,
                               size: 13,
-                              color: isDark ? TwColors.gold400 : TwColors.brand700,
+                              color: isDark ? TwColors.gold400 : TwColors.gold500,
                             ),
-                            const SizedBox(width: 5),
+                            const SizedBox(width: 6),
                             Text(
-                              'ÉDITION OFFICIELLE',
-                              style: TextStyle(
-                                fontSize: 9.5,
-                                fontWeight: TwWeight.extrabold,
-                                letterSpacing: 0.5,
-                                color: isDark ? TwColors.brand300 : TwColors.brand800,
+                              'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ',
+                              style: GoogleFonts.amiri(
+                                fontSize: 13,
+                                fontWeight: FontWeight.w700,
+                                color: isDark ? TwColors.gold300 : TwColors.brand800,
+                                height: 1.2,
                               ),
                             ),
                           ],
@@ -211,9 +214,8 @@ class _WelcomeAuthScreenState extends State<WelcomeAuthScreen> {
                           Text(
                             context.tr('welcome_title'),
                             textAlign: TextAlign.center,
-                            style: TwText.h2(context).copyWith(
-                              fontWeight: TwWeight.extrabold,
-                              letterSpacing: -0.5,
+                            style: TwText.display(context, size: 28).copyWith(
+                              fontWeight: FontWeight.w700,
                             ),
                           ).animate().fadeIn(duration: TwMotion.d300),
 
@@ -221,13 +223,13 @@ class _WelcomeAuthScreenState extends State<WelcomeAuthScreen> {
 
                           // Sous-titre
                           Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            padding: const EdgeInsets.symmetric(horizontal: 20),
                             child: Text(
                               context.tr('welcome_tagline'),
                               textAlign: TextAlign.center,
                               style: TwText.body(context).copyWith(
                                 color: tw.textSecondary,
-                                height: 1.4,
+                                height: 1.5,
                               ),
                             ),
                           ).animate().fadeIn(delay: 100.ms, duration: TwMotion.d300),
@@ -283,20 +285,20 @@ class _WelcomeAuthScreenState extends State<WelcomeAuthScreen> {
                             ),
                             decoration: BoxDecoration(
                               gradient: const LinearGradient(
-                                colors: [TwColors.brand600, TwColors.brand700],
+                                colors: [Color(0xFF14573F), Color(0xFF0E3B2C)],
                                 begin: Alignment.topLeft,
                                 end: Alignment.bottomRight,
                               ),
                               borderRadius: TwRadius.r2xl,
                               boxShadow: [
                                 BoxShadow(
-                                  color: TwColors.brand600.withValues(alpha: 0.35),
-                                  blurRadius: 16,
+                                  color: TwColors.brand600.withValues(alpha: 0.25),
+                                  blurRadius: 18,
                                   offset: const Offset(0, 6),
                                 ),
                               ],
                               border: Border.all(
-                                color: Colors.white.withValues(alpha: 0.18),
+                                color: TwColors.gold400.withValues(alpha: 0.3),
                                 width: TwBorder.thin,
                               ),
                             ),
@@ -324,16 +326,16 @@ class _WelcomeAuthScreenState extends State<WelcomeAuthScreen> {
                                         context.tr('welcome_login_btn'),
                                         style: const TextStyle(
                                           fontSize: 15.5,
-                                          fontWeight: TwWeight.extrabold,
+                                          fontWeight: FontWeight.w600,
                                           color: Colors.white,
                                         ),
                                       ),
-                                      const SizedBox(height: 2),
+                                      const SizedBox(height: 3),
                                       Text(
                                         context.tr('welcome_login_desc'),
                                         style: TextStyle(
-                                          fontSize: 11.5,
-                                          color: Colors.white.withValues(alpha: 0.85),
+                                          fontSize: 12.5,
+                                          color: Colors.white.withValues(alpha: 0.88),
                                         ),
                                       ),
                                     ],
@@ -399,14 +401,15 @@ class _WelcomeAuthScreenState extends State<WelcomeAuthScreen> {
                                       Text(
                                         context.tr('welcome_guest_btn'),
                                         style: TwText.body(context).copyWith(
-                                          fontWeight: TwWeight.bold,
+                                          fontWeight: FontWeight.w600,
                                         ),
                                       ),
-                                      const SizedBox(height: 2),
+                                      const SizedBox(height: 3),
                                       Text(
                                         context.tr('welcome_guest_desc'),
-                                        style: TwText.caption(context).copyWith(
+                                        style: TwText.bodySm(context).copyWith(
                                           color: tw.textSecondary,
+                                          fontSize: 12.5,
                                         ),
                                       ),
                                     ],
@@ -430,8 +433,8 @@ class _WelcomeAuthScreenState extends State<WelcomeAuthScreen> {
                         context.tr('welcome_hint'),
                         textAlign: TextAlign.center,
                         style: TwText.caption(context).copyWith(
-                          fontSize: 10.5,
-                          color: tw.textSecondary.withValues(alpha: 0.8),
+                          fontSize: 12,
+                          color: tw.textSecondary,
                         ),
                       ),
                     ],
@@ -466,7 +469,7 @@ class _FeatureRow extends StatelessWidget {
     final isDark = TwSurface.isDark(context);
 
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
       decoration: BoxDecoration(
         color: isDark ? tw.surface : tw.surface,
         borderRadius: TwRadius.rXl,
@@ -478,12 +481,12 @@ class _FeatureRow extends StatelessWidget {
       child: Row(
         children: [
           Container(
-            padding: const EdgeInsets.all(7),
+            padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
               color: iconColor.withValues(alpha: 0.12),
               borderRadius: TwRadius.rDefault,
             ),
-            child: Icon(icon, size: 18, color: iconColor),
+            child: Icon(icon, size: 19, color: iconColor),
           ),
           const SizedBox(width: 12),
           Expanded(
@@ -493,15 +496,18 @@ class _FeatureRow extends StatelessWidget {
               children: [
                 Text(
                   title,
-                  style: TwText.bodySm(context).copyWith(
-                    fontWeight: TwWeight.extrabold,
+                  style: TwText.body(context).copyWith(
+                    fontWeight: FontWeight.w600,
+                    fontSize: 14,
                   ),
                 ),
+                const SizedBox(height: 2),
                 Text(
                   desc,
-                  style: TwText.caption(context).copyWith(
+                  style: TwText.bodySm(context).copyWith(
                     color: tw.textSecondary,
-                    fontSize: 11,
+                    fontSize: 12.5,
+                    height: 1.4,
                   ),
                 ),
               ],

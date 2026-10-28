@@ -48,7 +48,7 @@ class CategoryGroupScreen extends StatelessWidget {
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           style: TwText.h3(context)
-                              .copyWith(fontWeight: TwWeight.extrabold),
+                              .copyWith(fontWeight: FontWeight.w600),
                         ),
                       ),
                     ],

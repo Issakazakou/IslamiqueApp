@@ -171,6 +171,40 @@ const List<QuizCategory> categories = [
       ),
     ],
   ),
+  QuizCategory(
+    id: 'tawhid',
+    title: 'Quiz Tawhid',
+    description: 'Fondements, adoration exclusive et préservation de la foi',
+    icon: Icons.shield_outlined,
+    iconColor: AppColors.primary,
+    iconBackground: AppColors.primaryTint,
+    children: [
+      QuizCategory(
+        id: 'tawhid_fondements',
+        title: 'Fondements & Unicité',
+        description: 'Raison de la création, mérites, Lâ ilâha illâ Allâh et crainte du Shirk',
+        icon: Icons.menu_book_outlined,
+        iconColor: AppColors.primary,
+        iconBackground: AppColors.primaryTint,
+      ),
+      QuizCategory(
+        id: 'tawhid_adoration',
+        title: 'Adoration & Vénération',
+        description: 'Sacrifices, vœux, intercession, Noms Divins et serments',
+        icon: Icons.favorite_border_rounded,
+        iconColor: AppColors.gold,
+        iconBackground: AppColors.goldTint,
+      ),
+      QuizCategory(
+        id: 'tawhid_preservation',
+        title: 'Mises en garde & Superstitions',
+        description: 'Amulettes, sorcellerie, voyance, astrologie et augures',
+        icon: Icons.security_outlined,
+        iconColor: AppColors.primary,
+        iconBackground: AppColors.primaryTint,
+      ),
+    ],
+  ),
 ];
 
 /// Toutes les catégories qui portent des quiz (les groupes sont remplacés par
